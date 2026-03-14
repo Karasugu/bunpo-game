@@ -5,7 +5,7 @@ screen skip_btn(skip_label):
 
 
 transform scroll_up:
-    yoffset 1200
+    yoffset 1100
     linear 200 yoffset -8000
 
 
@@ -175,20 +175,28 @@ screen home_screen():
             textbutton "ステージ 1" action Jump("stage1") xalign 0.5
             textbutton "ステージ 2" action Jump("stage2") xalign 0.5
             textbutton "ステージ 3" action Jump("stage3") xalign 0.5
-            # Add more stages as needed
-
+            textbutton "ステージ 4" action Jump("stage4") xalign 0.5
+            textbutton "ステージ 5" action Jump("stage5") xalign 0.5
+            textbutton "ステージ 6" action Jump("stage6") xalign 0.5
+            textbutton "ステージ 7" action Jump("stage7") xalign 0.5
+            textbutton "ステージ 8" action Jump("stage8") xalign 0.5
 
 screen stage_screen(sentences, correct, current_stage):
     modal True
+    add "bg dark":
+        xalign 0.5
+        yalign 0.5
+        xsize 1920
+        ysize 1080
+
     frame:
         background None
         xalign 0.5
         yalign 0.5
-
         vbox:
             spacing 50
             text sentences[sentence_index]:
-                size 60
+                size 100
                 xalign 0.5
                 color "#fff"
 
@@ -199,57 +207,41 @@ screen stage_screen(sentences, correct, current_stage):
                                                             (sentence_index - 1) % len(sentences))
                 textbutton "Next" action SetVariable("sentence_index", 
                                                         (sentence_index + 1) % len(sentences))
-                textbutton "Choose" action If(sentence_index == correct, 
-                                                true=Jump("home_success"), 
-                                                false=Jump(current_stage))
+                textbutton "Choose" action If(sentence_index == correct,
+                                true=[Hide("stage_screen"), Show("success_notification", explanation=explanation)],
+                                false=[Hide("stage_screen"), Show("failure_notification", current_stage=current_stage)])
 
-
-screen success_notification():
+screen success_notification(explanation):
     frame:
         xalign 0.5
         yalign 0.3
         xpadding 50
         ypadding 20
-        text "正解！おめでとう！" color "#fff" size 40
 
+        vbox:
+            spacing 20
+            xalign 0.5
+            text "正解！おめでとう！" color "#fff" size 40
+            textbutton "解説" xalign 0.5 action [Hide("success_notification"), Jump(explanation)]
+
+            
+screen failure_notification(current_stage):
+    frame:
+        xalign 0.5
+        yalign 0.3
+        xpadding 50
+        ypadding 20
+        vbox:
+            spacing 20
+            xalign 0.5
+            text "もう一度" color "#fff" size 40
+            textbutton "retry" xalign 0.5 action [Hide("failure_notification"), Jump(current_stage)]
 
 label home:
     call screen home_screen
 
-
-label home_success:
-    show screen success_notification
-    $ renpy.pause(1.5)
-    hide screen success_notification
-    jump home
-
-# Stage 1
-label stage1:
-    $ sentences = ["私は学生です。", "私は学生だ。", "私学生です。", "私は学生でした。", "私は学生じゃない。"]
-    $ correct = 2  # index of the incorrect sentence (the one to choose)
-    $ current_stage = "stage1"
-    $ sentence_index = 0
-    call screen stage_screen(sentences, correct, current_stage)
-
-# Stage 2
-label stage2:
-    $ sentences = ["昨日、映画を見た。", "昨日、映画を見ました。", "昨日、映画を見るた。", "昨日、映画を見ている。", "昨日、映画を見たい。"]
-    $ correct = 2
-    $ current_stage = "stage2"
-    $ sentence_index = 0
-    call screen stage_screen(sentences, correct, current_stage)
-
-# Stage 3
-label stage3:
-    $ sentences = ["これは本です。", "これは本だ。", "これ本です。", "これは本でした。", "これは本じゃない。"]
-    $ correct = 2
-    $ current_stage = "stage3"
-    $ sentence_index = 0
-    call screen stage_screen(sentences, correct, current_stage)
-
-
 label start:
-    scene bg classroom2
+    scene bg blured
     
     show screen storyscroll
     show screen skip_btn("home")
