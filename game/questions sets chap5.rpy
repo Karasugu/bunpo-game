@@ -1,5 +1,7 @@
 # Stage 1 ～ても
 label stage1:
+    call dialogue1
+    
     $ sentences = ["私は学生です。", "私は学生だ。", "私学生です。", "私は学生でした。", "私は学生じゃない。"]
     $ correct = 2  # index of the incorrect sentence (the one to choose)
     $ current_stage = "stage1"

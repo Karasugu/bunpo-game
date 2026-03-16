@@ -1,3 +1,8 @@
+define xx = Character("xx")
+define mc = Character("mc")
+image side xx = "xx_default.jpg"
+image side mc = "mc_default.jpg"
+
 screen skip_btn(skip_label):
     textbutton "SKIP":
         align (0.9, 0.1)
