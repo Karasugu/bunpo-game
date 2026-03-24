@@ -177,7 +177,7 @@ screen home_screen():
                 color "#fff"
                 xalign 0.5
 
-            textbutton "ステージ 1" action Jump("stage1") xalign 0.5
+            textbutton "ステージ 1" action Jump("initStage") xalign 0.5
             textbutton "ステージ 2" action Jump("stage2") xalign 0.5
             textbutton "ステージ 3" action Jump("stage3") xalign 0.5
             textbutton "ステージ 4" action Jump("stage4") xalign 0.5
@@ -185,6 +185,11 @@ screen home_screen():
             textbutton "ステージ 6" action Jump("stage6") xalign 0.5
             textbutton "ステージ 7" action Jump("stage7") xalign 0.5
             textbutton "ステージ 8" action Jump("stage8") xalign 0.5
+
+label initStage:
+    $ livesLeft = 3
+    $ stageName = "stage1"
+    jump expression stageName
 
 screen stage_screen(sentences, correct, current_stage):
     modal True
