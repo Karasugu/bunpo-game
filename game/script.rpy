@@ -177,18 +177,33 @@ screen home_screen():
                 color "#fff"
                 xalign 0.5
 
-            textbutton "ステージ 1" action Jump("initStage") xalign 0.5
-            textbutton "ステージ 2" action Jump("stage2") xalign 0.5
-            textbutton "ステージ 3" action Jump("stage3") xalign 0.5
-            textbutton "ステージ 4" action Jump("stage4") xalign 0.5
-            textbutton "ステージ 5" action Jump("stage5") xalign 0.5
-            textbutton "ステージ 6" action Jump("stage6") xalign 0.5
-            textbutton "ステージ 7" action Jump("stage7") xalign 0.5
-            textbutton "ステージ 8" action Jump("stage8") xalign 0.5
+            textbutton "ステージ 1":
+                xalign 0.5
+                action [SetVariable("stageName", "stage1"), Jump("initStage")]
+            textbutton "ステージ 2":
+                xalign 0.5
+                action [SetVariable("stageName", "stage2"), Jump("initStage")]
+            textbutton "ステージ 3":
+                xalign 0.5
+                action [SetVariable("stageName", "stage3"), Jump("initStage")]
+            textbutton "ステージ 4":
+                xalign 0.5
+                action [SetVariable("stageName", "stage4"), Jump("initStage")]
+            textbutton "ステージ 5":
+                xalign 0.5
+                action [SetVariable("stageName", "stage5"), Jump("initStage")]
+            textbutton "ステージ 6":
+                xalign 0.5
+                action [SetVariable("stageName", "stage6"), Jump("initStage")]
+            textbutton "ステージ 7":
+                xalign 0.5
+                action [SetVariable("stageName", "stage7"), Jump("initStage")]
+            textbutton "ステージ 8":
+                xalign 0.5
+                action [SetVariable("stageName", "stage8"), Jump("initStage")]
 
 label initStage:
     $ livesLeft = 3
-    $ stageName = "stage1"
     jump expression stageName
 
 screen stage_screen(sentences, correct, current_stage):
