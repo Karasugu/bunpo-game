@@ -1,7 +1,5 @@
-define xx = Character("xx")
-define mc = Character("mc")
-image side xx = "xx_default.jpg"
-image side mc = "mc_default.jpg"
+init python:
+    renpy.tag_quoting_dict["kw"] = ("{color=#f9a825}", "{/color}")
 
 screen skip_btn(skip_label):
     textbutton "SKIP":
@@ -10,7 +8,7 @@ screen skip_btn(skip_label):
 
 
 transform scroll_up:
-    yoffset 1100
+    yoffset 1000
     linear 200 yoffset -8000
 
 
@@ -37,7 +35,6 @@ screen storyscroll():
 
 
 
-
                 XXは、世界規模の企業を率いるCEOの一人息子である。
 
                 彼は赤ん坊の頃から、
@@ -51,13 +48,11 @@ screen storyscroll():
 
 
 
-
                 ……が！
 
                 ある日突然、彼はこう宣言した。
 
                 「俺様は日本語教師になる！」
-
 
 
 
@@ -69,7 +64,6 @@ screen storyscroll():
                 元の日本語321の教師の姿を消し、
 
                 気がつけば、XXがその教壇に立っていたのである。
-
 
 
 
@@ -120,7 +114,6 @@ screen storyscroll():
 
 
 
-
                 彼らは立ち上がる。
 
 
@@ -134,7 +127,6 @@ screen storyscroll():
 
 
                 ただ一つの違和感ーー 
-
 
 
 
@@ -177,14 +169,34 @@ screen home_screen():
                 color "#fff"
                 xalign 0.5
 
-            textbutton "ステージ 1" action Jump("stage1") xalign 0.5
-            textbutton "ステージ 2" action Jump("stage2") xalign 0.5
-            textbutton "ステージ 3" action Jump("stage3") xalign 0.5
-            textbutton "ステージ 4" action Jump("stage4") xalign 0.5
-            textbutton "ステージ 5" action Jump("stage5") xalign 0.5
-            textbutton "ステージ 6" action Jump("stage6") xalign 0.5
-            textbutton "ステージ 7" action Jump("stage7") xalign 0.5
-            textbutton "ステージ 8" action Jump("stage8") xalign 0.5
+            textbutton "ステージ 1":
+                xalign 0.5
+                action [SetVariable("stageName", "stage1_5"), Jump("initStage")]
+            textbutton "ステージ 2":
+                xalign 0.5
+                action [SetVariable("stageName", "stage2_5"), Jump("initStage")]
+            textbutton "ステージ 3":
+                xalign 0.5
+                action [SetVariable("stageName", "stage3_5"), Jump("initStage")]
+            textbutton "ステージ 4":
+                xalign 0.5
+                action [SetVariable("stageName", "stage4_5"), Jump("initStage")]
+            textbutton "ステージ 5":
+                xalign 0.5
+                action [SetVariable("stageName", "stage5_5"), Jump("initStage")]
+            textbutton "ステージ 6":
+                xalign 0.5
+                action [SetVariable("stageName", "stage6_5"), Jump("initStage")]
+            textbutton "ステージ 7":
+                xalign 0.5
+                action [SetVariable("stageName", "stage7_5"), Jump("initStage")]
+            textbutton "ステージ 8":
+                xalign 0.5
+                action [SetVariable("stageName", "stage8_5"), Jump("initStage")]
+
+label initStage:
+    $ livesLeft = 3
+    jump expression stageName
 
 screen stage_screen(sentences, correct, current_stage):
     modal True
@@ -212,35 +224,33 @@ screen stage_screen(sentences, correct, current_stage):
                                                             (sentence_index - 1) % len(sentences))
                 textbutton "Next" action SetVariable("sentence_index", 
                                                         (sentence_index + 1) % len(sentences))
-                textbutton "Choose" action If(sentence_index == correct,
-                                true=[Hide("stage_screen"), Show("success_notification", explanation=explanation)],
-                                false=[Hide("stage_screen"), Show("failure_notification", current_stage=current_stage)])
+                textbutton "Choose" action [Hide("stage_screen"), Jump("choose_dia")]
 
-screen success_notification(explanation):
-    frame:
-        xalign 0.5
-        yalign 0.3
-        xpadding 50
-        ypadding 20
 
-        vbox:
-            spacing 20
-            xalign 0.5
-            text "正解！おめでとう！" color "#fff" size 40
-            textbutton "解説" xalign 0.5 action [Hide("success_notification"), Jump(explanation)]
+# screen success_notification(explanation):
+#     frame:
+#         xalign 0.5
+#         yalign 0.3
+#         xpadding 50
+#         ypadding 20
+
+#         vbox:
+#             spacing 20
+#             xalign 0.5
+#             text "正解！おめでとう！" color "#fff" size 40
+#             textbutton "解説" xalign 0.5 action [Hide("success_notification"), Jump(explanation)]
 
             
-screen failure_notification(current_stage):
-    frame:
-        xalign 0.5
-        yalign 0.3
-        xpadding 50
-        ypadding 20
-        vbox:
-            spacing 20
-            xalign 0.5
-            text "もう一度" color "#fff" size 40
-            textbutton "retry" xalign 0.5 action [Hide("failure_notification"), Jump(current_stage)]
+# screen failure_notification(current_stage):
+#     frame:
+#         xalign 0.5
+#         yalign 0.3
+#         xpadding 50
+#         ypadding 20
+#         vbox:
+#             spacing 20
+#             xalign 0.5
+#             textbutton "もう一度" xalign 0.5 action [Hide("failure_notification"), Jump(current_stage)]
 
 label home:
     call screen home_screen
