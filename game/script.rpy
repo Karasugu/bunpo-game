@@ -1,6 +1,3 @@
-init python:
-    renpy.tag_quoting_dict["kw"] = ("{color=#f9a825}", "{/color}")
-
 screen skip_btn(skip_label):
     textbutton "SKIP":
         align (0.9, 0.1)
@@ -171,7 +168,7 @@ screen home_screen():
 
             textbutton "ステージ 1":
                 xalign 0.5
-                action [SetVariable("stageName", "stage1_5"), Jump("initStage")]
+                action [SetVariable("stageName", "start1"), Jump("initStage")]
             textbutton "ステージ 2":
                 xalign 0.5
                 action [SetVariable("stageName", "stage2_5"), Jump("initStage")]
@@ -223,10 +220,10 @@ screen stage_screen(sentences, correct, current_stage):
             text_align 0.5
 
     textbutton "Choose":
-    xalign 0.95
-    yalign 0.05
-    text_size 60
-    action [Hide("stage_screen"), Jump("choose_dia")]
+        xalign 0.95
+        yalign 0.05
+        text_size 60
+        action [SetVariable("current_stage", current_stage), Hide("stage_screen"), Jump("choose_dia")]
 
     hbox:
         spacing 20

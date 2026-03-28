@@ -1,7 +1,7 @@
 define xx = Character("XX")
 define mc = Character("MC")
-image side xx = "xx default.jpg"
-image side mc = "mc default.jpg"
+image xx = "xx default.jpg"
+image mc = "mc default.jpg"
 
 transform character_xx:
     xalign 0.25
@@ -12,9 +12,9 @@ transform character_mc:
     yalign 1.0
 
 label choose_dia:
-    show side mc at character_mc
+    show mc at character_mc
     mc "質問！"
-    show side xx at character_xx
+    show xx at character_xx
     xx "なに？！"
     mc "先せんせいはこう言いましたよね"
     mc "[sentences[sentence_index]]と" 
@@ -28,48 +28,53 @@ label choose_dia:
 
 
 label choose_wrong:
-    show side mc at character_mc
-    show side xx at character_xx
+    show mc at character_mc
+    show xx at character_xx
 
     mc "おかしいなとこは..."
     mc "おかしいなとこは..."
-    mc "え？　どこがおかしいだっけ。"
+    mc "え？ どこがおかしいだっけ。"
     
     xx "貴様アアア！！！"
-    xx "またこんなことを言って俺様の授業を邪魔したら追い出！！！"
+    xx "またこんなことを言って俺様の授業を邪魔したら追い出すぞ！！！"
 
     mc "すみません..."
 
-    jump (current_stage)
+    jump expression current_stage
 
 label choose_right:
-    show side mc at character_mc
-    show side xx at character_xx
+    show mc at character_mc
+    show xx at character_xx
 
-    $ explanation_lines = [s + "。" for s in explanation.split("。") if s.strip()]
-    $ i = 0
-    while i < len(explanation_lines):
-        mc "[explanation_lines[i]]"
-        $ i += 1
+    python:
+        explanation_lines = [s + "。" for s in explanation.split("。") if s.strip()]
+
+        for line in explanation_lines:
+            renpy.say(mc, line)
 
     xx "ぐぬぬ…！"
+
+    hide mc
+    hide xx
 
     jump home
 
 
 label start1:
-    show side xx at character_xx
+    show xx at character_xx
     xx "ようこそ諸君、俺様の教室へ！"
     xx "まあ俺様がしらない者はいないと思うが、一応自己紹介をしてあげろうか！"
     xx "俺様こそ偉大なるｘｘ、以後ｘｘ先生と呼ぶといい。"
-    hide side xx
+    hide xx
     
-    show side mc at character_mc
+    show mc at character_mc
     mc "これが噂になっているｘｘか。"
     mc "小学生にしか見えないじゃないか。一体どうして日本語の教師になりたいと思ったやら。"
     mc "まあ大人だろうが小学生だろうが関係ない、僕のやるべきことは変わらない。"
     mc "ｘｘは必ず間違いをする。"
     mc "僕はその間違えを見つけ出し、指摘するだけ。"
     mc "先輩達の仇、僕が取る！"
-    hide side mc
+    hide mc
+
+    call stage1_5
 
