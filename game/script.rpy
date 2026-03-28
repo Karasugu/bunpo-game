@@ -200,31 +200,46 @@ label initStage:
 
 screen stage_screen(sentences, correct, current_stage):
     modal True
-    add "bg dark":
+    add "bg blured":
         xalign 0.5
         yalign 0.5
         xsize 1920
         ysize 1080
 
     frame:
-        background None
         xalign 0.5
         yalign 0.5
-        vbox:
-            spacing 50
-            text sentences[sentence_index]:
-                size 100
-                xalign 0.5
-                color "#fff"
+        xsize 1000
+        ysize 700
+        background "#0201018d"
+        xpadding 40
+        ypadding 40
 
-            hbox:
-                spacing 20
-                xalign 0.5
-                textbutton "Previous" action SetVariable("sentence_index", 
-                                                            (sentence_index - 1) % len(sentences))
-                textbutton "Next" action SetVariable("sentence_index", 
-                                                        (sentence_index + 1) % len(sentences))
-                textbutton "Choose" action [Hide("stage_screen"), Jump("choose_dia")]
+        text sentences[sentence_index]:
+            size 100
+            xalign 0.5
+            yalign 0.5
+            color "#fff"
+            text_align 0.5
+
+    textbutton "Choose":
+    xalign 0.95
+    yalign 0.05
+    text_size 60
+    action [Hide("stage_screen"), Jump("choose_dia")]
+
+    hbox:
+        spacing 20
+        xalign 0.5
+        yalign 0.95
+        textbutton "Previous":
+            text_size 60
+            action SetVariable("sentence_index",
+                                (sentence_index - 1) % len(sentences))
+        textbutton "Next":
+            text_size 60
+            action SetVariable("sentence_index",
+                                (sentence_index + 1) % len(sentences))
 
 
 # screen success_notification(explanation):
