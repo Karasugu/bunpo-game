@@ -76,5 +76,5 @@ label start1:
     mc "先輩達の仇、僕が取る！"
     hide mc
 
-    call stage1_5
+    call stage1_4
 

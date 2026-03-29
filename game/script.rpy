@@ -171,25 +171,53 @@ screen home_screen():
                 action [SetVariable("stageName", "start1"), Jump("initStage")]
             textbutton "ステージ 2":
                 xalign 0.5
-                action [SetVariable("stageName", "stage2_5"), Jump("initStage")]
+                action [SetVariable("stageName", "stage2_4"), Jump("initStage")]
             textbutton "ステージ 3":
                 xalign 0.5
-                action [SetVariable("stageName", "stage3_5"), Jump("initStage")]
+                action [SetVariable("stageName", "stage3_4"), Jump("initStage")]
             textbutton "ステージ 4":
                 xalign 0.5
-                action [SetVariable("stageName", "stage4_5"), Jump("initStage")]
+                action [SetVariable("stageName", "stage4_4"), Jump("initStage")]
             textbutton "ステージ 5":
                 xalign 0.5
-                action [SetVariable("stageName", "stage5_5"), Jump("initStage")]
+                action [SetVariable("stageName", "stage5_4"), Jump("initStage")]
             textbutton "ステージ 6":
                 xalign 0.5
-                action [SetVariable("stageName", "stage6_5"), Jump("initStage")]
+                action [SetVariable("stageName", "stage6_4"), Jump("initStage")]
             textbutton "ステージ 7":
                 xalign 0.5
-                action [SetVariable("stageName", "stage7_5"), Jump("initStage")]
+                action [SetVariable("stageName", "stage7_4"), Jump("initStage")]
             textbutton "ステージ 8":
                 xalign 0.5
+                action [SetVariable("stageName", "stage8_4"), Jump("initStage")]
+            textbutton "ステージ 9":
+                xalign 0.5
+                action [SetVariable("stageName", "stage9_4"), Jump("initStage")]
+            textbutton "ステージ 10":
+                xalign 0.5
+                action [SetVariable("stageName", "stage1_5"), Jump("initStage")]
+            textbutton "ステージ 11":
+                xalign 0.5
+                action [SetVariable("stageName", "stage2_5"), Jump("initStage")]
+            textbutton "ステージ 12":
+                xalign 0.5
+                action [SetVariable("stageName", "stage3_5"), Jump("initStage")]
+            textbutton "ステージ 13":
+                xalign 0.5
+                action [SetVariable("stageName", "stage4_5"), Jump("initStage")]
+            textbutton "ステージ 14":
+                xalign 0.5
+                action [SetVariable("stageName", "stage5_5"), Jump("initStage")]
+            textbutton "ステージ 15":
+                xalign 0.5
+                action [SetVariable("stageName", "stage6_5"), Jump("initStage")]
+            textbutton "ステージ 16":
+                xalign 0.5
+                action [SetVariable("stageName", "stage7_5"), Jump("initStage")]
+            textbutton "ステージ 17":
+                xalign 0.5
                 action [SetVariable("stageName", "stage8_5"), Jump("initStage")]
+            
 
 label initStage:
     $ livesLeft = 3
