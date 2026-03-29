@@ -1,18 +1,20 @@
 define xx = Character("XX")
 define mc = Character("MC")
 image xx = "xx default.jpg"
-image mc = "mc default.jpg"
+
 
 transform character_xx:
-    xalign 0.25
-    yalign 1.0
-
-transform character_mc:
     xalign 0.75
     yalign 1.0
 
+transform character_mc:
+    yalign 1.0
+    xalign 0.25
+    xysize (config.screen_width // 2, int(config.screen_height * 3 / 4))
+    fit "contain"
+
 label choose_dia:
-    show mc at character_mc
+    show mc default at character_mc
     mc "質問！"
     show xx at character_xx
     xx "なに？！"
@@ -28,22 +30,27 @@ label choose_dia:
 
 
 label choose_wrong:
-    show mc at character_mc
+    show mc default at character_mc
     show xx at character_xx
-
+    
+    
     mc "おかしいなとこは..."
+    show mc emotionless at character_mc
     mc "おかしいなとこは..."
+    show mc question at character_mc
     mc "え？ どこがおかしいだっけ。"
     
     xx "貴様アアア！！！"
     xx "またこんなことを言って俺様の授業を邪魔したら追い出すぞ！！！"
 
+    show mc cry at character_mc
     mc "すみません..."
+    
 
     jump expression current_stage
 
 label choose_right:
-    show mc at character_mc
+    show mc default at character_mc
     show xx at character_xx
 
     python:
@@ -67,7 +74,7 @@ label start1:
     xx "俺様こそ偉大なるｘｘ、以後ｘｘ先生と呼ぶといい。"
     hide xx
     
-    show mc at character_mc
+    show mc default at character_mc
     mc "これが噂になっているｘｘか。"
     mc "小学生にしか見えないじゃないか。一体どうして日本語の教師になりたいと思ったやら。"
     mc "まあ大人だろうが小学生だろうが関係ない、僕のやるべきことは変わらない。"
