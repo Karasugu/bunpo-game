@@ -1,26 +1,28 @@
 define xx = Character("XX")
 define mc = Character("MC")
-image xx = "xx default.jpg"
 
 
 transform character_xx:
     xalign 0.75
     yalign 1.0
+    xysize (config.screen_width // 2, int(config.screen_height * 3 / 4))
+    fit "contain"
 
 transform character_mc:
     yalign 1.0
     xalign 0.25
-    xysize (config.screen_width // 2, int(config.screen_height * 3 / 4))
+    xysize (config.screen_width // 2, int(config.screen_height * 7/ 8))
     fit "contain"
 
 label choose_dia:
     show mc default at character_mc
     mc "質問！"
-    show xx at character_xx
-    xx "なに？！"
-    mc "先せんせいはこう言いましたよね"
-    mc "[sentences[sentence_index]]と" 
-    mc "それはおかしいではないでしょうか"
+    show xx default at character_xx
+    xx "なに。"
+    mc "先せんせいはこう言いましたよね。"
+    mc "[sentences[sentence_index]]と。" 
+    mc "それはおかしいではないでしょうか。"
+    show xx shock at character_xx
     xx "な、な、なにがおかしいて。俺様が言いったことに間違えがあるはずがない！"
     
     if sentence_index == correct:
@@ -31,7 +33,7 @@ label choose_dia:
 
 label choose_wrong:
     show mc default at character_mc
-    show xx at character_xx
+    show xx shock at character_xx
     
     
     mc "おかしいなとこは..."
@@ -40,10 +42,12 @@ label choose_wrong:
     show mc question at character_mc
     mc "え？ どこがおかしいだっけ。"
     
-    xx "貴様アアア！！！"
+    show xx smirk at character_xx
+    xx "だから言っただろう。"
+    xx "俺様が間違うわけがない。"
     xx "またこんなことを言って俺様の授業を邪魔したら追い出すぞ！！！"
 
-    show mc cry at character_mc
+    show mc blush at character_mc
     mc "すみません..."
     
 
@@ -51,14 +55,15 @@ label choose_wrong:
 
 label choose_right:
     show mc default at character_mc
-    show xx at character_xx
+    show xx shock at character_xx
 
     python:
         explanation_lines = [s + "。" for s in explanation.split("。") if s.strip()]
 
         for line in explanation_lines:
             renpy.say(mc, line)
-
+    
+    show xx embarrass at character_xx
     xx "ぐぬぬ…！"
 
     hide mc
@@ -68,8 +73,9 @@ label choose_right:
 
 
 label start1:
-    show xx at character_xx
+    show xx default at character_xx
     xx "ようこそ諸君、俺様の教室へ！"
+    show xx smirk at character_xx
     xx "まあ俺様がしらない者はいないと思うが、一応自己紹介をしてあげろうか！"
     xx "俺様こそ偉大なるｘｘ、以後ｘｘ先生と呼ぶといい。"
     hide xx
