@@ -3,9 +3,10 @@ define mc = Character("MC")
 
 
 transform character_xx:
-    xalign 0.75
+    xalign 1.15
     yalign 1.0
-    xysize (config.screen_width // 2, int(config.screen_height * 3 / 4))
+    yoffset 900
+    xysize (config.screen_width // 1, int(config.screen_height * 1.7))
     fit "contain"
 
 transform character_mc:
@@ -71,6 +72,14 @@ label choose_right:
 
     jump home
 
+label next_wrap_dia:
+    show mc smile at character_mc
+    mc "これで全部見たな。"
+    mc "落ち着いて考えてみて、この五つの中に必ず間違いがある。"
+    mc "それを見つけだし、指摘するんだ。"
+    hide mc
+    $ sentence_index = 0
+    call screen stage_screen(sentences, correct, current_stage)
 
 label start1:
     show xx default at character_xx

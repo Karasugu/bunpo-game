@@ -1,3 +1,9 @@
+transform bg_full:
+    xalign 0.5
+    yalign 0.5
+    xsize 1920
+    ysize 1080
+
 screen skip_btn(skip_label):
     textbutton "SKIP":
         align (0.9, 0.1)
@@ -263,8 +269,11 @@ screen stage_screen(sentences, correct, current_stage):
                                 (sentence_index - 1) % len(sentences))
         textbutton "Next":
             text_size 60
-            action SetVariable("sentence_index",
-                                (sentence_index + 1) % len(sentences))
+            action If(
+                sentence_index == 4,
+                [Hide("stage_screen"), Jump("next_wrap_dia")],
+                SetVariable("sentence_index", (sentence_index + 1) % len(sentences))
+            )
 
 
 # screen success_notification(explanation):
@@ -297,11 +306,12 @@ label home:
 
 label start:
     scene bg blured
+    show bg blured at bg_full
     
     show screen storyscroll
     show screen skip_btn("home")
 
-    $ renpy.pause(180, hard=True)
+    $ renpy.pause(170, hard=True)
 
     hide screen storyscroll
     hide screen skip_btn
