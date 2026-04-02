@@ -253,6 +253,38 @@ screen stage_screen(sentences, correct, current_stage):
             color "#fff"
             text_align 0.5
 
+    if livesLeft == 3:
+        add "heartFull.png" as heart1:
+            xalign 0.05
+            yalign 0.05
+        add "heartFull.png" as heart2:
+            xalign 0.10
+            yalign 0.05
+        add "heartFull.png" as heart3:
+            xalign 0.15
+            yalign 0.05
+    elif livesLeft == 2:
+        add "heartFull.png" as heart1:
+            xalign 0.05
+            yalign 0.05
+        add "heartFull.png" as heart2:
+            xalign 0.10
+            yalign 0.05
+        add "heartEmpty.png" as heart3:
+            xalign 0.15
+            yalign 0.05
+    elif livesLeft == 1:
+        add "heartFull.png" as heart1:
+            xalign 0.05
+            yalign 0.05
+        add "heartEmpty.png" as heart2:
+            xalign 0.10
+            yalign 0.05
+        add "heartEmpty.png" as heart3:
+            xalign 0.15
+            yalign 0.05
+
+
     textbutton "Choose":
         xalign 0.95
         yalign 0.05
