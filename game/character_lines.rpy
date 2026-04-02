@@ -44,15 +44,14 @@ label choose_wrong:
     show mc question at character_mc
     mc "え？ どこがおかしいだっけ。"
     
-    show xx smirk at character_xx
-    xx "だから言っただろう。"
-    xx "俺様が間違うわけがない。"
-    xx "またこんなことを言って俺様の授業を邪魔したら追い出すぞ！！！"
-
-    show mc blush at character_mc
-    mc "すみません..."
-    
     if livesLeft >= 1:
+        show xx smirk at character_xx
+        xx "だから言っただろう。"
+        xx "俺様が間違うわけがない。"
+        xx "またこんなことを言って俺様の授業を邪魔したら追い出すぞ！！！"
+
+        show mc blush at character_mc
+        mc "すみません..."
         jump expression current_stage
     else:
         xx "もういいから！うっぜいよ、アンタ！"
