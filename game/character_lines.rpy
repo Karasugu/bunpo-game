@@ -29,6 +29,7 @@ label choose_dia:
     if sentence_index == correct:
         jump choose_right
     else:
+        $ livesLeft = livesLeft - 1
         jump choose_wrong
 
 
@@ -51,8 +52,14 @@ label choose_wrong:
     show mc blush at character_mc
     mc "すみません..."
     
-
-    jump expression current_stage
+    if livesLeft >= 1:
+        jump expression current_stage
+    else:
+        xx "もういいから！うっぜいよ、アンタ！"
+        mc "申し訳ございませんでした。"
+        hide mc
+        hide xx
+        jump home
 
 label choose_right:
     show mc default at character_mc
