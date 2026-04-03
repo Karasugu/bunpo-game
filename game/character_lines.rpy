@@ -76,6 +76,41 @@ label choose_right:
     hide mc
     hide xx
 
+    if stageName == "stage1_4":
+        $ stage1_4cleared = True
+    if stageName == "stage2_4":
+        $ stage2_4cleared = True
+    if stageName == "stage3_4":
+        $ stage3_4cleared = True
+    if stageName == "stage4_4":
+        $ stage4_4cleared = True
+    if stageName == "stage5_4":
+        $ stage5_4cleared = True
+    if stageName == "stage6_4":
+        $ stage6_4cleared = True
+    if stageName == "stage7_4":
+        $ stage7_4cleared = True
+    if stageName == "stage8_4":
+        $ stage8_4cleared = True
+    if stageName == "stage9_4":
+        $ stage9_4cleared = True
+    if stageName == "stage1_5":
+        $ stage1_5cleared = True
+    if stageName == "stage2_5":
+        $ stage2_5cleared = True
+    if stageName == "stage3_5":
+        $ stage3_5cleared = True
+    if stageName == "stage4_5":
+        $ stage4_5cleared = True
+    if stageName == "stage5_5":
+        $ stage5_5cleared = True
+    if stageName == "stage6_5":
+        $ stage6_5cleared = True
+    if stageName == "stage7_5":
+        $ stage7_5cleared = True
+    if stageName == "stage8_5":
+        $ stage8_5cleared = True
+
     jump home
 
 label next_wrap_dia:
@@ -103,6 +138,7 @@ label start1:
     mc "僕はその間違えを見つけ出し、指摘するだけ。"
     mc "先輩達の仇、僕が取る！"
     hide mc
+    $ stageName = "stage1_4"
 
     call stage1_4
 

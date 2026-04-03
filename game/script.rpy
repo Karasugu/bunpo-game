@@ -156,77 +156,135 @@ screen storyscroll():
                 color "#ffffff"
 
 
-screen home_screen():
+screen home_screen:
     modal True
     frame:
         background None
         xalign 0.5
-        yalign 0.5
+        yalign 0.25
 
-        vbox:
-            spacing 30
+        text "ステージ選択":
+            size 70
+            color "#ffffff"
             xalign 0.5
+            yalign 0.5
 
-            text "ステージ選択":
-                size 70
-                color "#fff"
-                xalign 0.5
 
-            textbutton "ステージ 1":
-                xalign 0.5
-                action [SetVariable("stageName", "start1"), Jump("initStage")]
-            textbutton "ステージ 2":
-                xalign 0.5
-                action [SetVariable("stageName", "stage2_4"), Jump("initStage")]
-            textbutton "ステージ 3":
-                xalign 0.5
-                action [SetVariable("stageName", "stage3_4"), Jump("initStage")]
-            textbutton "ステージ 4":
-                xalign 0.5
-                action [SetVariable("stageName", "stage4_4"), Jump("initStage")]
-            textbutton "ステージ 5":
-                xalign 0.5
-                action [SetVariable("stageName", "stage5_4"), Jump("initStage")]
-            textbutton "ステージ 6":
-                xalign 0.5
-                action [SetVariable("stageName", "stage6_4"), Jump("initStage")]
-            textbutton "ステージ 7":
-                xalign 0.5
-                action [SetVariable("stageName", "stage7_4"), Jump("initStage")]
-            textbutton "ステージ 8":
-                xalign 0.5
-                action [SetVariable("stageName", "stage8_4"), Jump("initStage")]
-            textbutton "ステージ 9":
-                xalign 0.5
-                action [SetVariable("stageName", "stage9_4"), Jump("initStage")]
-            textbutton "ステージ 10":
-                xalign 0.5
-                action [SetVariable("stageName", "stage1_5"), Jump("initStage")]
-            textbutton "ステージ 11":
-                xalign 0.5
-                action [SetVariable("stageName", "stage2_5"), Jump("initStage")]
-            textbutton "ステージ 12":
-                xalign 0.5
-                action [SetVariable("stageName", "stage3_5"), Jump("initStage")]
-            textbutton "ステージ 13":
-                xalign 0.5
-                action [SetVariable("stageName", "stage4_5"), Jump("initStage")]
-            textbutton "ステージ 14":
-                xalign 0.5
-                action [SetVariable("stageName", "stage5_5"), Jump("initStage")]
-            textbutton "ステージ 15":
-                xalign 0.5
-                action [SetVariable("stageName", "stage6_5"), Jump("initStage")]
-            textbutton "ステージ 16":
-                xalign 0.5
-                action [SetVariable("stageName", "stage7_5"), Jump("initStage")]
-            textbutton "ステージ 17":
-                xalign 0.5
-                action [SetVariable("stageName", "stage8_5"), Jump("initStage")]
-            
+transform buttonScrollLeft:
+    xoffset 0
+    linear 2 xoffset -288
+
+transform buttonScrollRight:
+    xoffset 0
+    linear 2 xoffset 288
+
+screen titleMenuButtons:
+    textbutton "ステージ 1":
+        text_size 35
+        xalign 0.5
+        yalign 0.5
+#        action [SetVariable("stageName", "start1"), Jump("initStage")]
+        action [SetVariable("stageName", "start1"), Jump("initStage")]
+    if stage1_4cleared == True:
+        textbutton "ステージ 2":
+            text_size 35
+            xalign 0.65
+            yalign 0.5
+            action [SetVariable("stageName", "stage2_4"), Jump("initStage")]
+    if stage2_4cleared == True:
+        textbutton "ステージ 3":
+            text_size 35
+            xalign 0.80
+            yalign 0.5
+            action [SetVariable("stageName", "stage3_4"), Jump("initStage")]
+    if stage3_4cleared == True:
+        textbutton "ステージ 4":
+            text_size 35
+            xalign 0.95
+            yalign 0.5
+            action [SetVariable("stageName", "stage4_4"), Jump("initStage")]
+    if stage4_4cleared == True:
+        textbutton "ステージ 5":
+            text_size 35
+            xalign 1.1
+            yalign 0.5
+            action [SetVariable("stageName", "stage5_4"), Jump("initStage")]
+    if stage5_4cleared == True:
+        textbutton "ステージ 6":
+            text_size 35
+            xalign 1.25
+            yalign 0.5
+            action [SetVariable("stageName", "stage6_4"), Jump("initStage")]
+    if stage6_4cleared == True:
+        textbutton "ステージ 7":
+            text_size 35
+            xalign 1.40
+            yalign 0.5
+            action [SetVariable("stageName", "stage7_4"), Jump("initStage")]
+    if stage7_4cleared == True:
+        textbutton "ステージ 8":
+            text_size 35
+            xalign 1.55
+            yalign 0.5
+            action [SetVariable("stageName", "stage8_4"), Jump("initStage")]
+    if stage8_4cleared == True:
+        textbutton "ステージ 9":
+            text_size 35
+            xalign 1.70
+            yalign 0.5
+            action [SetVariable("stageName", "stage9_4"), Jump("initStage")]
+    if stage9_4cleared == True:
+        textbutton "ステージ 10":
+            text_size 35
+            xalign 1.85
+            yalign 0.5
+            action [SetVariable("stageName", "stage1_5"), Jump("initStage")]
+    if stage1_5cleared == True:
+        textbutton "ステージ 11":
+            text_size 35
+            xalign 2.0
+            yalign 0.5
+            action [SetVariable("stageName", "stage2_5"), Jump("initStage")]
+    if stage2_5cleared == True:
+        textbutton "ステージ 12":
+            text_size 35
+            xalign 2.15
+            yalign 0.5
+            action [SetVariable("stageName", "stage3_5"), Jump("initStage")]
+    if stage3_5cleared == True:
+        textbutton "ステージ 13":
+            text_size 35
+            xalign 2.30
+            yalign 0.5
+            action [SetVariable("stageName", "stage4_5"), Jump("initStage")]
+    if stage4_5cleared == True:
+        textbutton "ステージ 14":
+            text_size 35
+            xalign 2.45
+            yalign 0.5
+            action [SetVariable("stageName", "stage5_5"), Jump("initStage")]
+    if stage5_5cleared == True:
+        textbutton "ステージ 15":
+            text_size 35
+            xalign 2.60
+            yalign 0.5
+            action [SetVariable("stageName", "stage6_5"), Jump("initStage")]
+    if stage6_5cleared == True:
+        textbutton "ステージ 16":
+            text_size 35
+            xalign 2.75
+            yalign 0.5
+            action [SetVariable("stageName", "stage7_5"), Jump("initStage")]
+    if stage7_5cleared == True:
+        textbutton "ステージ 17":
+            text_size 35
+            xalign 2.90
+            yalign 0.5
+            action [SetVariable("stageName", "stage8_5"), Jump("initStage")]
 
 label initStage:
     $ livesLeft = 3
+    hide screen home_screen
     jump expression stageName
 
 screen stage_screen(sentences, correct, current_stage):
@@ -334,12 +392,31 @@ screen stage_screen(sentences, correct, current_stage):
 #             textbutton "もう一度" xalign 0.5 action [Hide("failure_notification"), Jump(current_stage)]
 
 label home:
-    call screen home_screen
+    show screen home_screen
+    call screen titleMenuButtons
+#    call screen home_screen
 
 label start:
+    $ stage1_4cleared = False
+    $ stage2_4cleared = False
+    $ stage3_4cleared = False
+    $ stage4_4cleared = False
+    $ stage5_4cleared = False
+    $ stage6_4cleared = False
+    $ stage7_4cleared = False
+    $ stage8_4cleared = False
+    $ stage9_4cleared = False
+    $ stage1_5cleared = False
+    $ stage2_5cleared = False
+    $ stage3_5cleared = False
+    $ stage4_5cleared = False
+    $ stage5_5cleared = False
+    $ stage6_5cleared = False
+    $ stage7_5cleared = False
+    $ stage8_5cleared = False
     scene bg blured
     show bg blured at bg_full
-    
+
     show screen storyscroll
     show screen skip_btn("home")
 
@@ -348,4 +425,4 @@ label start:
     hide screen storyscroll
     hide screen skip_btn
 
-    jump home   
+    jump home
