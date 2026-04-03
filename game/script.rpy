@@ -172,18 +172,27 @@ screen home_screen:
 
 transform buttonScrollLeft:
     xoffset 0
-    linear 2 xoffset -288
+    linear 0.25 xoffset -260
 
 transform buttonScrollRight:
     xoffset 0
-    linear 2 xoffset 288
+    linear 0.5 xoffset 260
 
+#initial titleMenuButtons screen
 screen titleMenuButtons:
+    textbutton "Left":
+        text_size 35
+        xalign 0.25
+        yalign 0.9
+        action [Show("titleMenuButtonsLeft1"), Hide("titleMenuButtons")]
+    textbutton "Right":
+        text_size 35
+        xalign 0.75
+        yalign 0.9
     textbutton "ステージ 1":
         text_size 35
         xalign 0.5
         yalign 0.5
-#        action [SetVariable("stageName", "start1"), Jump("initStage")]
         action [SetVariable("stageName", "start1"), Jump("initStage")]
     if stage1_4cleared == True:
         textbutton "ステージ 2":
@@ -281,6 +290,7 @@ screen titleMenuButtons:
             xalign 2.90
             yalign 0.5
             action [SetVariable("stageName", "stage8_5"), Jump("initStage")]
+
 
 label initStage:
     $ livesLeft = 3
@@ -392,6 +402,23 @@ screen stage_screen(sentences, correct, current_stage):
 #             textbutton "もう一度" xalign 0.5 action [Hide("failure_notification"), Jump(current_stage)]
 
 label home:
+    $ stage1Buttonxalign = 0.5
+    $ stage2Buttonxalign = 0.65
+    $ stage3Buttonxalign = 0.8
+    $ stage4Buttonxalign = 0.95
+    $ stage5Buttonxalign = 1.1
+    $ stage6Buttonxalign = 1.25
+    $ stage7Buttonxalign = 1.40
+    $ stage8Buttonxalign = 1.55
+    $ stage9Buttonxalign = 1.70
+    $ stage10Buttonxalign = 1.85
+    $ stage11Buttonxalign = 2.0
+    $ stage12Buttonxalign = 2.15
+    $ stage13Buttonxalign = 2.30
+    $ stage14Buttonxalign = 2.45
+    $ stage15Buttonxalign = 2.60
+    $ stage16Buttonxalign = 2.75
+    $ stage17Buttonxalign = 2.90
     show screen home_screen
     call screen titleMenuButtons
 #    call screen home_screen
