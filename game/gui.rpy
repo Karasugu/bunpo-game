@@ -63,7 +63,7 @@ define gui.text_font = "NotoSansJP-VariableFont_wght.ttf"
 define gui.name_text_font = "NotoSansJP-VariableFont_wght.ttf"
 
 ## The font used for out-of-game text.
-define gui.interface_text_font = "DejaVuSans.ttf"
+define gui.interface_text_font = "NotoSansJP-VariableFont_wght.ttf"
 
 ## The size of normal dialogue text.
 define gui.text_size = 33
