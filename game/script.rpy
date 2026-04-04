@@ -176,120 +176,123 @@ transform buttonScrollLeft:
 
 transform buttonScrollRight:
     xoffset 0
-    linear 0.5 xoffset 260
+    linear 0.25 xoffset 260
 
 #initial titleMenuButtons screen
 screen titleMenuButtons:
-    textbutton "Left":
-        text_size 35
-        xalign 0.25
-        yalign 0.9
-        action [Show("titleMenuButtonsLeft1"), Hide("titleMenuButtons")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    $ currentMenuButtonScreen = "titleMenuButtons"
+    $ lastMenuButtonPosition = "stage1"
+    if stage1_4cleared == True:
+        textbutton "Left":
+            text_size 35
+            xalign 0.25
+            yalign 0.9
+            action [SetVariable("lastMenuButtonPosition", "stage2"), Show("titleMenuButtonsLeft1"), Hide("titleMenuButtons")]
+#    textbutton "Right":
+#        text_size 35
+#        xalign 0.75
+#        yalign 0.9
     textbutton "ステージ 1":
         text_size 35
         xalign 0.5
         yalign 0.5
-        action [SetVariable("stageName", "start1"), Jump("initStage")]
+        action [SetVariable("stageName", "start1"), Hide(currentMenuButtonScreen), Jump("initStage")]
     if stage1_4cleared == True:
         textbutton "ステージ 2":
             text_size 35
             xalign 0.65
             yalign 0.5
-            action [SetVariable("stageName", "stage2_4"), Jump("initStage")]
+            action [SetVariable("stageName", "stage2_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
     if stage2_4cleared == True:
         textbutton "ステージ 3":
             text_size 35
             xalign 0.80
             yalign 0.5
-            action [SetVariable("stageName", "stage3_4"), Jump("initStage")]
+            action [SetVariable("stageName", "stage3_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
     if stage3_4cleared == True:
         textbutton "ステージ 4":
             text_size 35
             xalign 0.95
             yalign 0.5
-            action [SetVariable("stageName", "stage4_4"), Jump("initStage")]
+            action [SetVariable("stageName", "stage4_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
     if stage4_4cleared == True:
         textbutton "ステージ 5":
             text_size 35
             xalign 1.1
             yalign 0.5
-            action [SetVariable("stageName", "stage5_4"), Jump("initStage")]
+            action [SetVariable("stageName", "stage5_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
     if stage5_4cleared == True:
         textbutton "ステージ 6":
             text_size 35
             xalign 1.25
             yalign 0.5
-            action [SetVariable("stageName", "stage6_4"), Jump("initStage")]
+            action [SetVariable("stageName", "stage6_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
     if stage6_4cleared == True:
         textbutton "ステージ 7":
             text_size 35
             xalign 1.40
             yalign 0.5
-            action [SetVariable("stageName", "stage7_4"), Jump("initStage")]
+            action [SetVariable("stageName", "stage7_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
     if stage7_4cleared == True:
         textbutton "ステージ 8":
             text_size 35
             xalign 1.55
             yalign 0.5
-            action [SetVariable("stageName", "stage8_4"), Jump("initStage")]
+            action [SetVariable("stageName", "stage8_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
     if stage8_4cleared == True:
         textbutton "ステージ 9":
             text_size 35
             xalign 1.70
             yalign 0.5
-            action [SetVariable("stageName", "stage9_4"), Jump("initStage")]
+            action [SetVariable("stageName", "stage9_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
     if stage9_4cleared == True:
         textbutton "ステージ 10":
             text_size 35
             xalign 1.85
             yalign 0.5
-            action [SetVariable("stageName", "stage1_5"), Jump("initStage")]
+            action [SetVariable("stageName", "stage1_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
     if stage1_5cleared == True:
         textbutton "ステージ 11":
             text_size 35
             xalign 2.0
             yalign 0.5
-            action [SetVariable("stageName", "stage2_5"), Jump("initStage")]
+            action [SetVariable("stageName", "stage2_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
     if stage2_5cleared == True:
         textbutton "ステージ 12":
             text_size 35
             xalign 2.15
             yalign 0.5
-            action [SetVariable("stageName", "stage3_5"), Jump("initStage")]
+            action [SetVariable("stageName", "stage3_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
     if stage3_5cleared == True:
         textbutton "ステージ 13":
             text_size 35
             xalign 2.30
             yalign 0.5
-            action [SetVariable("stageName", "stage4_5"), Jump("initStage")]
+            action [SetVariable("stageName", "stage4_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
     if stage4_5cleared == True:
         textbutton "ステージ 14":
             text_size 35
             xalign 2.45
             yalign 0.5
-            action [SetVariable("stageName", "stage5_5"), Jump("initStage")]
+            action [SetVariable("stageName", "stage5_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
     if stage5_5cleared == True:
         textbutton "ステージ 15":
             text_size 35
             xalign 2.60
             yalign 0.5
-            action [SetVariable("stageName", "stage6_5"), Jump("initStage")]
+            action [SetVariable("stageName", "stage6_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
     if stage6_5cleared == True:
         textbutton "ステージ 16":
             text_size 35
             xalign 2.75
             yalign 0.5
-            action [SetVariable("stageName", "stage7_5"), Jump("initStage")]
+            action [SetVariable("stageName", "stage7_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
     if stage7_5cleared == True:
         textbutton "ステージ 17":
             text_size 35
             xalign 2.90
             yalign 0.5
-            action [SetVariable("stageName", "stage8_5"), Jump("initStage")]
+            action [SetVariable("stageName", "stage8_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
 
 
 label initStage:
@@ -402,45 +405,83 @@ screen stage_screen(sentences, correct, current_stage):
 #             textbutton "もう一度" xalign 0.5 action [Hide("failure_notification"), Jump(current_stage)]
 
 label home:
-    $ stage1Buttonxalign = 0.5
-    $ stage2Buttonxalign = 0.65
-    $ stage3Buttonxalign = 0.8
-    $ stage4Buttonxalign = 0.95
-    $ stage5Buttonxalign = 1.1
-    $ stage6Buttonxalign = 1.25
-    $ stage7Buttonxalign = 1.40
-    $ stage8Buttonxalign = 1.55
-    $ stage9Buttonxalign = 1.70
-    $ stage10Buttonxalign = 1.85
-    $ stage11Buttonxalign = 2.0
-    $ stage12Buttonxalign = 2.15
-    $ stage13Buttonxalign = 2.30
-    $ stage14Buttonxalign = 2.45
-    $ stage15Buttonxalign = 2.60
-    $ stage16Buttonxalign = 2.75
-    $ stage17Buttonxalign = 2.90
+    if returnFromStage != True:
+        $ stage1Buttonxalign = 0.5
+        $ stage2Buttonxalign = 0.65
+        $ stage3Buttonxalign = 0.8
+        $ stage4Buttonxalign = 0.95
+        $ stage5Buttonxalign = 1.1
+        $ stage6Buttonxalign = 1.25
+        $ stage7Buttonxalign = 1.40
+        $ stage8Buttonxalign = 1.55
+        $ stage9Buttonxalign = 1.70
+        $ stage10Buttonxalign = 1.85
+        $ stage11Buttonxalign = 2.0
+        $ stage12Buttonxalign = 2.15
+        $ stage13Buttonxalign = 2.30
+        $ stage14Buttonxalign = 2.45
+        $ stage15Buttonxalign = 2.60
+        $ stage16Buttonxalign = 2.75
+        $ stage17Buttonxalign = 2.90
     show screen home_screen
-    call screen titleMenuButtons
+    if lastMenuButtonPosition == "stage1":
+        call screen titleMenuButtons
+    if lastMenuButtonPosition == "stage2":
+        call screen titleMenuButtons1
+    if lastMenuButtonPosition == "stage3":
+        call screen titleMenuButtons2
+    if lastMenuButtonPosition == "stage4":
+        call screen titleMenuButtons3
+    if lastMenuButtonPosition == "stage5":
+        call screen titleMenuButtons4
+    if lastMenuButtonPosition == "stage6":
+        call screen titleMenuButtons5
+    if lastMenuButtonPosition == "stage7":
+        call screen titleMenuButtons6
+    if lastMenuButtonPosition == "stage8":
+        call screen titleMenuButtons7
+    if lastMenuButtonPosition == "stage9":
+        call screen titleMenuButtons8
+    if lastMenuButtonPosition == "stage10":
+        call screen titleMenuButtons9
+    if lastMenuButtonPosition == "stage11":
+        call screen titleMenuButtons10
+    if lastMenuButtonPosition == "stage12":
+        call screen titleMenuButtons11
+    if lastMenuButtonPosition == "stage13":
+        call screen titleMenuButtons12
+    if lastMenuButtonPosition == "stage14":
+        call screen titleMenuButtons13
+    if lastMenuButtonPosition == "stage15":
+        call screen titleMenuButtons14
+    if lastMenuButtonPosition == "stage16":
+        call screen titleMenuButtons15
+    if lastMenuButtonPosition == "stage17":
+        call screen titleMenuButtons16
+    else:
+        call screen titleMenuButtons
 #    call screen home_screen
 
 label start:
-    $ stage1_4cleared = False
-    $ stage2_4cleared = False
-    $ stage3_4cleared = False
-    $ stage4_4cleared = False
-    $ stage5_4cleared = False
-    $ stage6_4cleared = False
-    $ stage7_4cleared = False
-    $ stage8_4cleared = False
-    $ stage9_4cleared = False
-    $ stage1_5cleared = False
-    $ stage2_5cleared = False
-    $ stage3_5cleared = False
-    $ stage4_5cleared = False
-    $ stage5_5cleared = False
-    $ stage6_5cleared = False
-    $ stage7_5cleared = False
-    $ stage8_5cleared = False
+    $ lastMenuButtonPosition = False
+    $ returnFromStage = False
+    $ stage1_4cleared = True
+    $ stage2_4cleared = True
+    $ stage3_4cleared = True
+    $ stage4_4cleared = True
+    $ stage5_4cleared = True
+    $ stage6_4cleared = True
+    $ stage7_4cleared = True
+    $ stage8_4cleared = True
+    $ stage9_4cleared = True
+    $ stage1_5cleared = True
+    $ stage2_5cleared = True
+    $ stage3_5cleared = True
+    $ stage4_5cleared = True
+    $ stage5_5cleared = True
+    $ stage6_5cleared = True
+    $ stage7_5cleared = True
+    $ stage8_5cleared = True
     scene bg blured
     show bg blured at bg_full
 

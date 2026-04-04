@@ -58,6 +58,7 @@ label choose_wrong:
         mc "申し訳ございませんでした。"
         hide mc
         hide xx
+        $ returnFromStage = True
         jump home
 
 label choose_right:
@@ -110,6 +111,8 @@ label choose_right:
         $ stage7_5cleared = True
     if stageName == "stage8_5":
         $ stage8_5cleared = True
+
+    $ returnFromStage = True
 
     jump home
 
