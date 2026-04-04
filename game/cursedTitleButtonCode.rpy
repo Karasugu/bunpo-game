@@ -1975,7 +1975,7 @@ screen titleMenuButtons2:
         text_size 35
         xalign 0.75
         yalign 0.9
-        action [SetVariable("lastMenuButtonPosition", "stage1"), Show("titleMenuButtonsRight"), Hide("titleMenuButtons1")]
+        action [SetVariable("lastMenuButtonPosition", "stage2"), Show("titleMenuButtonsRight1"), Hide("titleMenuButtons2")]
     textbutton "ステージ 1":
         text_size 35
         xalign 0.20
@@ -2090,7 +2090,7 @@ screen titleMenuButtons3:
         text_size 35
         xalign 0.75
         yalign 0.9
-        action [SetVariable("lastMenuButtonPosition", "stage1"), Show("titleMenuButtonsRight"), Hide("titleMenuButtons1")]
+        action [SetVariable("lastMenuButtonPosition", "stage3"), Show("titleMenuButtonsRight2"), Hide("titleMenuButtons3")]
     textbutton "ステージ 1":
         text_size 35
         xalign 0.05
@@ -2205,7 +2205,7 @@ screen titleMenuButtons4:
         text_size 35
         xalign 0.75
         yalign 0.9
-        action [SetVariable("lastMenuButtonPosition", "stage1"), Show("titleMenuButtonsRight"), Hide("titleMenuButtons1")]
+        action [SetVariable("lastMenuButtonPosition", "stage4"), Show("titleMenuButtonsRight3"), Hide("titleMenuButtons4")]
     textbutton "ステージ 1":
         text_size 35
         xalign -0.10
@@ -2320,7 +2320,7 @@ screen titleMenuButtons5:
         text_size 35
         xalign 0.75
         yalign 0.9
-        action [SetVariable("lastMenuButtonPosition", "stage1"), Show("titleMenuButtonsRight"), Hide("titleMenuButtons1")]
+        action [SetVariable("lastMenuButtonPosition", "stage5"), Show("titleMenuButtonsRight4"), Hide("titleMenuButtons5")]
     textbutton "ステージ 1":
         text_size 35
         xalign -0.25
@@ -2435,7 +2435,7 @@ screen titleMenuButtons6:
         text_size 35
         xalign 0.75
         yalign 0.9
-        action [SetVariable("lastMenuButtonPosition", "stage1"), Show("titleMenuButtonsRight"), Hide("titleMenuButtons1")]
+        action [SetVariable("lastMenuButtonPosition", "stage6"), Show("titleMenuButtonsRight5"), Hide("titleMenuButtons6")]
     textbutton "ステージ 1":
         text_size 35
         xalign -0.40
@@ -2550,7 +2550,7 @@ screen titleMenuButtons7:
         text_size 35
         xalign 0.75
         yalign 0.9
-        action [SetVariable("lastMenuButtonPosition", "stage1"), Show("titleMenuButtonsRight"), Hide("titleMenuButtons1")]
+        action [SetVariable("lastMenuButtonPosition", "stage7"), Show("titleMenuButtonsRight6"), Hide("titleMenuButtons7")]
     textbutton "ステージ 1":
         text_size 35
         xalign -0.55
@@ -2665,7 +2665,7 @@ screen titleMenuButtons8:
         text_size 35
         xalign 0.75
         yalign 0.9
-        action [SetVariable("lastMenuButtonPosition", "stage1"), Show("titleMenuButtonsRight"), Hide("titleMenuButtons1")]
+        action [SetVariable("lastMenuButtonPosition", "stage8"), Show("titleMenuButtonsRight7"), Hide("titleMenuButtons8")]
     textbutton "ステージ 1":
         text_size 35
         xalign -0.70
@@ -2780,7 +2780,7 @@ screen titleMenuButtons9:
         text_size 35
         xalign 0.75
         yalign 0.9
-        action [SetVariable("lastMenuButtonPosition", "stage1"), Show("titleMenuButtonsRight"), Hide("titleMenuButtons1")]
+        action [SetVariable("lastMenuButtonPosition", "stage9"), Show("titleMenuButtonsRight8"), Hide("titleMenuButtons9")]
     textbutton "ステージ 1":
         text_size 35
         xalign -0.85
@@ -2895,7 +2895,7 @@ screen titleMenuButtons10:
         text_size 35
         xalign 0.75
         yalign 0.9
-        action [SetVariable("lastMenuButtonPosition", "stage1"), Show("titleMenuButtonsRight"), Hide("titleMenuButtons1")]
+        action [SetVariable("lastMenuButtonPosition", "stage10"), Show("titleMenuButtonsRight9"), Hide("titleMenuButtons10")]
     textbutton "ステージ 1":
         text_size 35
         xalign -1.0
@@ -3010,7 +3010,7 @@ screen titleMenuButtons11:
         text_size 35
         xalign 0.75
         yalign 0.9
-        action [SetVariable("lastMenuButtonPosition", "stage1"), Show("titleMenuButtonsRight"), Hide("titleMenuButtons1")]
+        action [SetVariable("lastMenuButtonPosition", "stage11"), Show("titleMenuButtonsRight10"), Hide("titleMenuButtons11")]
     textbutton "ステージ 1":
         text_size 35
         xalign -1.15
@@ -3125,7 +3125,7 @@ screen titleMenuButtons12:
         text_size 35
         xalign 0.75
         yalign 0.9
-        action [SetVariable("lastMenuButtonPosition", "stage1"), Show("titleMenuButtonsRight"), Hide("titleMenuButtons1")]
+        action [SetVariable("lastMenuButtonPosition", "stage12"), Show("titleMenuButtonsRight11"), Hide("titleMenuButtons12")]
     textbutton "ステージ 1":
         text_size 35
         xalign -1.30
@@ -3240,7 +3240,7 @@ screen titleMenuButtons13:
         text_size 35
         xalign 0.75
         yalign 0.9
-        action [SetVariable("lastMenuButtonPosition", "stage1"), Show("titleMenuButtonsRight"), Hide("titleMenuButtons1")]
+        action [SetVariable("lastMenuButtonPosition", "stage13"), Show("titleMenuButtonsRight12"), Hide("titleMenuButtons13")]
     textbutton "ステージ 1":
         text_size 35
         xalign -1.45
@@ -3355,7 +3355,7 @@ screen titleMenuButtons14:
         text_size 35
         xalign 0.75
         yalign 0.9
-        action [SetVariable("lastMenuButtonPosition", "stage1"), Show("titleMenuButtonsRight"), Hide("titleMenuButtons1")]
+        action [SetVariable("lastMenuButtonPosition", "stage14"), Show("titleMenuButtonsRight13"), Hide("titleMenuButtons14")]
     textbutton "ステージ 1":
         text_size 35
         xalign -1.60
@@ -3470,7 +3470,7 @@ screen titleMenuButtons15:
         text_size 35
         xalign 0.75
         yalign 0.9
-        action [SetVariable("lastMenuButtonPosition", "stage1"), Show("titleMenuButtonsRight"), Hide("titleMenuButtons1")]
+        action [SetVariable("lastMenuButtonPosition", "stage15"), Show("titleMenuButtonsRight14"), Hide("titleMenuButtons15")]
     textbutton "ステージ 1":
         text_size 35
         xalign -1.75
@@ -3585,7 +3585,7 @@ screen titleMenuButtons16:
         text_size 35
         xalign 0.75
         yalign 0.9
-        action [SetVariable("lastMenuButtonPosition", "stage1"), Show("titleMenuButtonsRight"), Hide("titleMenuButtons1")]
+        action [SetVariable("lastMenuButtonPosition", "stage16"), Show("titleMenuButtonsRight15"), Hide("titleMenuButtons16")]
     textbutton "ステージ 1":
         text_size 35
         xalign -1.75
