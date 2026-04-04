@@ -46,15 +46,18 @@ label choose_wrong:
     
     if livesLeft >= 1:
         show xx smirk at character_xx
-        xx "だから言っただろう。"
-        xx "俺様が間違うわけがない。"
+        xx "だから言っただろう。俺様が間違うわけがない。"
         xx "またこんなことを言って俺様の授業を邪魔したら追い出すぞ！！！"
 
         show mc blush at character_mc
         mc "すみません..."
+        hide mc 
+        hide xx
         jump expression current_stage
     else:
+        show xx default at character_xx
         xx "もういいから！うっぜいよ、アンタ！"
+        show mc cry at character_mc
         mc "申し訳ございませんでした。"
         hide mc
         hide xx
@@ -111,7 +114,24 @@ label choose_right:
         $ stage7_5cleared = True
     if stageName == "stage8_5":
         $ stage8_5cleared = True
-
+    if stageName == "stage1_6":
+        $ stage1_5cleared = True
+    if stageName == "stage2_6":
+        $ stage2_5cleared = True
+    if stageName == "stage3_6":
+        $ stage3_5cleared = True
+    if stageName == "stage4_6":
+        $ stage4_5cleared = True
+    if stageName == "stage5_6":
+        $ stage5_5cleared = True
+    if stageName == "stage6_6":
+        $ stage6_5cleared = True
+    if stageName == "stage7_6":
+        $ stage7_5cleared = True
+    if stageName == "stage8_6":
+        $ stage8_5cleared = True
+    if stageName == "stage9_6":
+        $ stage8_5cleared = True
     $ returnFromStage = True
 
     jump home
@@ -145,3 +165,29 @@ label start1:
 
     call stage1_4
 
+label END:
+    show xx default at character_xx
+    show mc default at character_mc
+    mc "おめでとうございます！"
+    xx "おめでとう..."
+    mc "ここでこのゲームは終わりますが、物語は終わりませんですよね。"
+    mc "xxのことなんですが、ぶちゃっけに言いますと、悪意がなっかたらしいですよ。"
+    mc "要するに、噂をそのまま信じちゃいけないってことですよね。"
+    mc "xxは確かにお金持ちのボンボンですけど (ಠ_ಠ)、別に自由で幸せな暮らしをしていたわけではなかったんです。"
+    mc "生まれたときから英才教育を受けさせられていて、自分の選択や自分の時間はほとんどなかったんです。"
+    mc "xx企業のCEOの一人息子という立場が、彼に与えたのは孤独と、意地とも言えるプライドでした。"
+    mc "そんな日常で、彼は素晴らしきアニメと出会ったんです。"
+    mc "それから彼は自分のわずかな自由時間で色々な作品たちと出会い、日本語に興味を持ちました。"
+    mc "「同じ趣味の人に出会るかも」「友達になれるかも」、そんなことを考えながら彼は日本語クラスに憧れていた。"
+    mc "アニメを通して独学で日本語を勉強し、12歳の誕生日で勇気を振り絞って父親にお願いをした。"
+    mc "彼は分かっている、一般的な生徒として日本語教室に参加するのは、xx企業のCEOの一人息子という立場では絶対に許されないと。"
+    mc "だから彼は父親にこう言った。"
+    xx "「俺様は世界一の日本語教師になる！」"
+    mc "...まあ、それも全部昔の話ですけどね。"
+    mc "今ではxxも普通な一生徒になって、みんなに謝った後、仲良くやっています。"
+    mc "「どうやって？」って僕に聞いても困りますね。"
+    mc "でもヒントとして僕の名前のMとCの意味を考えてみて。"
+    mc "言えることは、MainなCharacterとして都合よく有名な“mc企業”の長男であても、そして都合よくxx企業より強い後ろ盾があってもおかしくない、ってことくらいですかね (笑)"
+    mc "まあ... 普通そうでもないと、xx企業のCEOの一人息子をこうも恥をかかせるわけがないよね..."
+    hide xx 
+    hide mc

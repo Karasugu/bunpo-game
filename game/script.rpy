@@ -55,7 +55,7 @@ screen storyscroll():
 
                 ある日突然、彼はこう宣言した。
 
-                「俺様は日本語教師になる！」
+                「俺様は世界一の日本語教師になる！」
 
 
 
@@ -293,6 +293,67 @@ screen titleMenuButtons:
             xalign 2.90
             yalign 0.5
             action [SetVariable("stageName", "stage8_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
+    # if stage8_5cleared == True:
+    #     textbutton "ステージ 18":
+    #         text_size 35
+    #         xalign 2.90
+    #         yalign 0.5
+    #         action [SetVariable("stageName", "stage1_6"), Hide(currentMenuButtonScreen), Jump("initStage")]
+    # if stage1_6cleared == True:
+    #     textbutton "ステージ 19":
+    #         text_size 35
+    #         xalign 0.65
+    #         yalign 0.5
+    #         action [SetVariable("stageName", "stage2_6"), Hide(currentMenuButtonScreen), Jump("initStage")]
+    # if stage2_6cleared == True:
+    #     textbutton "ステージ 20":
+    #         text_size 35
+    #         xalign 0.80
+    #         yalign 0.5
+    #         action [SetVariable("stageName", "stage3_6"), Hide(currentMenuButtonScreen), Jump("initStage")]
+    # if stage3_6cleared == True:
+    #     textbutton "ステージ 21":
+    #         text_size 35
+    #         xalign 0.95
+    #         yalign 0.5
+    #         action [SetVariable("stageName", "stage4_6"), Hide(currentMenuButtonScreen), Jump("initStage")]
+    # if stage4_6cleared == True:
+    #     textbutton "ステージ 22":
+    #         text_size 35
+    #         xalign 1.1
+    #         yalign 0.5
+    #         action [SetVariable("stageName", "stage5_6"), Hide(currentMenuButtonScreen), Jump("initStage")]
+    # if stage5_6cleared == True:
+    #     textbutton "ステージ 23":
+    #         text_size 35
+    #         xalign 1.25
+    #         yalign 0.5
+    #         action [SetVariable("stageName", "stage6_6"), Hide(currentMenuButtonScreen), Jump("initStage")]
+    # if stage6_6cleared == True:
+    #     textbutton "ステージ 24":
+    #         text_size 35
+    #         xalign 1.40
+    #         yalign 0.5
+    #         action [SetVariable("stageName", "stage7_6"), Hide(currentMenuButtonScreen), Jump("initStage")]
+    # if stage7_6cleared == True:
+    #     textbutton "ステージ 25":
+    #         text_size 35
+    #         xalign 1.55
+    #         yalign 0.5
+    #         action [SetVariable("stageName", "stage8_6"), Hide(currentMenuButtonScreen), Jump("initStage")]
+    # if stage8_6cleared == True:
+    #     textbutton "ステージ 26":
+    #         text_size 35
+    #         xalign 1.70
+    #         yalign 0.5
+    #         action [SetVariable("stageName", "stage9_6"), Hide(currentMenuButtonScreen), Jump("initStage")]
+    # if stage9_6cleared == True:
+    #     textbutton "ステージ 27":
+    #         text_size 35
+    #         xalign 1.85
+    #         yalign 0.5
+    #         action [SetVariable("stageName", "END"), Hide(currentMenuButtonScreen), Jump("initStage")]
+    
 
 
 label initStage:
