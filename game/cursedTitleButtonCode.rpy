@@ -131,7 +131,7 @@ screen titleMenuButtonsLeft2:
         text_size 35
         xalign 0.75
         yalign 0.9
-        action [SetVariable("lastMenuButtonPosition", "stage2"), Show("titleMenuButtonsRight1"), Hide("titleMenuButtonsLeft2")]
+        action [SetVariable("lastMenuButtonPosition", "stage1"), Show("titleMenuButtonsRight"), Hide("titleMenuButtonsLeft1")]
     textbutton "ステージ 1" at buttonScrollLeft:
         text_size 35
         xalign 0.35
@@ -246,7 +246,7 @@ screen titleMenuButtonsLeft3:
         text_size 35
         xalign 0.75
         yalign 0.9
-        action [SetVariable("lastMenuButtonPosition", "stage3"), Show("titleMenuButtonsRight2"), Hide("titleMenuButtonsLeft3")]
+        action [SetVariable("lastMenuButtonPosition", "stage1"), Show("titleMenuButtonsRight"), Hide("titleMenuButtonsLeft1")]
     textbutton "ステージ 1" at buttonScrollLeft:
         text_size 35
         xalign 0.20
@@ -361,7 +361,7 @@ screen titleMenuButtonsLeft4:
         text_size 35
         xalign 0.75
         yalign 0.9
-        action [SetVariable("lastMenuButtonPosition", "stage4"), Show("titleMenuButtonsRight3"), Hide("titleMenuButtonsLeft4")]
+        action [SetVariable("lastMenuButtonPosition", "stage1"), Show("titleMenuButtonsRight"), Hide("titleMenuButtonsLeft1")]
     textbutton "ステージ 1" at buttonScrollLeft:
         text_size 35
         xalign 0.05
@@ -476,7 +476,7 @@ screen titleMenuButtonsLeft5:
         text_size 35
         xalign 0.75
         yalign 0.9
-        action [SetVariable("lastMenuButtonPosition", "stage5"), Show("titleMenuButtonsRight4"), Hide("titleMenuButtonsLeft5")]
+        action [SetVariable("lastMenuButtonPosition", "stage1"), Show("titleMenuButtonsRight"), Hide("titleMenuButtonsLeft1")]
     textbutton "ステージ 1" at buttonScrollLeft:
         text_size 35
         xalign -0.10
@@ -591,7 +591,7 @@ screen titleMenuButtonsLeft6:
         text_size 35
         xalign 0.75
         yalign 0.9
-        action [SetVariable("lastMenuButtonPosition", "stage6"), Show("titleMenuButtonsRight5"), Hide("titleMenuButtonsLeft6")]
+        action [SetVariable("lastMenuButtonPosition", "stage1"), Show("titleMenuButtonsRight"), Hide("titleMenuButtonsLeft1")]
     textbutton "ステージ 1" at buttonScrollLeft:
         text_size 35
         xalign -0.25
@@ -706,7 +706,7 @@ screen titleMenuButtonsLeft7:
         text_size 35
         xalign 0.75
         yalign 0.9
-        action [SetVariable("lastMenuButtonPosition", "stage7"), Show("titleMenuButtonsRight6"), Hide("titleMenuButtonsLeft7")]
+        action [SetVariable("lastMenuButtonPosition", "stage1"), Show("titleMenuButtonsRight"), Hide("titleMenuButtonsLeft1")]
     textbutton "ステージ 1" at buttonScrollLeft:
         text_size 35
         xalign -0.40
@@ -821,7 +821,7 @@ screen titleMenuButtonsLeft8:
         text_size 35
         xalign 0.75
         yalign 0.9
-        action [SetVariable("lastMenuButtonPosition", "stage8"), Show("titleMenuButtonsRight7"), Hide("titleMenuButtonsLeft8")]
+        action [SetVariable("lastMenuButtonPosition", "stage1"), Show("titleMenuButtonsRight"), Hide("titleMenuButtonsLeft1")]
     textbutton "ステージ 1" at buttonScrollLeft:
         text_size 35
         xalign -0.55
@@ -936,7 +936,7 @@ screen titleMenuButtonsLeft9:
         text_size 35
         xalign 0.75
         yalign 0.9
-        action [SetVariable("lastMenuButtonPosition", "stage9"), Show("titleMenuButtonsRight8"), Hide("titleMenuButtonsLeft9")]
+        action [SetVariable("lastMenuButtonPosition", "stage1"), Show("titleMenuButtonsRight"), Hide("titleMenuButtonsLeft1")]
     textbutton "ステージ 1" at buttonScrollLeft:
         text_size 35
         xalign -0.70
@@ -1051,7 +1051,7 @@ screen titleMenuButtonsLeft10:
         text_size 35
         xalign 0.75
         yalign 0.9
-        action [SetVariable("lastMenuButtonPosition", "stage10"), Show("titleMenuButtonsRight9"), Hide("titleMenuButtonsLeft10")]
+        action [SetVariable("lastMenuButtonPosition", "stage1"), Show("titleMenuButtonsRight"), Hide("titleMenuButtonsLeft1")]
     textbutton "ステージ 1" at buttonScrollLeft:
         text_size 35
         xalign -0.85
@@ -1166,7 +1166,7 @@ screen titleMenuButtonsLeft11:
         text_size 35
         xalign 0.75
         yalign 0.9
-        action [SetVariable("lastMenuButtonPosition", "stage11"), Show("titleMenuButtonsRight10"), Hide("titleMenuButtonsLeft11")]
+        action [SetVariable("lastMenuButtonPosition", "stage1"), Show("titleMenuButtonsRight"), Hide("titleMenuButtonsLeft1")]
     textbutton "ステージ 1" at buttonScrollLeft:
         text_size 35
         xalign -1.0
@@ -1281,7 +1281,7 @@ screen titleMenuButtonsLeft12:
         text_size 35
         xalign 0.75
         yalign 0.9
-        action [SetVariable("lastMenuButtonPosition", "stage12"), Show("titleMenuButtonsRight11"), Hide("titleMenuButtonsLeft12")]
+        action [SetVariable("lastMenuButtonPosition", "stage1"), Show("titleMenuButtonsRight"), Hide("titleMenuButtonsLeft1")]
     textbutton "ステージ 1" at buttonScrollLeft:
         text_size 35
         xalign -1.15
@@ -1396,7 +1396,7 @@ screen titleMenuButtonsLeft13:
         text_size 35
         xalign 0.75
         yalign 0.9
-        action [SetVariable("lastMenuButtonPosition", "stage13"), Show("titleMenuButtonsRight12"), Hide("titleMenuButtonsLeft13")]
+        action [SetVariable("lastMenuButtonPosition", "stage1"), Show("titleMenuButtonsRight"), Hide("titleMenuButtonsLeft1")]
     textbutton "ステージ 1" at buttonScrollLeft:
         text_size 35
         xalign -1.30
@@ -1511,7 +1511,7 @@ screen titleMenuButtonsLeft14:
         text_size 35
         xalign 0.75
         yalign 0.9
-        action [SetVariable("lastMenuButtonPosition", "stage14"), Show("titleMenuButtonsRight13"), Hide("titleMenuButtonsLeft14")]
+        action [SetVariable("lastMenuButtonPosition", "stage1"), Show("titleMenuButtonsRight"), Hide("titleMenuButtonsLeft1")]
     textbutton "ステージ 1" at buttonScrollLeft:
         text_size 35
         xalign -1.45
@@ -1626,7 +1626,7 @@ screen titleMenuButtonsLeft15:
         text_size 35
         xalign 0.75
         yalign 0.9
-        action [SetVariable("lastMenuButtonPosition", "stage15"), Show("titleMenuButtonsRight14"), Hide("titleMenuButtonsLeft15")]
+        action [SetVariable("lastMenuButtonPosition", "stage1"), Show("titleMenuButtonsRight"), Hide("titleMenuButtonsLeft1")]
     textbutton "ステージ 1" at buttonScrollLeft:
         text_size 35
         xalign -1.60
@@ -1741,7 +1741,7 @@ screen titleMenuButtonsLeft16:
         text_size 35
         xalign 0.75
         yalign 0.9
-        action [SetVariable("lastMenuButtonPosition", "stage16"), Show("titleMenuButtonsRight15"), Hide("titleMenuButtonsLeft16")]
+        action [SetVariable("lastMenuButtonPosition", "stage1"), Show("titleMenuButtonsRight"), Hide("titleMenuButtonsLeft1")]
     textbutton "ステージ 1" at buttonScrollLeft:
         text_size 35
         xalign -1.75
@@ -1975,7 +1975,7 @@ screen titleMenuButtons2:
         text_size 35
         xalign 0.75
         yalign 0.9
-        action [SetVariable("lastMenuButtonPosition", "stage2"), Show("titleMenuButtonsRight1"), Hide("titleMenuButtons2")]
+        action [SetVariable("lastMenuButtonPosition", "stage1"), Show("titleMenuButtonsRight"), Hide("titleMenuButtons1")]
     textbutton "ステージ 1":
         text_size 35
         xalign 0.20
@@ -2090,7 +2090,7 @@ screen titleMenuButtons3:
         text_size 35
         xalign 0.75
         yalign 0.9
-        action [SetVariable("lastMenuButtonPosition", "stage3"), Show("titleMenuButtonsRight2"), Hide("titleMenuButtons3")]
+        action [SetVariable("lastMenuButtonPosition", "stage1"), Show("titleMenuButtonsRight"), Hide("titleMenuButtons1")]
     textbutton "ステージ 1":
         text_size 35
         xalign 0.05
@@ -2205,7 +2205,7 @@ screen titleMenuButtons4:
         text_size 35
         xalign 0.75
         yalign 0.9
-        action [SetVariable("lastMenuButtonPosition", "stage4"), Show("titleMenuButtonsRight3"), Hide("titleMenuButtons4")]
+        action [SetVariable("lastMenuButtonPosition", "stage1"), Show("titleMenuButtonsRight"), Hide("titleMenuButtons1")]
     textbutton "ステージ 1":
         text_size 35
         xalign -0.10
@@ -2320,7 +2320,7 @@ screen titleMenuButtons5:
         text_size 35
         xalign 0.75
         yalign 0.9
-        action [SetVariable("lastMenuButtonPosition", "stage5"), Show("titleMenuButtonsRight4"), Hide("titleMenuButtons5")]
+        action [SetVariable("lastMenuButtonPosition", "stage1"), Show("titleMenuButtonsRight"), Hide("titleMenuButtons1")]
     textbutton "ステージ 1":
         text_size 35
         xalign -0.25
@@ -2435,7 +2435,7 @@ screen titleMenuButtons6:
         text_size 35
         xalign 0.75
         yalign 0.9
-        action [SetVariable("lastMenuButtonPosition", "stage6"), Show("titleMenuButtonsRight5"), Hide("titleMenuButtons6")]
+        action [SetVariable("lastMenuButtonPosition", "stage1"), Show("titleMenuButtonsRight"), Hide("titleMenuButtons1")]
     textbutton "ステージ 1":
         text_size 35
         xalign -0.40
@@ -2550,7 +2550,7 @@ screen titleMenuButtons7:
         text_size 35
         xalign 0.75
         yalign 0.9
-        action [SetVariable("lastMenuButtonPosition", "stage7"), Show("titleMenuButtonsRight6"), Hide("titleMenuButtons7")]
+        action [SetVariable("lastMenuButtonPosition", "stage1"), Show("titleMenuButtonsRight"), Hide("titleMenuButtons1")]
     textbutton "ステージ 1":
         text_size 35
         xalign -0.55
@@ -2665,7 +2665,7 @@ screen titleMenuButtons8:
         text_size 35
         xalign 0.75
         yalign 0.9
-        action [SetVariable("lastMenuButtonPosition", "stage8"), Show("titleMenuButtonsRight7"), Hide("titleMenuButtons8")]
+        action [SetVariable("lastMenuButtonPosition", "stage1"), Show("titleMenuButtonsRight"), Hide("titleMenuButtons1")]
     textbutton "ステージ 1":
         text_size 35
         xalign -0.70
@@ -2780,7 +2780,7 @@ screen titleMenuButtons9:
         text_size 35
         xalign 0.75
         yalign 0.9
-        action [SetVariable("lastMenuButtonPosition", "stage9"), Show("titleMenuButtonsRight8"), Hide("titleMenuButtons9")]
+        action [SetVariable("lastMenuButtonPosition", "stage1"), Show("titleMenuButtonsRight"), Hide("titleMenuButtons1")]
     textbutton "ステージ 1":
         text_size 35
         xalign -0.85
@@ -2895,7 +2895,7 @@ screen titleMenuButtons10:
         text_size 35
         xalign 0.75
         yalign 0.9
-        action [SetVariable("lastMenuButtonPosition", "stage10"), Show("titleMenuButtonsRight9"), Hide("titleMenuButtons10")]
+        action [SetVariable("lastMenuButtonPosition", "stage1"), Show("titleMenuButtonsRight"), Hide("titleMenuButtons1")]
     textbutton "ステージ 1":
         text_size 35
         xalign -1.0
@@ -3010,7 +3010,7 @@ screen titleMenuButtons11:
         text_size 35
         xalign 0.75
         yalign 0.9
-        action [SetVariable("lastMenuButtonPosition", "stage11"), Show("titleMenuButtonsRight10"), Hide("titleMenuButtons11")]
+        action [SetVariable("lastMenuButtonPosition", "stage1"), Show("titleMenuButtonsRight"), Hide("titleMenuButtons1")]
     textbutton "ステージ 1":
         text_size 35
         xalign -1.15
@@ -3125,7 +3125,7 @@ screen titleMenuButtons12:
         text_size 35
         xalign 0.75
         yalign 0.9
-        action [SetVariable("lastMenuButtonPosition", "stage12"), Show("titleMenuButtonsRight11"), Hide("titleMenuButtons12")]
+        action [SetVariable("lastMenuButtonPosition", "stage1"), Show("titleMenuButtonsRight"), Hide("titleMenuButtons1")]
     textbutton "ステージ 1":
         text_size 35
         xalign -1.30
@@ -3240,7 +3240,7 @@ screen titleMenuButtons13:
         text_size 35
         xalign 0.75
         yalign 0.9
-        action [SetVariable("lastMenuButtonPosition", "stage13"), Show("titleMenuButtonsRight12"), Hide("titleMenuButtons13")]
+        action [SetVariable("lastMenuButtonPosition", "stage1"), Show("titleMenuButtonsRight"), Hide("titleMenuButtons1")]
     textbutton "ステージ 1":
         text_size 35
         xalign -1.45
@@ -3355,7 +3355,7 @@ screen titleMenuButtons14:
         text_size 35
         xalign 0.75
         yalign 0.9
-        action [SetVariable("lastMenuButtonPosition", "stage14"), Show("titleMenuButtonsRight13"), Hide("titleMenuButtons14")]
+        action [SetVariable("lastMenuButtonPosition", "stage1"), Show("titleMenuButtonsRight"), Hide("titleMenuButtons1")]
     textbutton "ステージ 1":
         text_size 35
         xalign -1.60
@@ -3470,7 +3470,7 @@ screen titleMenuButtons15:
         text_size 35
         xalign 0.75
         yalign 0.9
-        action [SetVariable("lastMenuButtonPosition", "stage15"), Show("titleMenuButtonsRight14"), Hide("titleMenuButtons15")]
+        action [SetVariable("lastMenuButtonPosition", "stage1"), Show("titleMenuButtonsRight"), Hide("titleMenuButtons1")]
     textbutton "ステージ 1":
         text_size 35
         xalign -1.75
@@ -3585,7 +3585,7 @@ screen titleMenuButtons16:
         text_size 35
         xalign 0.75
         yalign 0.9
-        action [SetVariable("lastMenuButtonPosition", "stage16"), Show("titleMenuButtonsRight15"), Hide("titleMenuButtons16")]
+        action [SetVariable("lastMenuButtonPosition", "stage1"), Show("titleMenuButtonsRight"), Hide("titleMenuButtons1")]
     textbutton "ステージ 1":
         text_size 35
         xalign -1.75
@@ -3689,1843 +3689,7 @@ screen titleMenuButtons16:
             action [SetVariable("stageName", "stage8_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
 
 
+
+
+
 #scroll to right
-screen titleMenuButtonsRight:
-    $ currentMenuButtonScreen = "titleMenuButtonsRight"
-    if stage1_4cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
-            action [SetVariable("lastMenuButtonPosition", "stage2"), Show("titleMenuButtonsLeft1"), Hide("titleMenuButtonsRight")]
-#    textbutton "Right":
-#        text_size 35
-#        xalign 0.75
-#        yalign 0.9
-#        action [SetVariable("lastMenuButtonPosition", "stage1"), Show("titleMenuButtonsRight"), Hide("titleMenuButtonsRight1")]
-    textbutton "ステージ 1" at buttonScrollRight:
-        text_size 35
-        xalign 0.35
-        yalign 0.5
-        action [SetVariable("stageName", "start1"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage1_4cleared == True:
-        textbutton "ステージ 2" at buttonScrollRight:
-            text_size 35
-            xalign 0.5
-            yalign 0.5
-            action [SetVariable("stageName", "stage2_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage2_4cleared == True:
-        textbutton "ステージ 3" at buttonScrollRight:
-            text_size 35
-            xalign 0.65
-            yalign 0.5
-            action [SetVariable("stageName", "stage3_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage3_4cleared == True:
-        textbutton "ステージ 4" at buttonScrollRight:
-            text_size 35
-            xalign 0.8
-            yalign 0.5
-            action [SetVariable("stageName", "stage4_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage4_4cleared == True:
-        textbutton "ステージ 5" at buttonScrollRight:
-            text_size 35
-            xalign 0.95
-            yalign 0.5
-            action [SetVariable("stageName", "stage5_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage5_4cleared == True:
-        textbutton "ステージ 6" at buttonScrollRight:
-            text_size 35
-            xalign 1.1
-            yalign 0.5
-            action [SetVariable("stageName", "stage6_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage6_4cleared == True:
-        textbutton "ステージ 7" at buttonScrollRight:
-            text_size 35
-            xalign 1.25
-            yalign 0.5
-            action [SetVariable("stageName", "stage7_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage7_4cleared == True:
-        textbutton "ステージ 8" at buttonScrollRight:
-            text_size 35
-            xalign 1.40
-            yalign 0.5
-            action [SetVariable("stageName", "stage8_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage8_4cleared == True:
-        textbutton "ステージ 9" at buttonScrollRight:
-            text_size 35
-            xalign 1.55
-            yalign 0.5
-            action [SetVariable("stageName", "stage9_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage9_4cleared == True:
-        textbutton "ステージ 10" at buttonScrollRight:
-            text_size 35
-            xalign 1.70
-            yalign 0.5
-            action [SetVariable("stageName", "stage1_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage1_5cleared == True:
-        textbutton "ステージ 11" at buttonScrollRight:
-            text_size 35
-            xalign 1.85
-            yalign 0.5
-            action [SetVariable("stageName", "stage2_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage2_5cleared == True:
-        textbutton "ステージ 12" at buttonScrollRight:
-            text_size 35
-            xalign 2.0
-            yalign 0.5
-            action [SetVariable("stageName", "stage3_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage3_5cleared == True:
-        textbutton "ステージ 13" at buttonScrollRight:
-            text_size 35
-            xalign 2.15
-            yalign 0.5
-            action [SetVariable("stageName", "stage4_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage4_5cleared == True:
-        textbutton "ステージ 14" at buttonScrollRight:
-            text_size 35
-            xalign 2.30
-            yalign 0.5
-            action [SetVariable("stageName", "stage5_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage5_5cleared == True:
-        textbutton "ステージ 15" at buttonScrollRight:
-            text_size 35
-            xalign 2.45
-            yalign 0.5
-            action [SetVariable("stageName", "stage6_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage6_5cleared == True:
-        textbutton "ステージ 16" at buttonScrollRight:
-            text_size 35
-            xalign 2.60
-            yalign 0.5
-            action [SetVariable("stageName", "stage7_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage7_5cleared == True:
-        textbutton "ステージ 17" at buttonScrollRight:
-            text_size 35
-            xalign 2.75
-            yalign 0.5
-            action [SetVariable("stageName", "stage8_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-
-screen titleMenuButtonsRight1:
-    $ currentMenuButtonScreen = "titleMenuButtonsRight1"
-    if stage3_4cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
-            action [SetVariable("lastMenuButtonPosition", "stage3"), Show("titleMenuButtonsLeft2"), Hide("titleMenuButtonsRight1")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
-        action [SetVariable("lastMenuButtonPosition", "stage1"), Show("titleMenuButtonsRight"), Hide("titleMenuButtonsRight1")]
-    textbutton "ステージ 1" at buttonScrollRight:
-        text_size 35
-        xalign 0.20
-        yalign 0.5
-        action [SetVariable("stageName", "start1"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage1_4cleared == True:
-        textbutton "ステージ 2" at buttonScrollRight:
-            text_size 35
-            xalign 0.35
-            yalign 0.5
-            action [SetVariable("stageName", "stage2_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage2_4cleared == True:
-        textbutton "ステージ 3" at buttonScrollRight:
-            text_size 35
-            xalign 0.5
-            yalign 0.5
-            action [SetVariable("stageName", "stage3_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage3_4cleared == True:
-        textbutton "ステージ 4" at buttonScrollRight:
-            text_size 35
-            xalign 0.65
-            yalign 0.5
-            action [SetVariable("stageName", "stage4_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage4_4cleared == True:
-        textbutton "ステージ 5" at buttonScrollRight:
-            text_size 35
-            xalign 0.8
-            yalign 0.5
-            action [SetVariable("stageName", "stage5_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage5_4cleared == True:
-        textbutton "ステージ 6" at buttonScrollRight:
-            text_size 35
-            xalign 0.95
-            yalign 0.5
-            action [SetVariable("stageName", "stage6_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage6_4cleared == True:
-        textbutton "ステージ 7" at buttonScrollRight:
-            text_size 35
-            xalign 1.1
-            yalign 0.5
-            action [SetVariable("stageName", "stage7_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage7_4cleared == True:
-        textbutton "ステージ 8" at buttonScrollRight:
-            text_size 35
-            xalign 1.25
-            yalign 0.5
-            action [SetVariable("stageName", "stage8_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage8_4cleared == True:
-        textbutton "ステージ 9" at buttonScrollRight:
-            text_size 35
-            xalign 1.40
-            yalign 0.5
-            action [SetVariable("stageName", "stage9_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage9_4cleared == True:
-        textbutton "ステージ 10" at buttonScrollRight:
-            text_size 35
-            xalign 1.55
-            yalign 0.5
-            action [SetVariable("stageName", "stage1_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage1_5cleared == True:
-        textbutton "ステージ 11" at buttonScrollRight:
-            text_size 35
-            xalign 1.70
-            yalign 0.5
-            action [SetVariable("stageName", "stage2_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage2_5cleared == True:
-        textbutton "ステージ 12" at buttonScrollRight:
-            text_size 35
-            xalign 1.85
-            yalign 0.5
-            action [SetVariable("stageName", "stage3_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage3_5cleared == True:
-        textbutton "ステージ 13" at buttonScrollRight:
-            text_size 35
-            xalign 2.0
-            yalign 0.5
-            action [SetVariable("stageName", "stage4_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage4_5cleared == True:
-        textbutton "ステージ 14" at buttonScrollRight:
-            text_size 35
-            xalign 2.15
-            yalign 0.5
-            action [SetVariable("stageName", "stage5_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage5_5cleared == True:
-        textbutton "ステージ 15" at buttonScrollRight:
-            text_size 35
-            xalign 2.30
-            yalign 0.5
-            action [SetVariable("stageName", "stage6_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage6_5cleared == True:
-        textbutton "ステージ 16" at buttonScrollRight:
-            text_size 35
-            xalign 2.45
-            yalign 0.5
-            action [SetVariable("stageName", "stage7_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage7_5cleared == True:
-        textbutton "ステージ 17" at buttonScrollRight:
-            text_size 35
-            xalign 2.60
-            yalign 0.5
-            action [SetVariable("stageName", "stage8_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-
-screen titleMenuButtonsRight2:
-    $ currentMenuButtonScreen = "titleMenuButtonsRight2"
-    if stage3_4cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
-            action [SetVariable("lastMenuButtonPosition", "stage4"), Show("titleMenuButtonsLeft3"), Hide("titleMenuButtonsRight2")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
-        action [SetVariable("lastMenuButtonPosition", "stage2"), Show("titleMenuButtonsRight1"), Hide("titleMenuButtonsRight2")]
-    textbutton "ステージ 1" at buttonScrollRight:
-        text_size 35
-        xalign 0.05
-        yalign 0.5
-        action [SetVariable("stageName", "start1"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage1_4cleared == True:
-        textbutton "ステージ 2" at buttonScrollRight:
-            text_size 35
-            xalign 0.20
-            yalign 0.5
-            action [SetVariable("stageName", "stage2_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage2_4cleared == True:
-        textbutton "ステージ 3" at buttonScrollRight:
-            text_size 35
-            xalign 0.35
-            yalign 0.5
-            action [SetVariable("stageName", "stage3_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage3_4cleared == True:
-        textbutton "ステージ 4" at buttonScrollRight:
-            text_size 35
-            xalign 0.5
-            yalign 0.5
-            action [SetVariable("stageName", "stage4_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage4_4cleared == True:
-        textbutton "ステージ 5" at buttonScrollRight:
-            text_size 35
-            xalign 0.65
-            yalign 0.5
-            action [SetVariable("stageName", "stage5_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage5_4cleared == True:
-        textbutton "ステージ 6" at buttonScrollRight:
-            text_size 35
-            xalign 0.8
-            yalign 0.5
-            action [SetVariable("stageName", "stage6_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage6_4cleared == True:
-        textbutton "ステージ 7" at buttonScrollRight:
-            text_size 35
-            xalign 0.95
-            yalign 0.5
-            action [SetVariable("stageName", "stage7_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage7_4cleared == True:
-        textbutton "ステージ 8" at buttonScrollRight:
-            text_size 35
-            xalign 1.1
-            yalign 0.5
-            action [SetVariable("stageName", "stage8_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage8_4cleared == True:
-        textbutton "ステージ 9" at buttonScrollRight:
-            text_size 35
-            xalign 1.25
-            yalign 0.5
-            action [SetVariable("stageName", "stage9_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage9_4cleared == True:
-        textbutton "ステージ 10" at buttonScrollRight:
-            text_size 35
-            xalign 1.40
-            yalign 0.5
-            action [SetVariable("stageName", "stage1_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage1_5cleared == True:
-        textbutton "ステージ 11" at buttonScrollRight:
-            text_size 35
-            xalign 1.55
-            yalign 0.5
-            action [SetVariable("stageName", "stage2_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage2_5cleared == True:
-        textbutton "ステージ 12" at buttonScrollRight:
-            text_size 35
-            xalign 1.70
-            yalign 0.5
-            action [SetVariable("stageName", "stage3_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage3_5cleared == True:
-        textbutton "ステージ 13" at buttonScrollRight:
-            text_size 35
-            xalign 1.85
-            yalign 0.5
-            action [SetVariable("stageName", "stage4_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage4_5cleared == True:
-        textbutton "ステージ 14" at buttonScrollRight:
-            text_size 35
-            xalign 2.0
-            yalign 0.5
-            action [SetVariable("stageName", "stage5_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage5_5cleared == True:
-        textbutton "ステージ 15" at buttonScrollRight:
-            text_size 35
-            xalign 2.15
-            yalign 0.5
-            action [SetVariable("stageName", "stage6_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage6_5cleared == True:
-        textbutton "ステージ 16" at buttonScrollRight:
-            text_size 35
-            xalign 2.30
-            yalign 0.5
-            action [SetVariable("stageName", "stage7_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage7_5cleared == True:
-        textbutton "ステージ 17" at buttonScrollRight:
-            text_size 35
-            xalign 2.45
-            yalign 0.5
-            action [SetVariable("stageName", "stage8_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-
-screen titleMenuButtonsRight3:
-    $ currentMenuButtonScreen = "titleMenuButtonsRight3"
-    if stage3_4cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
-            action [SetVariable("lastMenuButtonPosition", "stage5"), Show("titleMenuButtonsLeft4"), Hide("titleMenuButtonsRight3")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
-        action [SetVariable("lastMenuButtonPosition", "stage3"), Show("titleMenuButtonsRight2"), Hide("titleMenuButtonsRight3")]
-    textbutton "ステージ 1" at buttonScrollRight:
-        text_size 35
-        xalign -0.10
-        yalign 0.5
-        action [SetVariable("stageName", "start1"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage1_4cleared == True:
-        textbutton "ステージ 2" at buttonScrollRight:
-            text_size 35
-            xalign 0.05
-            yalign 0.5
-            action [SetVariable("stageName", "stage2_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage2_4cleared == True:
-        textbutton "ステージ 3" at buttonScrollRight:
-            text_size 35
-            xalign 0.20
-            yalign 0.5
-            action [SetVariable("stageName", "stage3_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage3_4cleared == True:
-        textbutton "ステージ 4" at buttonScrollRight:
-            text_size 35
-            xalign 0.35
-            yalign 0.5
-            action [SetVariable("stageName", "stage4_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage4_4cleared == True:
-        textbutton "ステージ 5" at buttonScrollRight:
-            text_size 35
-            xalign 0.50
-            yalign 0.5
-            action [SetVariable("stageName", "stage5_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage5_4cleared == True:
-        textbutton "ステージ 6" at buttonScrollRight:
-            text_size 35
-            xalign 0.65
-            yalign 0.5
-            action [SetVariable("stageName", "stage6_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage6_4cleared == True:
-        textbutton "ステージ 7" at buttonScrollRight:
-            text_size 35
-            xalign 0.8
-            yalign 0.5
-            action [SetVariable("stageName", "stage7_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage7_4cleared == True:
-        textbutton "ステージ 8" at buttonScrollRight:
-            text_size 35
-            xalign 0.95
-            yalign 0.5
-            action [SetVariable("stageName", "stage8_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage8_4cleared == True:
-        textbutton "ステージ 9" at buttonScrollRight:
-            text_size 35
-            xalign 1.1
-            yalign 0.5
-            action [SetVariable("stageName", "stage9_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage9_4cleared == True:
-        textbutton "ステージ 10" at buttonScrollRight:
-            text_size 35
-            xalign 1.25
-            yalign 0.5
-            action [SetVariable("stageName", "stage1_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage1_5cleared == True:
-        textbutton "ステージ 11" at buttonScrollRight:
-            text_size 35
-            xalign 1.40
-            yalign 0.5
-            action [SetVariable("stageName", "stage2_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage2_5cleared == True:
-        textbutton "ステージ 12" at buttonScrollRight:
-            text_size 35
-            xalign 1.55
-            yalign 0.5
-            action [SetVariable("stageName", "stage3_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage3_5cleared == True:
-        textbutton "ステージ 13" at buttonScrollRight:
-            text_size 35
-            xalign 1.70
-            yalign 0.5
-            action [SetVariable("stageName", "stage4_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage4_5cleared == True:
-        textbutton "ステージ 14" at buttonScrollRight:
-            text_size 35
-            xalign 1.85
-            yalign 0.5
-            action [SetVariable("stageName", "stage5_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage5_5cleared == True:
-        textbutton "ステージ 15" at buttonScrollRight:
-            text_size 35
-            xalign 2.0
-            yalign 0.5
-            action [SetVariable("stageName", "stage6_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage6_5cleared == True:
-        textbutton "ステージ 16" at buttonScrollRight:
-            text_size 35
-            xalign 2.15
-            yalign 0.5
-            action [SetVariable("stageName", "stage7_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage7_5cleared == True:
-        textbutton "ステージ 17" at buttonScrollRight:
-            text_size 35
-            xalign 2.30
-            yalign 0.5
-            action [SetVariable("stageName", "stage8_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-
-screen titleMenuButtonsRight4:
-    $ currentMenuButtonScreen = "titleMenuButtonsRight4"
-    if stage3_4cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
-            action [SetVariable("lastMenuButtonPosition", "stage6"), Show("titleMenuButtonsLeft5"), Hide("titleMenuButtonsRight4")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
-        action [SetVariable("lastMenuButtonPosition", "stage4"), Show("titleMenuButtonsRight3"), Hide("titleMenuButtonsRight4")]
-    textbutton "ステージ 1" at buttonScrollRight:
-        text_size 35
-        xalign -0.25
-        yalign 0.5
-        action [SetVariable("stageName", "start1"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage1_4cleared == True:
-        textbutton "ステージ 2" at buttonScrollRight:
-            text_size 35
-            xalign -0.10
-            yalign 0.5
-            action [SetVariable("stageName", "stage2_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage2_4cleared == True:
-        textbutton "ステージ 3" at buttonScrollRight:
-            text_size 35
-            xalign 0.05
-            yalign 0.5
-            action [SetVariable("stageName", "stage3_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage3_4cleared == True:
-        textbutton "ステージ 4" at buttonScrollRight:
-            text_size 35
-            xalign 0.20
-            yalign 0.5
-            action [SetVariable("stageName", "stage4_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage4_4cleared == True:
-        textbutton "ステージ 5" at buttonScrollRight:
-            text_size 35
-            xalign 0.35
-            yalign 0.5
-            action [SetVariable("stageName", "stage5_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage5_4cleared == True:
-        textbutton "ステージ 6" at buttonScrollRight:
-            text_size 35
-            xalign 0.5
-            yalign 0.5
-            action [SetVariable("stageName", "stage6_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage6_4cleared == True:
-        textbutton "ステージ 7" at buttonScrollRight:
-            text_size 35
-            xalign 0.65
-            yalign 0.5
-            action [SetVariable("stageName", "stage7_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage7_4cleared == True:
-        textbutton "ステージ 8" at buttonScrollRight:
-            text_size 35
-            xalign 0.80
-            yalign 0.5
-            action [SetVariable("stageName", "stage8_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage8_4cleared == True:
-        textbutton "ステージ 9" at buttonScrollRight:
-            text_size 35
-            xalign 0.95
-            yalign 0.5
-            action [SetVariable("stageName", "stage9_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage9_4cleared == True:
-        textbutton "ステージ 10" at buttonScrollRight:
-            text_size 35
-            xalign 1.1
-            yalign 0.5
-            action [SetVariable("stageName", "stage1_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage1_5cleared == True:
-        textbutton "ステージ 11" at buttonScrollRight:
-            text_size 35
-            xalign 1.25
-            yalign 0.5
-            action [SetVariable("stageName", "stage2_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage2_5cleared == True:
-        textbutton "ステージ 12" at buttonScrollRight:
-            text_size 35
-            xalign 1.40
-            yalign 0.5
-            action [SetVariable("stageName", "stage3_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage3_5cleared == True:
-        textbutton "ステージ 13" at buttonScrollRight:
-            text_size 35
-            xalign 1.55
-            yalign 0.5
-            action [SetVariable("stageName", "stage4_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage4_5cleared == True:
-        textbutton "ステージ 14" at buttonScrollRight:
-            text_size 35
-            xalign 1.70
-            yalign 0.5
-            action [SetVariable("stageName", "stage5_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage5_5cleared == True:
-        textbutton "ステージ 15" at buttonScrollRight:
-            text_size 35
-            xalign 1.85
-            yalign 0.5
-            action [SetVariable("stageName", "stage6_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage6_5cleared == True:
-        textbutton "ステージ 16" at buttonScrollRight:
-            text_size 35
-            xalign 2.0
-            yalign 0.5
-            action [SetVariable("stageName", "stage7_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage7_5cleared == True:
-        textbutton "ステージ 17" at buttonScrollRight:
-            text_size 35
-            xalign 2.15
-            yalign 0.5
-            action [SetVariable("stageName", "stage8_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-
-screen titleMenuButtonsRight5:
-    $ currentMenuButtonScreen = "titleMenuButtonsRight5"
-    if stage3_4cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
-            action [SetVariable("lastMenuButtonPosition", "stage7"), Show("titleMenuButtonsLeft8"), Hide("titleMenuButtonsRight5")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
-        action [SetVariable("lastMenuButtonPosition", "stage5"), Show("titleMenuButtonsRight4"), Hide("titleMenuButtonsRight5")]
-    textbutton "ステージ 1" at buttonScrollRight:
-        text_size 35
-        xalign -0.40
-        yalign 0.5
-        action [SetVariable("stageName", "start1"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage1_4cleared == True:
-        textbutton "ステージ 2" at buttonScrollRight:
-            text_size 35
-            xalign -0.25
-            yalign 0.5
-            action [SetVariable("stageName", "stage2_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage2_4cleared == True:
-        textbutton "ステージ 3" at buttonScrollRight:
-            text_size 35
-            xalign -0.10
-            yalign 0.5
-            action [SetVariable("stageName", "stage3_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage3_4cleared == True:
-        textbutton "ステージ 4" at buttonScrollRight:
-            text_size 35
-            xalign 0.05
-            yalign 0.5
-            action [SetVariable("stageName", "stage4_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage4_4cleared == True:
-        textbutton "ステージ 5" at buttonScrollRight:
-            text_size 35
-            xalign 0.20
-            yalign 0.5
-            action [SetVariable("stageName", "stage5_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage5_4cleared == True:
-        textbutton "ステージ 6" at buttonScrollRight:
-            text_size 35
-            xalign 0.35
-            yalign 0.5
-            action [SetVariable("stageName", "stage6_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage6_4cleared == True:
-        textbutton "ステージ 7" at buttonScrollRight:
-            text_size 35
-            xalign 0.50
-            yalign 0.5
-            action [SetVariable("stageName", "stage7_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage7_4cleared == True:
-        textbutton "ステージ 8" at buttonScrollRight:
-            text_size 35
-            xalign 0.65
-            yalign 0.5
-            action [SetVariable("stageName", "stage8_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage8_4cleared == True:
-        textbutton "ステージ 9" at buttonScrollRight:
-            text_size 35
-            xalign 0.80
-            yalign 0.5
-            action [SetVariable("stageName", "stage9_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage9_4cleared == True:
-        textbutton "ステージ 10" at buttonScrollRight:
-            text_size 35
-            xalign 0.95
-            yalign 0.5
-            action [SetVariable("stageName", "stage1_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage1_5cleared == True:
-        textbutton "ステージ 11" at buttonScrollRight:
-            text_size 35
-            xalign 1.1
-            yalign 0.5
-            action [SetVariable("stageName", "stage2_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage2_5cleared == True:
-        textbutton "ステージ 12" at buttonScrollRight:
-            text_size 35
-            xalign 1.25
-            yalign 0.5
-            action [SetVariable("stageName", "stage3_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage3_5cleared == True:
-        textbutton "ステージ 13" at buttonScrollRight:
-            text_size 35
-            xalign 1.40
-            yalign 0.5
-            action [SetVariable("stageName", "stage4_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage4_5cleared == True:
-        textbutton "ステージ 14" at buttonScrollRight:
-            text_size 35
-            xalign 1.55
-            yalign 0.5
-            action [SetVariable("stageName", "stage5_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage5_5cleared == True:
-        textbutton "ステージ 15" at buttonScrollRight:
-            text_size 35
-            xalign 1.70
-            yalign 0.5
-            action [SetVariable("stageName", "stage6_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage6_5cleared == True:
-        textbutton "ステージ 16" at buttonScrollRight:
-            text_size 35
-            xalign 1.85
-            yalign 0.5
-            action [SetVariable("stageName", "stage7_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage7_5cleared == True:
-        textbutton "ステージ 17" at buttonScrollRight:
-            text_size 35
-            xalign 2.0
-            yalign 0.5
-            action [SetVariable("stageName", "stage8_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-
-screen titleMenuButtonsRight6:
-    $ currentMenuButtonScreen = "titleMenuButtonsRight6"
-    if stage3_4cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
-            action [SetVariable("lastMenuButtonPosition", "stage8"), Show("titleMenuButtonsLeft7"), Hide("titleMenuButtonsRight6")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
-        action [SetVariable("lastMenuButtonPosition", "stage6"), Show("titleMenuButtonsRight5"), Hide("titleMenuButtonsRight6")]
-    textbutton "ステージ 1" at buttonScrollRight:
-        text_size 35
-        xalign -0.55
-        yalign 0.5
-        action [SetVariable("stageName", "start1"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage1_4cleared == True:
-        textbutton "ステージ 2" at buttonScrollRight:
-            text_size 35
-            xalign -0.40
-            yalign 0.5
-            action [SetVariable("stageName", "stage2_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage2_4cleared == True:
-        textbutton "ステージ 3" at buttonScrollRight:
-            text_size 35
-            xalign -0.25
-            yalign 0.5
-            action [SetVariable("stageName", "stage3_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage3_4cleared == True:
-        textbutton "ステージ 4" at buttonScrollRight:
-            text_size 35
-            xalign -0.10
-            yalign 0.5
-            action [SetVariable("stageName", "stage4_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage4_4cleared == True:
-        textbutton "ステージ 5" at buttonScrollRight:
-            text_size 35
-            xalign 0.05
-            yalign 0.5
-            action [SetVariable("stageName", "stage5_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage5_4cleared == True:
-        textbutton "ステージ 6" at buttonScrollRight:
-            text_size 35
-            xalign 0.20
-            yalign 0.5
-            action [SetVariable("stageName", "stage6_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage6_4cleared == True:
-        textbutton "ステージ 7" at buttonScrollRight:
-            text_size 35
-            xalign 0.35
-            yalign 0.5
-            action [SetVariable("stageName", "stage7_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage7_4cleared == True:
-        textbutton "ステージ 8" at buttonScrollRight:
-            text_size 35
-            xalign 0.50
-            yalign 0.5
-            action [SetVariable("stageName", "stage8_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage8_4cleared == True:
-        textbutton "ステージ 9" at buttonScrollRight:
-            text_size 35
-            xalign 0.65
-            yalign 0.5
-            action [SetVariable("stageName", "stage9_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage9_4cleared == True:
-        textbutton "ステージ 10" at buttonScrollRight:
-            text_size 35
-            xalign 0.80
-            yalign 0.5
-            action [SetVariable("stageName", "stage1_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage1_5cleared == True:
-        textbutton "ステージ 11" at buttonScrollRight:
-            text_size 35
-            xalign 0.95
-            yalign 0.5
-            action [SetVariable("stageName", "stage2_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage2_5cleared == True:
-        textbutton "ステージ 12" at buttonScrollRight:
-            text_size 35
-            xalign 1.1
-            yalign 0.5
-            action [SetVariable("stageName", "stage3_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage3_5cleared == True:
-        textbutton "ステージ 13" at buttonScrollRight:
-            text_size 35
-            xalign 1.25
-            yalign 0.5
-            action [SetVariable("stageName", "stage4_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage4_5cleared == True:
-        textbutton "ステージ 14" at buttonScrollRight:
-            text_size 35
-            xalign 1.40
-            yalign 0.5
-            action [SetVariable("stageName", "stage5_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage5_5cleared == True:
-        textbutton "ステージ 15" at buttonScrollRight:
-            text_size 35
-            xalign 1.55
-            yalign 0.5
-            action [SetVariable("stageName", "stage6_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage6_5cleared == True:
-        textbutton "ステージ 16" at buttonScrollRight:
-            text_size 35
-            xalign 1.70
-            yalign 0.5
-            action [SetVariable("stageName", "stage7_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage7_5cleared == True:
-        textbutton "ステージ 17" at buttonScrollRight:
-            text_size 35
-            xalign 1.85
-            yalign 0.5
-            action [SetVariable("stageName", "stage8_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-
-screen titleMenuButtonsRight7:
-    $ currentMenuButtonScreen = "titleMenuButtonsRight7"
-    if stage3_4cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
-            action [SetVariable("lastMenuButtonPosition", "stage9"), Show("titleMenuButtonsLeft8"), Hide("titleMenuButtonsRight7")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
-        action [SetVariable("lastMenuButtonPosition", "stage7"), Show("titleMenuButtonsRight6"), Hide("titleMenuButtonsRight7")]
-    textbutton "ステージ 1" at buttonScrollRight:
-        text_size 35
-        xalign -0.70
-        yalign 0.5
-        action [SetVariable("stageName", "start1"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage1_4cleared == True:
-        textbutton "ステージ 2" at buttonScrollRight:
-            text_size 35
-            xalign -0.55
-            yalign 0.5
-            action [SetVariable("stageName", "stage2_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage2_4cleared == True:
-        textbutton "ステージ 3" at buttonScrollRight:
-            text_size 35
-            xalign -0.40
-            yalign 0.5
-            action [SetVariable("stageName", "stage3_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage3_4cleared == True:
-        textbutton "ステージ 4" at buttonScrollRight:
-            text_size 35
-            xalign -0.25
-            yalign 0.5
-            action [SetVariable("stageName", "stage4_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage4_4cleared == True:
-        textbutton "ステージ 5" at buttonScrollRight:
-            text_size 35
-            xalign -0.10
-            yalign 0.5
-            action [SetVariable("stageName", "stage5_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage5_4cleared == True:
-        textbutton "ステージ 6" at buttonScrollRight:
-            text_size 35
-            xalign 0.05
-            yalign 0.5
-            action [SetVariable("stageName", "stage6_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage6_4cleared == True:
-        textbutton "ステージ 7" at buttonScrollRight:
-            text_size 35
-            xalign 0.20
-            yalign 0.5
-            action [SetVariable("stageName", "stage7_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage7_4cleared == True:
-        textbutton "ステージ 8" at buttonScrollRight:
-            text_size 35
-            xalign 0.35
-            yalign 0.5
-            action [SetVariable("stageName", "stage8_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage8_4cleared == True:
-        textbutton "ステージ 9" at buttonScrollRight:
-            text_size 35
-            xalign 0.50
-            yalign 0.5
-            action [SetVariable("stageName", "stage9_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage9_4cleared == True:
-        textbutton "ステージ 10" at buttonScrollRight:
-            text_size 35
-            xalign 0.65
-            yalign 0.5
-            action [SetVariable("stageName", "stage1_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage1_5cleared == True:
-        textbutton "ステージ 11" at buttonScrollRight:
-            text_size 35
-            xalign 0.8
-            yalign 0.5
-            action [SetVariable("stageName", "stage2_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage2_5cleared == True:
-        textbutton "ステージ 12" at buttonScrollRight:
-            text_size 35
-            xalign 0.95
-            yalign 0.5
-            action [SetVariable("stageName", "stage3_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage3_5cleared == True:
-        textbutton "ステージ 13" at buttonScrollRight:
-            text_size 35
-            xalign 1.1
-            yalign 0.5
-            action [SetVariable("stageName", "stage4_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage4_5cleared == True:
-        textbutton "ステージ 14" at buttonScrollRight:
-            text_size 35
-            xalign 1.25
-            yalign 0.5
-            action [SetVariable("stageName", "stage5_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage5_5cleared == True:
-        textbutton "ステージ 15" at buttonScrollRight:
-            text_size 35
-            xalign 1.40
-            yalign 0.5
-            action [SetVariable("stageName", "stage6_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage6_5cleared == True:
-        textbutton "ステージ 16" at buttonScrollRight:
-            text_size 35
-            xalign 1.55
-            yalign 0.5
-            action [SetVariable("stageName", "stage7_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage7_5cleared == True:
-        textbutton "ステージ 17" at buttonScrollRight:
-            text_size 35
-            xalign 1.70
-            yalign 0.5
-            action [SetVariable("stageName", "stage8_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-
-screen titleMenuButtonsRight8:
-    $ currentMenuButtonScreen = "titleMenuButtonsRight8"
-    if stage3_4cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
-            action [SetVariable("lastMenuButtonPosition", "stage10"), Show("titleMenuButtonsLeft9"), Hide("titleMenuButtonsRight8")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
-        action [SetVariable("lastMenuButtonPosition", "stage8"), Show("titleMenuButtonsRight7"), Hide("titleMenuButtonsRight8")]
-    textbutton "ステージ 1" at buttonScrollRight:
-        text_size 35
-        xalign -0.85
-        yalign 0.5
-        action [SetVariable("stageName", "start1"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage1_4cleared == True:
-        textbutton "ステージ 2" at buttonScrollRight:
-            text_size 35
-            xalign -0.70
-            yalign 0.5
-            action [SetVariable("stageName", "stage2_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage2_4cleared == True:
-        textbutton "ステージ 3" at buttonScrollRight:
-            text_size 35
-            xalign -0.55
-            yalign 0.5
-            action [SetVariable("stageName", "stage3_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage3_4cleared == True:
-        textbutton "ステージ 4" at buttonScrollRight:
-            text_size 35
-            xalign -0.40
-            yalign 0.5
-            action [SetVariable("stageName", "stage4_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage4_4cleared == True:
-        textbutton "ステージ 5" at buttonScrollRight:
-            text_size 35
-            xalign -0.25
-            yalign 0.5
-            action [SetVariable("stageName", "stage5_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage5_4cleared == True:
-        textbutton "ステージ 6" at buttonScrollRight:
-            text_size 35
-            xalign -0.1
-            yalign 0.5
-            action [SetVariable("stageName", "stage6_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage6_4cleared == True:
-        textbutton "ステージ 7" at buttonScrollRight:
-            text_size 35
-            xalign 0.05
-            yalign 0.5
-            action [SetVariable("stageName", "stage7_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage7_4cleared == True:
-        textbutton "ステージ 8" at buttonScrollRight:
-            text_size 35
-            xalign 0.20
-            yalign 0.5
-            action [SetVariable("stageName", "stage8_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage8_4cleared == True:
-        textbutton "ステージ 9" at buttonScrollRight:
-            text_size 35
-            xalign 0.35
-            yalign 0.5
-            action [SetVariable("stageName", "stage9_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage9_4cleared == True:
-        textbutton "ステージ 10" at buttonScrollRight:
-            text_size 35
-            xalign 0.50
-            yalign 0.5
-            action [SetVariable("stageName", "stage1_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage1_5cleared == True:
-        textbutton "ステージ 11" at buttonScrollRight:
-            text_size 35
-            xalign 0.65
-            yalign 0.5
-            action [SetVariable("stageName", "stage2_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage2_5cleared == True:
-        textbutton "ステージ 12" at buttonScrollRight:
-            text_size 35
-            xalign 0.80
-            yalign 0.5
-            action [SetVariable("stageName", "stage3_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage3_5cleared == True:
-        textbutton "ステージ 13" at buttonScrollRight:
-            text_size 35
-            xalign 0.95
-            yalign 0.5
-            action [SetVariable("stageName", "stage4_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage4_5cleared == True:
-        textbutton "ステージ 14" at buttonScrollRight:
-            text_size 35
-            xalign 1.1
-            yalign 0.5
-            action [SetVariable("stageName", "stage5_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage5_5cleared == True:
-        textbutton "ステージ 15" at buttonScrollRight:
-            text_size 35
-            xalign 1.25
-            yalign 0.5
-            action [SetVariable("stageName", "stage6_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage6_5cleared == True:
-        textbutton "ステージ 16" at buttonScrollRight:
-            text_size 35
-            xalign 1.40
-            yalign 0.5
-            action [SetVariable("stageName", "stage7_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage7_5cleared == True:
-        textbutton "ステージ 17" at buttonScrollRight:
-            text_size 35
-            xalign 1.55
-            yalign 0.5
-            action [SetVariable("stageName", "stage8_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-
-screen titleMenuButtonsRight9:
-    $ currentMenuButtonScreen = "titleMenuButtonsRight9"
-    if stage3_4cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
-            action [SetVariable("lastMenuButtonPosition", "stage11"), Show("titleMenuButtonsLeft10"), Hide("titleMenuButtonsRight9")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
-        action [SetVariable("lastMenuButtonPosition", "stage9"), Show("titleMenuButtonsRight8"), Hide("titleMenuButtonsRight9")]
-    textbutton "ステージ 1" at buttonScrollRight:
-        text_size 35
-        xalign -1.0
-        yalign 0.5
-        action [SetVariable("stageName", "start1"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage1_4cleared == True:
-        textbutton "ステージ 2" at buttonScrollRight:
-            text_size 35
-            xalign -0.85
-            yalign 0.5
-            action [SetVariable("stageName", "stage2_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage2_4cleared == True:
-        textbutton "ステージ 3" at buttonScrollRight:
-            text_size 35
-            xalign -0.70
-            yalign 0.5
-            action [SetVariable("stageName", "stage3_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage3_4cleared == True:
-        textbutton "ステージ 4" at buttonScrollRight:
-            text_size 35
-            xalign -0.55
-            yalign 0.5
-            action [SetVariable("stageName", "stage4_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage4_4cleared == True:
-        textbutton "ステージ 5" at buttonScrollRight:
-            text_size 35
-            xalign -0.40
-            yalign 0.5
-            action [SetVariable("stageName", "stage5_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage5_4cleared == True:
-        textbutton "ステージ 6" at buttonScrollRight:
-            text_size 35
-            xalign -0.25
-            yalign 0.5
-            action [SetVariable("stageName", "stage6_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage6_4cleared == True:
-        textbutton "ステージ 7" at buttonScrollRight:
-            text_size 35
-            xalign -0.1
-            yalign 0.5
-            action [SetVariable("stageName", "stage7_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage7_4cleared == True:
-        textbutton "ステージ 8" at buttonScrollRight:
-            text_size 35
-            xalign 0.05
-            yalign 0.5
-            action [SetVariable("stageName", "stage8_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage8_4cleared == True:
-        textbutton "ステージ 9" at buttonScrollRight:
-            text_size 35
-            xalign 0.20
-            yalign 0.5
-            action [SetVariable("stageName", "stage9_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage9_4cleared == True:
-        textbutton "ステージ 10" at buttonScrollRight:
-            text_size 35
-            xalign 0.35
-            yalign 0.5
-            action [SetVariable("stageName", "stage1_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage1_5cleared == True:
-        textbutton "ステージ 11" at buttonScrollRight:
-            text_size 35
-            xalign 0.50
-            yalign 0.5
-            action [SetVariable("stageName", "stage2_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage2_5cleared == True:
-        textbutton "ステージ 12" at buttonScrollRight:
-            text_size 35
-            xalign 0.65
-            yalign 0.5
-            action [SetVariable("stageName", "stage3_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage3_5cleared == True:
-        textbutton "ステージ 13" at buttonScrollRight:
-            text_size 35
-            xalign 0.80
-            yalign 0.5
-            action [SetVariable("stageName", "stage4_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage4_5cleared == True:
-        textbutton "ステージ 14" at buttonScrollRight:
-            text_size 35
-            xalign 0.95
-            yalign 0.5
-            action [SetVariable("stageName", "stage5_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage5_5cleared == True:
-        textbutton "ステージ 15" at buttonScrollRight:
-            text_size 35
-            xalign 1.1
-            yalign 0.5
-            action [SetVariable("stageName", "stage6_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage6_5cleared == True:
-        textbutton "ステージ 16" at buttonScrollRight:
-            text_size 35
-            xalign 1.25
-            yalign 0.5
-            action [SetVariable("stageName", "stage7_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage7_5cleared == True:
-        textbutton "ステージ 17" at buttonScrollRight:
-            text_size 35
-            xalign 1.40
-            yalign 0.5
-            action [SetVariable("stageName", "stage8_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-
-screen titleMenuButtonsRight10:
-    $ currentMenuButtonScreen = "titleMenuButtonsRight10"
-    if stage3_4cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
-            action [SetVariable("lastMenuButtonPosition", "stage12"), Show("titleMenuButtonsLeft11"), Hide("titleMenuButtonsRight10")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
-        action [SetVariable("lastMenuButtonPosition", "stage10"), Show("titleMenuButtonsRight9"), Hide("titleMenuButtonsRight10")]
-    textbutton "ステージ 1" at buttonScrollRight:
-        text_size 35
-        xalign -1.15
-        yalign 0.5
-        action [SetVariable("stageName", "start1"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage1_4cleared == True:
-        textbutton "ステージ 2" at buttonScrollRight:
-            text_size 35
-            xalign -1.0
-            yalign 0.5
-            action [SetVariable("stageName", "stage2_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage2_4cleared == True:
-        textbutton "ステージ 3" at buttonScrollRight:
-            text_size 35
-            xalign -0.85
-            yalign 0.5
-            action [SetVariable("stageName", "stage3_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage3_4cleared == True:
-        textbutton "ステージ 4" at buttonScrollRight:
-            text_size 35
-            xalign -0.70
-            yalign 0.5
-            action [SetVariable("stageName", "stage4_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage4_4cleared == True:
-        textbutton "ステージ 5" at buttonScrollRight:
-            text_size 35
-            xalign -0.55
-            yalign 0.5
-            action [SetVariable("stageName", "stage5_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage5_4cleared == True:
-        textbutton "ステージ 6" at buttonScrollRight:
-            text_size 35
-            xalign -0.40
-            yalign 0.5
-            action [SetVariable("stageName", "stage6_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage6_4cleared == True:
-        textbutton "ステージ 7" at buttonScrollRight:
-            text_size 35
-            xalign -0.25
-            yalign 0.5
-            action [SetVariable("stageName", "stage7_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage7_4cleared == True:
-        textbutton "ステージ 8" at buttonScrollRight:
-            text_size 35
-            xalign -0.10
-            yalign 0.5
-            action [SetVariable("stageName", "stage8_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage8_4cleared == True:
-        textbutton "ステージ 9" at buttonScrollRight:
-            text_size 35
-            xalign 0.05
-            yalign 0.5
-            action [SetVariable("stageName", "stage9_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage9_4cleared == True:
-        textbutton "ステージ 10" at buttonScrollRight:
-            text_size 35
-            xalign 0.20
-            yalign 0.5
-            action [SetVariable("stageName", "stage1_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage1_5cleared == True:
-        textbutton "ステージ 11" at buttonScrollRight:
-            text_size 35
-            xalign 0.35
-            yalign 0.5
-            action [SetVariable("stageName", "stage2_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage2_5cleared == True:
-        textbutton "ステージ 12" at buttonScrollRight:
-            text_size 35
-            xalign 0.50
-            yalign 0.5
-            action [SetVariable("stageName", "stage3_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage3_5cleared == True:
-        textbutton "ステージ 13" at buttonScrollRight:
-            text_size 35
-            xalign 0.65
-            yalign 0.5
-            action [SetVariable("stageName", "stage4_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage4_5cleared == True:
-        textbutton "ステージ 14" at buttonScrollRight:
-            text_size 35
-            xalign 0.80
-            yalign 0.5
-            action [SetVariable("stageName", "stage5_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage5_5cleared == True:
-        textbutton "ステージ 15" at buttonScrollRight:
-            text_size 35
-            xalign 0.95
-            yalign 0.5
-            action [SetVariable("stageName", "stage6_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage6_5cleared == True:
-        textbutton "ステージ 16" at buttonScrollRight:
-            text_size 35
-            xalign 1.1
-            yalign 0.5
-            action [SetVariable("stageName", "stage7_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage7_5cleared == True:
-        textbutton "ステージ 17" at buttonScrollRight:
-            text_size 35
-            xalign 1.25
-            yalign 0.5
-            action [SetVariable("stageName", "stage8_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-
-screen titleMenuButtonsRight11:
-    $ currentMenuButtonScreen = "titleMenuButtonsRight11"
-    if stage3_4cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
-            action [SetVariable("lastMenuButtonPosition", "stage13"), Show("titleMenuButtonsLeft12"), Hide("titleMenuButtonsRight11")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
-        action [SetVariable("lastMenuButtonPosition", "stage11"), Show("titleMenuButtonsRight10"), Hide("titleMenuButtonsRight11")]
-    textbutton "ステージ 1" at buttonScrollRight:
-        text_size 35
-        xalign -1.30
-        yalign 0.5
-        action [SetVariable("stageName", "start1"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage1_4cleared == True:
-        textbutton "ステージ 2" at buttonScrollRight:
-            text_size 35
-            xalign -1.15
-            yalign 0.5
-            action [SetVariable("stageName", "stage2_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage2_4cleared == True:
-        textbutton "ステージ 3" at buttonScrollRight:
-            text_size 35
-            xalign -1.0
-            yalign 0.5
-            action [SetVariable("stageName", "stage3_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage3_4cleared == True:
-        textbutton "ステージ 4" at buttonScrollRight:
-            text_size 35
-            xalign -0.85
-            yalign 0.5
-            action [SetVariable("stageName", "stage4_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage4_4cleared == True:
-        textbutton "ステージ 5" at buttonScrollRight:
-            text_size 35
-            xalign -0.70
-            yalign 0.5
-            action [SetVariable("stageName", "stage5_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage5_4cleared == True:
-        textbutton "ステージ 6" at buttonScrollRight:
-            text_size 35
-            xalign -0.55
-            yalign 0.5
-            action [SetVariable("stageName", "stage6_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage6_4cleared == True:
-        textbutton "ステージ 7" at buttonScrollRight:
-            text_size 35
-            xalign -0.40
-            yalign 0.5
-            action [SetVariable("stageName", "stage7_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage7_4cleared == True:
-        textbutton "ステージ 8" at buttonScrollRight:
-            text_size 35
-            xalign -0.25
-            yalign 0.5
-            action [SetVariable("stageName", "stage8_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage8_4cleared == True:
-        textbutton "ステージ 9" at buttonScrollRight:
-            text_size 35
-            xalign -0.10
-            yalign 0.5
-            action [SetVariable("stageName", "stage9_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage9_4cleared == True:
-        textbutton "ステージ 10" at buttonScrollRight:
-            text_size 35
-            xalign 0.05
-            yalign 0.5
-            action [SetVariable("stageName", "stage1_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage1_5cleared == True:
-        textbutton "ステージ 11" at buttonScrollRight:
-            text_size 35
-            xalign 0.20
-            yalign 0.5
-            action [SetVariable("stageName", "stage2_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage2_5cleared == True:
-        textbutton "ステージ 12" at buttonScrollRight:
-            text_size 35
-            xalign 0.35
-            yalign 0.5
-            action [SetVariable("stageName", "stage3_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage3_5cleared == True:
-        textbutton "ステージ 13" at buttonScrollRight:
-            text_size 35
-            xalign 0.50
-            yalign 0.5
-            action [SetVariable("stageName", "stage4_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage4_5cleared == True:
-        textbutton "ステージ 14" at buttonScrollRight:
-            text_size 35
-            xalign 0.65
-            yalign 0.5
-            action [SetVariable("stageName", "stage5_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage5_5cleared == True:
-        textbutton "ステージ 15" at buttonScrollRight:
-            text_size 35
-            xalign 0.80
-            yalign 0.5
-            action [SetVariable("stageName", "stage6_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage6_5cleared == True:
-        textbutton "ステージ 16" at buttonScrollRight:
-            text_size 35
-            xalign 0.95
-            yalign 0.5
-            action [SetVariable("stageName", "stage7_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage7_5cleared == True:
-        textbutton "ステージ 17" at buttonScrollRight:
-            text_size 35
-            xalign 1.1
-            yalign 0.5
-            action [SetVariable("stageName", "stage8_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-
-screen titleMenuButtonsRight12:
-    $ currentMenuButtonScreen = "titleMenuButtonsRight12"
-    if stage3_4cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
-            action [SetVariable("lastMenuButtonPosition", "stage14"), Show("titleMenuButtonsLeft13"), Hide("titleMenuButtonsRight12")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
-        action [SetVariable("lastMenuButtonPosition", "stage12"), Show("titleMenuButtonsRight11"), Hide("titleMenuButtonsRight12")]
-    textbutton "ステージ 1" at buttonScrollRight:
-        text_size 35
-        xalign -1.45
-        yalign 0.5
-        action [SetVariable("stageName", "start1"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage1_4cleared == True:
-        textbutton "ステージ 2" at buttonScrollRight:
-            text_size 35
-            xalign -1.30
-            yalign 0.5
-            action [SetVariable("stageName", "stage2_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage2_4cleared == True:
-        textbutton "ステージ 3" at buttonScrollRight:
-            text_size 35
-            xalign -1.15
-            yalign 0.5
-            action [SetVariable("stageName", "stage3_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage3_4cleared == True:
-        textbutton "ステージ 4" at buttonScrollRight:
-            text_size 35
-            xalign -1.0
-            yalign 0.5
-            action [SetVariable("stageName", "stage4_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage4_4cleared == True:
-        textbutton "ステージ 5" at buttonScrollRight:
-            text_size 35
-            xalign -0.85
-            yalign 0.5
-            action [SetVariable("stageName", "stage5_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage5_4cleared == True:
-        textbutton "ステージ 6" at buttonScrollRight:
-            text_size 35
-            xalign -0.70
-            yalign 0.5
-            action [SetVariable("stageName", "stage6_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage6_4cleared == True:
-        textbutton "ステージ 7" at buttonScrollRight:
-            text_size 35
-            xalign -0.55
-            yalign 0.5
-            action [SetVariable("stageName", "stage7_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage7_4cleared == True:
-        textbutton "ステージ 8" at buttonScrollRight:
-            text_size 35
-            xalign -0.40
-            yalign 0.5
-            action [SetVariable("stageName", "stage8_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage8_4cleared == True:
-        textbutton "ステージ 9" at buttonScrollRight:
-            text_size 35
-            xalign -0.25
-            yalign 0.5
-            action [SetVariable("stageName", "stage9_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage9_4cleared == True:
-        textbutton "ステージ 10" at buttonScrollRight:
-            text_size 35
-            xalign -0.1
-            yalign 0.5
-            action [SetVariable("stageName", "stage1_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage1_5cleared == True:
-        textbutton "ステージ 11" at buttonScrollRight:
-            text_size 35
-            xalign 0.05
-            yalign 0.5
-            action [SetVariable("stageName", "stage2_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage2_5cleared == True:
-        textbutton "ステージ 12" at buttonScrollRight:
-            text_size 35
-            xalign 0.20
-            yalign 0.5
-            action [SetVariable("stageName", "stage3_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage3_5cleared == True:
-        textbutton "ステージ 13" at buttonScrollRight:
-            text_size 35
-            xalign 0.35
-            yalign 0.5
-            action [SetVariable("stageName", "stage4_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage4_5cleared == True:
-        textbutton "ステージ 14" at buttonScrollRight:
-            text_size 35
-            xalign 0.50
-            yalign 0.5
-            action [SetVariable("stageName", "stage5_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage5_5cleared == True:
-        textbutton "ステージ 15" at buttonScrollRight:
-            text_size 35
-            xalign 0.65
-            yalign 0.5
-            action [SetVariable("stageName", "stage6_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage6_5cleared == True:
-        textbutton "ステージ 16" at buttonScrollRight:
-            text_size 35
-            xalign 0.80
-            yalign 0.5
-            action [SetVariable("stageName", "stage7_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage7_5cleared == True:
-        textbutton "ステージ 17" at buttonScrollRight:
-            text_size 35
-            xalign 0.95
-            yalign 0.5
-            action [SetVariable("stageName", "stage8_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-
-screen titleMenuButtonsRight13:
-    $ currentMenuButtonScreen = "titleMenuButtonsRight13"
-    if stage3_4cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
-            action [SetVariable("lastMenuButtonPosition", "stage15"), Show("titleMenuButtonsRight14"), Hide("titleMenuButtonsRight13")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
-        action [SetVariable("lastMenuButtonPosition", "stage13"), Show("titleMenuButtonsRight12"), Hide("titleMenuButtonsRight13")]
-    textbutton "ステージ 1" at buttonScrollRight:
-        text_size 35
-        xalign -1.60
-        yalign 0.5
-        action [SetVariable("stageName", "start1"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage1_4cleared == True:
-        textbutton "ステージ 2" at buttonScrollRight:
-            text_size 35
-            xalign -1.45
-            yalign 0.5
-            action [SetVariable("stageName", "stage2_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage2_4cleared == True:
-        textbutton "ステージ 3" at buttonScrollRight:
-            text_size 35
-            xalign -1.30
-            yalign 0.5
-            action [SetVariable("stageName", "stage3_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage3_4cleared == True:
-        textbutton "ステージ 4" at buttonScrollRight:
-            text_size 35
-            xalign -1.15
-            yalign 0.5
-            action [SetVariable("stageName", "stage4_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage4_4cleared == True:
-        textbutton "ステージ 5" at buttonScrollRight:
-            text_size 35
-            xalign -1.0
-            yalign 0.5
-            action [SetVariable("stageName", "stage5_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage5_4cleared == True:
-        textbutton "ステージ 6" at buttonScrollRight:
-            text_size 35
-            xalign -0.85
-            yalign 0.5
-            action [SetVariable("stageName", "stage6_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage6_4cleared == True:
-        textbutton "ステージ 7" at buttonScrollRight:
-            text_size 35
-            xalign -0.70
-            yalign 0.5
-            action [SetVariable("stageName", "stage7_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage7_4cleared == True:
-        textbutton "ステージ 8" at buttonScrollRight:
-            text_size 35
-            xalign -0.55
-            yalign 0.5
-            action [SetVariable("stageName", "stage8_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage8_4cleared == True:
-        textbutton "ステージ 9" at buttonScrollRight:
-            text_size 35
-            xalign -0.40
-            yalign 0.5
-            action [SetVariable("stageName", "stage9_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage9_4cleared == True:
-        textbutton "ステージ 10" at buttonScrollRight:
-            text_size 35
-            xalign -0.25
-            yalign 0.5
-            action [SetVariable("stageName", "stage1_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage1_5cleared == True:
-        textbutton "ステージ 11" at buttonScrollRight:
-            text_size 35
-            xalign -0.10
-            yalign 0.5
-            action [SetVariable("stageName", "stage2_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage2_5cleared == True:
-        textbutton "ステージ 12" at buttonScrollRight:
-            text_size 35
-            xalign 0.05
-            yalign 0.5
-            action [SetVariable("stageName", "stage3_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage3_5cleared == True:
-        textbutton "ステージ 13" at buttonScrollRight:
-            text_size 35
-            xalign 0.20
-            yalign 0.5
-            action [SetVariable("stageName", "stage4_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage4_5cleared == True:
-        textbutton "ステージ 14" at buttonScrollRight:
-            text_size 35
-            xalign 0.35
-            yalign 0.5
-            action [SetVariable("stageName", "stage5_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage5_5cleared == True:
-        textbutton "ステージ 15" at buttonScrollRight:
-            text_size 35
-            xalign 0.50
-            yalign 0.5
-            action [SetVariable("stageName", "stage6_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage6_5cleared == True:
-        textbutton "ステージ 16" at buttonScrollRight:
-            text_size 35
-            xalign 0.65
-            yalign 0.5
-            action [SetVariable("stageName", "stage7_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage7_5cleared == True:
-        textbutton "ステージ 17" at buttonScrollRight:
-            text_size 35
-            xalign 0.80
-            yalign 0.5
-            action [SetVariable("stageName", "stage8_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-
-screen titleMenuButtonsRight14:
-    $ currentMenuButtonScreen = "titleMenuButtonsRight14"
-    if stage3_4cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
-            action [SetVariable("lastMenuButtonPosition", "stage16"), Show("titleMenuButtonsLeft15"), Hide("titleMenuButtonsRight14")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
-        action [SetVariable("lastMenuButtonPosition", "stage14"), Show("titleMenuButtonsRight13"), Hide("titleMenuButtonsRight14")]
-    textbutton "ステージ 1" at buttonScrollRight:
-        text_size 35
-        xalign -1.75
-        yalign 0.5
-        action [SetVariable("stageName", "start1"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage1_4cleared == True:
-        textbutton "ステージ 2" at buttonScrollRight:
-            text_size 35
-            xalign -1.60
-            yalign 0.5
-            action [SetVariable("stageName", "stage2_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage2_4cleared == True:
-        textbutton "ステージ 3" at buttonScrollRight:
-            text_size 35
-            xalign -1.45
-            yalign 0.5
-            action [SetVariable("stageName", "stage3_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage3_4cleared == True:
-        textbutton "ステージ 4" at buttonScrollRight:
-            text_size 35
-            xalign -1.30
-            yalign 0.5
-            action [SetVariable("stageName", "stage4_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage4_4cleared == True:
-        textbutton "ステージ 5" at buttonScrollRight:
-            text_size 35
-            xalign -1.15
-            yalign 0.5
-            action [SetVariable("stageName", "stage5_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage5_4cleared == True:
-        textbutton "ステージ 6" at buttonScrollRight:
-            text_size 35
-            xalign -1.0
-            yalign 0.5
-            action [SetVariable("stageName", "stage6_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage6_4cleared == True:
-        textbutton "ステージ 7" at buttonScrollRight:
-            text_size 35
-            xalign -0.85
-            yalign 0.5
-            action [SetVariable("stageName", "stage7_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage7_4cleared == True:
-        textbutton "ステージ 8" at buttonScrollRight:
-            text_size 35
-            xalign -0.70
-            yalign 0.5
-            action [SetVariable("stageName", "stage8_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage8_4cleared == True:
-        textbutton "ステージ 9" at buttonScrollRight:
-            text_size 35
-            xalign -0.55
-            yalign 0.5
-            action [SetVariable("stageName", "stage9_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage9_4cleared == True:
-        textbutton "ステージ 10" at buttonScrollRight:
-            text_size 35
-            xalign -0.40
-            yalign 0.5
-            action [SetVariable("stageName", "stage1_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage1_5cleared == True:
-        textbutton "ステージ 11" at buttonScrollRight:
-            text_size 35
-            xalign -0.25
-            yalign 0.5
-            action [SetVariable("stageName", "stage2_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage2_5cleared == True:
-        textbutton "ステージ 12" at buttonScrollRight:
-            text_size 35
-            xalign -0.10
-            yalign 0.5
-            action [SetVariable("stageName", "stage3_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage3_5cleared == True:
-        textbutton "ステージ 13" at buttonScrollRight:
-            text_size 35
-            xalign 0.05
-            yalign 0.5
-            action [SetVariable("stageName", "stage4_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage4_5cleared == True:
-        textbutton "ステージ 14" at buttonScrollRight:
-            text_size 35
-            xalign 0.20
-            yalign 0.5
-            action [SetVariable("stageName", "stage5_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage5_5cleared == True:
-        textbutton "ステージ 15" at buttonScrollRight:
-            text_size 35
-            xalign 0.35
-            yalign 0.5
-            action [SetVariable("stageName", "stage6_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage6_5cleared == True:
-        textbutton "ステージ 16" at buttonScrollRight:
-            text_size 35
-            xalign 0.50
-            yalign 0.5
-            action [SetVariable("stageName", "stage7_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage7_5cleared == True:
-        textbutton "ステージ 17" at buttonScrollRight:
-            text_size 35
-            xalign 0.65
-            yalign 0.5
-            action [SetVariable("stageName", "stage8_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-
-screen titleMenuButtonsRight15:
-    $ currentMenuButtonScreen = "titleMenuButtonsRight15"
-    if stage3_4cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
-            action [SetVariable("lastMenuButtonPosition", "stage17"), Show("titleMenuButtonsLeft16"), Hide("titleMenuButtonsRight15")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
-        action [SetVariable("lastMenuButtonPosition", "stage15"), Show("titleMenuButtonsRight14"), Hide("titleMenuButtonsRight15")]
-    textbutton "ステージ 1" at buttonScrollRight:
-        text_size 35
-        xalign -1.60
-        yalign 0.5
-        action [SetVariable("stageName", "start1"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage1_4cleared == True:
-        textbutton "ステージ 2" at buttonScrollRight:
-            text_size 35
-            xalign -1.45
-            yalign 0.5
-            action [SetVariable("stageName", "stage2_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage2_4cleared == True:
-        textbutton "ステージ 3" at buttonScrollRight:
-            text_size 35
-            xalign -1.30
-            yalign 0.5
-            action [SetVariable("stageName", "stage3_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage3_4cleared == True:
-        textbutton "ステージ 4" at buttonScrollRight:
-            text_size 35
-            xalign -1.15
-            yalign 0.5
-            action [SetVariable("stageName", "stage4_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage4_4cleared == True:
-        textbutton "ステージ 5" at buttonScrollRight:
-            text_size 35
-            xalign -1.0
-            yalign 0.5
-            action [SetVariable("stageName", "stage5_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage5_4cleared == True:
-        textbutton "ステージ 6" at buttonScrollRight:
-            text_size 35
-            xalign -0.85
-            yalign 0.5
-            action [SetVariable("stageName", "stage6_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage6_4cleared == True:
-        textbutton "ステージ 7" at buttonScrollRight:
-            text_size 35
-            xalign -0.70
-            yalign 0.5
-            action [SetVariable("stageName", "stage7_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage7_4cleared == True:
-        textbutton "ステージ 8" at buttonScrollRight:
-            text_size 35
-            xalign -0.55
-            yalign 0.5
-            action [SetVariable("stageName", "stage8_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage8_4cleared == True:
-        textbutton "ステージ 9" at buttonScrollRight:
-            text_size 35
-            xalign -0.40
-            yalign 0.5
-            action [SetVariable("stageName", "stage9_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage9_4cleared == True:
-        textbutton "ステージ 10" at buttonScrollRight:
-            text_size 35
-            xalign -0.25
-            yalign 0.5
-            action [SetVariable("stageName", "stage1_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage1_5cleared == True:
-        textbutton "ステージ 11" at buttonScrollRight:
-            text_size 35
-            xalign -0.10
-            yalign 0.5
-            action [SetVariable("stageName", "stage2_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage2_5cleared == True:
-        textbutton "ステージ 12" at buttonScrollRight:
-            text_size 35
-            xalign 0.05
-            yalign 0.5
-            action [SetVariable("stageName", "stage3_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage3_5cleared == True:
-        textbutton "ステージ 13" at buttonScrollRight:
-            text_size 35
-            xalign 0.20
-            yalign 0.5
-            action [SetVariable("stageName", "stage4_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage4_5cleared == True:
-        textbutton "ステージ 14" at buttonScrollRight:
-            text_size 35
-            xalign 0.35
-            yalign 0.5
-            action [SetVariable("stageName", "stage5_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage5_5cleared == True:
-        textbutton "ステージ 15" at buttonScrollRight:
-            text_size 35
-            xalign 0.50
-            yalign 0.5
-            action [SetVariable("stageName", "stage6_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage6_5cleared == True:
-        textbutton "ステージ 16" at buttonScrollRight:
-            text_size 35
-            xalign 0.65
-            yalign 0.5
-            action [SetVariable("stageName", "stage7_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
-    if stage7_5cleared == True:
-        textbutton "ステージ 17" at buttonScrollRight:
-            text_size 35
-            xalign 0.80
-            yalign 0.5
-            action [SetVariable("stageName", "stage8_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
