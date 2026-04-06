@@ -188,10 +188,6 @@ screen titleMenuButtons:
             xalign 0.25
             yalign 0.9
             action [SetVariable("lastMenuButtonPosition", "stage2"), Show("titleMenuButtonsLeft1"), Hide("titleMenuButtons")]
-#    textbutton "Right":
-#        text_size 35
-#        xalign 0.75
-#        yalign 0.9
     textbutton "ステージ 1":
         text_size 35
         xalign 0.5
@@ -293,6 +289,60 @@ screen titleMenuButtons:
             xalign 2.90
             yalign 0.5
             action [SetVariable("stageName", "stage8_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
+    if stage8_5cleared == True:
+        textbutton "ステージ 18":
+            text_size 35
+            xalign 3.05
+            yalign 0.5
+            action [SetVariable("stageName", "stage1_6"), Hide(currentMenuButtonScreen), Jump("initStage")]
+    if stage1_6cleared == True:
+        textbutton "ステージ 19":
+            text_size 35
+            xalign 3.20
+            yalign 0.5
+            action [SetVariable("stageName", "stage2_6"), Hide(currentMenuButtonScreen), Jump("initStage")]
+    if stage2_6cleared == True:
+        textbutton "ステージ 20":
+            text_size 35
+            xalign 3.35
+            yalign 0.5
+            action [SetVariable("stageName", "stage3_6"), Hide(currentMenuButtonScreen), Jump("initStage")]
+    if stage3_6cleared == True:
+        textbutton "ステージ 21":
+            text_size 35
+            xalign 3.50
+            yalign 0.5
+            action [SetVariable("stageName", "stage4_6"), Hide(currentMenuButtonScreen), Jump("initStage")]
+    if stage4_6cleared == True:
+        textbutton "ステージ 22":
+            text_size 35
+            xalign 3.65
+            yalign 0.5
+            action [SetVariable("stageName", "stage5_6"), Hide(currentMenuButtonScreen), Jump("initStage")]
+    if stage5_6cleared == True:
+        textbutton "ステージ 23":
+            text_size 35
+            xalign 3.80
+            yalign 0.5
+            action [SetVariable("stageName", "stage6_6"), Hide(currentMenuButtonScreen), Jump("initStage")]
+    if stage6_6cleared == True:
+        textbutton "ステージ 24":
+            text_size 35
+            xalign 3.95
+            yalign 0.5
+            action [SetVariable("stageName", "stage7_6"), Hide(currentMenuButtonScreen), Jump("initStage")]
+    if stage7_6cleared == True:
+        textbutton "ステージ 25":
+            text_size 35
+            xalign 4.10
+            yalign 0.5
+            action [SetVariable("stageName", "stage8_6"), Hide(currentMenuButtonScreen), Jump("initStage")]
+    if stage8_6cleared == True:
+        textbutton "ステージ 26":
+            text_size 35
+            xalign 4.25
+            yalign 0.5
+            action [SetVariable("stageName", "stage9_6"), Hide(currentMenuButtonScreen), Jump("initStage")]
 
 
 label initStage:
@@ -405,24 +455,33 @@ screen stage_screen(sentences, correct, current_stage):
 #             textbutton "もう一度" xalign 0.5 action [Hide("failure_notification"), Jump(current_stage)]
 
 label home:
-    if returnFromStage != True:
-        $ stage1Buttonxalign = 0.5
-        $ stage2Buttonxalign = 0.65
-        $ stage3Buttonxalign = 0.8
-        $ stage4Buttonxalign = 0.95
-        $ stage5Buttonxalign = 1.1
-        $ stage6Buttonxalign = 1.25
-        $ stage7Buttonxalign = 1.40
-        $ stage8Buttonxalign = 1.55
-        $ stage9Buttonxalign = 1.70
-        $ stage10Buttonxalign = 1.85
-        $ stage11Buttonxalign = 2.0
-        $ stage12Buttonxalign = 2.15
-        $ stage13Buttonxalign = 2.30
-        $ stage14Buttonxalign = 2.45
-        $ stage15Buttonxalign = 2.60
-        $ stage16Buttonxalign = 2.75
-        $ stage17Buttonxalign = 2.90
+#    if returnFromStage != True:
+#        $ stage1Buttonxalign = 0.5
+#        $ stage2Buttonxalign = 0.65
+#        $ stage3Buttonxalign = 0.8
+#        $ stage4Buttonxalign = 0.95
+#        $ stage5Buttonxalign = 1.1
+#        $ stage6Buttonxalign = 1.25
+#        $ stage7Buttonxalign = 1.40
+#        $ stage8Buttonxalign = 1.55
+#        $ stage9Buttonxalign = 1.70
+#        $ stage10Buttonxalign = 1.85
+#        $ stage11Buttonxalign = 2.0
+#        $ stage12Buttonxalign = 2.15
+#        $ stage13Buttonxalign = 2.30
+#        $ stage14Buttonxalign = 2.45
+#        $ stage15Buttonxalign = 2.60
+#        $ stage16Buttonxalign = 2.75
+#        $ stage17Buttonxalign = 2.90
+#        $ stage18Buttonxalign = 3.05
+#        $ stage19Buttonxalign = 3.20
+#        $ stage20Buttonxalign = 3.35
+#        $ stage21Buttonxalign = 3.50
+#        $ stage22Buttonxalign = 3.65
+#        $ stage23Buttonxalign = 3.80
+#        $ stage24Buttonxalign = 3.95
+#        $ stage25Buttonxalign = 4.10
+#        $ stage26Buttonxalign = 4.25
     show screen home_screen
     if lastMenuButtonPosition == "stage1":
         call screen titleMenuButtons
@@ -458,6 +517,24 @@ label home:
         call screen titleMenuButtons15
     if lastMenuButtonPosition == "stage17":
         call screen titleMenuButtons16
+    if lastMenuButtonPosition == "stage18":
+        call screen titleMenuButtons17
+    if lastMenuButtonPosition == "stage19":
+        call screen titleMenuButtons18
+    if lastMenuButtonPosition == "stage20":
+        call screen titleMenuButtons19
+    if lastMenuButtonPosition == "stage21":
+        call screen titleMenuButtons20
+    if lastMenuButtonPosition == "stage22":
+        call screen titleMenuButtons21
+    if lastMenuButtonPosition == "stage23":
+        call screen titleMenuButtons22
+    if lastMenuButtonPosition == "stage24":
+        call screen titleMenuButtons23
+    if lastMenuButtonPosition == "stage25":
+        call screen titleMenuButtons24
+    if lastMenuButtonPosition == "stage26":
+        call screen titleMenuButtons25
     else:
         call screen titleMenuButtons
 #    call screen home_screen
@@ -465,23 +542,32 @@ label home:
 label start:
     $ lastMenuButtonPosition = False
     $ returnFromStage = False
-    $ stage1_4cleared = True
-    $ stage2_4cleared = True
-    $ stage3_4cleared = True
-    $ stage4_4cleared = True
-    $ stage5_4cleared = True
-    $ stage6_4cleared = True
-    $ stage7_4cleared = True
-    $ stage8_4cleared = True
-    $ stage9_4cleared = True
-    $ stage1_5cleared = True
-    $ stage2_5cleared = True
-    $ stage3_5cleared = True
-    $ stage4_5cleared = True
-    $ stage5_5cleared = True
-    $ stage6_5cleared = True
-    $ stage7_5cleared = True
-    $ stage8_5cleared = True
+    $ stage1_4cleared = False
+    $ stage2_4cleared = False
+    $ stage3_4cleared = False
+    $ stage4_4cleared = False
+    $ stage5_4cleared = False
+    $ stage6_4cleared = False
+    $ stage7_4cleared = False
+    $ stage8_4cleared = False
+    $ stage9_4cleared = False
+    $ stage1_5cleared = False
+    $ stage2_5cleared = False
+    $ stage3_5cleared = False
+    $ stage4_5cleared = False
+    $ stage5_5cleared = False
+    $ stage6_5cleared = False
+    $ stage7_5cleared = False
+    $ stage8_5cleared = False
+    $ stage1_6cleared = False
+    $ stage2_6cleared = False
+    $ stage3_6cleared = False
+    $ stage4_6cleared = False
+    $ stage5_6cleared = False
+    $ stage6_6cleared = False
+    $ stage7_6cleared = False
+    $ stage8_6cleared = False
+    $ stage9_6cleared = False
     scene bg blured
     show bg blured at bg_full
 
