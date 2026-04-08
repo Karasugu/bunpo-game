@@ -9,7 +9,7 @@ label stage1_4:
     "2019年以来、この会社で働いています。"]
     $ correct = 0
     $ current_stage = "stage1_4"
-    $ explanation = "「来年高校を卒業して以来」という表現はおかしいです。〜以来文型では、{color=#ff0000}すでに起きたこと{/color}である必要があります。「来年卒業する」はまだ起きていない未来のこと、そうだろうｘｘ先生。"
+    $ explanation = "「来年高校を卒業して以来」という表現はおかしいです。〜以来の文型では、{color=#ff0000}すでに起きたこと{/color}である必要があります。「来年卒業する」はまだ起きていない未来のこと、そうだろうｘｘ先生。"
     $ sentence_index = 0
     call screen stage_screen(sentences, correct, current_stage)
 
@@ -24,7 +24,7 @@ label stage2_4:
     "最近、物価が上がっているような気がする。"]
     $ correct = 3
     $ current_stage = "stage2_4"
-    $ explanation = "「雨なような気がする」という表現はおかしいですよ。名詞に〜ような気がするをつける場合、{color=#ff0000}の形にする{/color}必要があります。「雨なような」ではなく「雨のような」が正しいですよ、ｘｘ先生。"
+    $ explanation = "「雨なような気がする」という表現はおかしいですよ。名詞に〜ような気がするをつける場合、{color=#ff0000}助詞を「の」にする{/color}必要があります。「雨なような」ではなく「雨のような」が正しいですよ、ｘｘ先生。"
     $ sentence_index = 0
     call screen stage_screen(sentences, correct, current_stage)
 
@@ -38,7 +38,7 @@ label stage3_4:
     "せっかく来てくれたんだから、ゆっくりしていってください。"]
     $ correct = 2
     $ current_stage = "stage3_4"
-    $ explanation = "「せっかくで」という表現はおかしいです。せっかくの後に文が続く場合、{color=#ff0000}助詞をつけてはいけません{/color}。「せっかく＋文」の形が正しいので、「せっかくで」ではなく「せっかく毎日〜」とするべきです、そうだろうｘｘ先生。"
+    $ explanation = "「せっかくで」という表現はおかしいです。せっかくの後に文が続く場合、{color=#ff0000}助詞をつけてはいけません{/color}。「せっかく＋文」の形が正しいので、「せっかくで」ではなく「せっかく毎日〜」にするべきです、そうだろうｘｘ先生。"
     $ sentence_index = 0
     call screen stage_screen(sentences, correct, current_stage)
 
@@ -52,7 +52,7 @@ label stage4_4:
     "時間さえあれば、その本を読みたいです。"]
     $ correct = 1
     $ current_stage = "stage4_4"
-    $ explanation = "「タイ語さえ」という表現はおかしいです。〜さえ文型では、{color=#ff0000}一番低い基準（きじゅん）{/color}を取り上げる必要があります。外国語学習においてタイ語は最も簡単なものとは言えないので、この文は不自然ですよ、ｘｘ先生。"
+    $ explanation = "「タイ語さえ」という表現はおかしいです。〜さえの文型では、{color=#ff0000}一番低い基準（きじゅん）{/color}である必要があります。外国語学習においてタイ語は最も簡単なものとは言えないので、この文は不自然ですよ、ｘｘ先生。"
     $ sentence_index = 0
     call screen stage_screen(sentences, correct, current_stage)
 
@@ -67,7 +67,7 @@ label stage5_4:
     "このスマホは昨日買ったばかりです。"]
     $ correct = 2
     $ current_stage = "stage5_4"
-    $ explanation = "「三年前に入ったばかりです」という表現はおかしいです。〜たばかり文型では、{color=#ff0000}つい最近起きたこと{/color}を表す必要があります。吸血鬼にとって三年前は最近だろうが、僕たち人間にとって三年前はとても最近だとは言えないじゃないですか。"
+    $ explanation = "「三年前に入ったばかりです」という表現はおかしいです。〜たばかりの文型では、{color=#ff0000}つい最近起きたこと{/color}を表す必要があります。吸血鬼にとって三年前は最近だろうが、僕たち人間にとって三年前はとても最近だとは言えないじゃないですか。"
     $ sentence_index = 0
     call screen stage_screen(sentences, correct, current_stage)
 
@@ -82,7 +82,7 @@ label stage6_4:
     "彼が手伝ってくれたので、一人でやらずに済みました。"]
     $ correct = 0
     $ current_stage = "stage6_4"
-    $ explanation = "「行かないで済みたいです」という表現はおかしいです。〜ないで済む文型は、{color=#ff0000}結果{/color}として何かを{color=#ff0000}しなくてよくなったこと{/color}を表します。「〜たい」をつけて願望を表すことはできないので、この文は不自然です、ｘｘ先生。"
+    $ explanation = "「行かないで済みたいです」という表現はおかしいです。〜ないで済むの文型は、{color=#ff0000}結果{/color}として何かを{color=#ff0000}しなくてもよくなったこと{/color}を表します。「〜たい」をつけて願望を表すことはできないので、この文は不自然です、ｘｘ先生。"
     $ sentence_index = 0
     call screen stage_screen(sentences, correct, current_stage)
 
@@ -97,7 +97,7 @@ label stage7_4:
     "彼は兄ほど背が高くない。"]
     $ correct = 3
     $ current_stage = "stage7_4"
-    $ explanation = "「日本はカナダほど大きくない」という表現はおかしいです。〜ほど〜ない文型では、比べる二つのものが{color=#ff0000}同じくらい{/color}のレベルである必要があります。カナダと日本の大きさは明らかに差がありすぎるので、この文は不自然です、そうだろうｘｘ先生。"
+    $ explanation = "「日本はカナダほど大きくない」という表現はおかしいです。〜ほど〜ないの文型では、比べる二つのものが{color=#ff0000}同じくらい{/color}のレベルである必要があります。カナダと日本の大きさは明らかに差がありすぎるので、この文は不自然です、そうだろうｘｘ先生。"
     $ sentence_index = 0
     call screen stage_screen(sentences, correct, current_stage)
 
@@ -112,7 +112,7 @@ label stage8_4:
     "今日は祝日だから、銀行が閉まっているわけだ。"]
     $ correct = 0
     $ current_stage = "stage8_4"
-    $ explanation = "「明日雨が降るわけだ」という表現はおかしいです。わけだ文型では、{color=#ff0000}不思議に思っていたことの理由がわかった時{/color}に使います。天気予報は理由を発見する状況ではなく、ただの予測なので、この文は不自然ですよ、ｘｘ先生。"
+    $ explanation = "「明日雨が降るわけだ」という表現はおかしいです。～わけだの文型では、{color=#ff0000}不思議に思っていたことの理由がわかった時{/color}に使います。天気予報は理由を発見する状況ではなく、ただの予測なので、この文は不自然ですよ、ｘｘ先生。"
     $ sentence_index = 0
     call screen stage_screen(sentences, correct, current_stage)
 
@@ -126,6 +126,6 @@ label stage9_4:
     "明日寝坊しなければ行くのに。"]
     $ correct = 4
     $ current_stage = "stage9_4"
-    $ explanation = "「明日寝坊しなければ行くのに」という表現はおかしいです。〜ば〜のに文型では、{color=#ff0000}自分でコントロールできない{/color}ことである必要があります。明日寝坊するかどうかは別にコントロールできないわけじゃないですから、この文は不自然です、そうだろうｘｘ先生。"
+    $ explanation = "「明日寝坊しなければ行くのに」という表現はおかしいです。〜ば〜のにの文型では、{color=#ff0000}自分でコントロールできない{/color}ことである必要があります。明日寝坊するかどうかは別にコントロールできないわけじゃないですから、この文は不自然です、そうだろうｘｘ先生。"
     $ sentence_index = 0
     call screen stage_screen(sentences, correct, current_stage)

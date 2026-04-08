@@ -9,7 +9,7 @@ label stage1_5:
     "この料理、どこの国に行ってもあります。"]
     $ correct = 2
     $ current_stage = "stage1_5"
-    $ explanation = "「どう見ても」という表現はおかしいです。〜ても文型では、前半の条件が後半の結果に{color=#ff0000}関係{/color}している必要があります。料理の見た目と味は直接関係がないので、この文は不自然です。"
+    $ explanation = "「どう見ても」という表現はおかしいです。〜てもの文型では、前半の条件が後半の結果に{color=#ff0000}関係{/color}している必要があります。料理の見た目と味は直接関係がないので、この文は不自然です。"
     $ sentence_index = 0
     call screen stage_screen(sentences, correct, current_stage)
 
@@ -24,7 +24,7 @@ label stage2_5:
     "このレストランに行くたびに、つい同じものを注文してしまいます。"]
     $ correct = 1
     $ current_stage = "stage2_5"
-    $ explanation = "〜たびに文型では、後半は{color=#ff0000}自然{/color}と起こる結果や感情である必要があります。テレビを見るのは意識的な行動なので、この文は不自然です。"
+    $ explanation = "〜たびにの文型では、後半は{color=#ff0000}自然{/color}と起こる結果や感情である必要があります。テレビを見るのは意識的な行動なので、この文は不自然です。"
     $ sentence_index = 0
     call screen stage_screen(sentences, correct, current_stage)
 
@@ -52,7 +52,7 @@ label stage4_5:
     "遅くなったので、友達が帰っておきました。"]
     $ correct = 4
     $ current_stage = "stage4_5"
-    $ explanation = "「友達が帰っておきました」という表現はおかしいです。〜ておくは、何かに{color=#ff0000}備えて事前{/color}に行動することを表します。しかし「遅くなったので」は結果を表すので、準備の意味と合いません。"
+    $ explanation = "「友達が帰っておきました」という表現はおかしいです。〜ておくは、何かに{color=#ff0000}備えて事前{/color}に準備の行動をすることを表します。しかし「遅くなったので」は結果を表すので、準備の意味と合いません。"
     $ sentence_index = 0
     call screen stage_screen(sentences, correct, current_stage)
 
@@ -67,7 +67,7 @@ label stage5_5:
     "教室が遠すぎて、走っても間に合いません。"]
     $ correct = 1
     $ current_stage = "stage5_5"
-    $ explanation = "（もし）〜ても文型では、後半は前半の条件から{color=#ff0000}予想外（よそうがい）{/color}のことを表す必要があります。雨の日に家でゲームをするのは普通のことなので、この文はおかしいです。"
+    $ explanation = "（もし）〜てもの文型では、後半は前半の条件から{color=#ff0000}予想外（よそうがい）{/color}のことを表す必要があります。雨の日に家でゲームをするのは普通のことなので、この文はおかしいです。"
     $ sentence_index = 0
     call screen stage_screen(sentences, correct, current_stage)
 
@@ -82,7 +82,7 @@ label stage6_5:
     "かぜを引かないように、暖かいジャケットを着ます。"]
     $ correct = 2
     $ current_stage = "stage6_5"
-    $ explanation = "「先生の声が聞けるように」という表現はおかしいです。〜ように文型では、前半には話し手の意志で{color=#ff0000}コントロールできない{/color}動詞を使う必要があります。「聞ける」は意志でコントロールできる動詞なので、「聞こえる」を使うべきです。"
+    $ explanation = "「先生の声が聞けるように」という表現はおかしいです。〜ようにの文型では、前半には話し手の意志で{color=#ff0000}コントロールできない{/color}動詞を使う必要があります。「聞ける」は意志でコントロールできる動詞なので、「聞こえる」を使うべきです。"
     $ sentence_index = 0
     call screen stage_screen(sentences, correct, current_stage)
 
@@ -97,7 +97,7 @@ label stage7_5:
     "週末、友達と出かけることにする予定です。"]
     $ correct = 4
     $ current_stage = "stage7_5"
-    $ explanation = "「ことにする予定です」という表現はおかしいです。ことにするはすでに{color=#ff0000}決めた{/color}ことを表し、予定ですはこれからの計画を表します。二つを一緒に使うと意味が重なってしまうので、不自然です。"
+    $ explanation = "「ことにする予定です」という表現はおかしいです。「ことにする」はすでに{color=#ff0000}何かを決める{/color}ことを表しているので、「予定です」と一緒に使うと意味が重なってしまうので、不自然です。"
     $ sentence_index = 0
     call screen stage_screen(sentences, correct, current_stage)
 
@@ -112,7 +112,7 @@ label stage8_5:
     "バンクーバーは公園が多いだけあって、空気がきれいです。"]
     $ correct = 1
     $ current_stage = "stage8_5"
-    $ explanation = "「いつも込んでいるだけあって」という表現はおかしいです。〜だけあって文型では、前半には{color=#ff0000}ポジティブ{/color}な評価や特徴が来る必要があります。「いつも込んでいる」は良いことではないので、この文は不自然です。"
+    $ explanation = "「いつも込んでいるだけあって」という表現はおかしいです。〜だけあっての文型では、前半には{color=#ff0000}ポジティブ{/color}な評価や特徴が来るのが一般的です。「いつも込んでいる」は客からするとあまり良いことではないので、この文は不自然です。"
     $ sentence_index = 0
     call screen stage_screen(sentences, correct, current_stage)
 

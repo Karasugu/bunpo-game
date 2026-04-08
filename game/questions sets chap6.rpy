@@ -9,7 +9,7 @@ label stage1_6:
     "行きたくないわけじゃないけど、本当に忙しくて..."]
     $ correct = 0
     $ current_stage = "stage1_6"
-    $ explanation = "「遊びたいわけではない」はおかしいです。「わけではない」は{color=#ff0000}普通そう思われそうなことを否定{/color}する表現です。「よく家でゲームをする」なら「外で遊びたくない」が自然な流れなので、「遊びたくないわけではない」にしましょう、先生～。"
+    $ explanation = "「遊びたいわけではない」はおかしいです。「わけではない」は{color=#ff0000}普通そう思われそうなことを否定{/color}する表現です。「よく家でゲームをする」なら「外で遊びたくない」が自然な流れなので、「遊びたくないわけではない」であるべきです、先生。"
     $ sentence_index = 0
     call screen stage_screen(sentences, correct, current_stage)
 
@@ -112,7 +112,7 @@ label stage8_6:
     "運動しすぎて、足が取れるほどだ。"]
     $ correct = 3
     $ current_stage = "stage8_6"
-    $ explanation = "「泣くほど悲しい」はおかしいです。「〜ほど」は{color=#ff0000}大げさ{/color}にする表現です。悲しくて泣くのは普通なことですよ、先生。"
+    $ explanation = "「泣くほど悲しい」はおかしいです。「〜ほど」は{color=#ff0000}大げさ{/color}にする表現です。悲しくて泣くのは普通のことですよ、先生。"
     $ sentence_index = 0
     call screen stage_screen(sentences, correct, current_stage)
 
@@ -126,5 +126,5 @@ label stage9_6:
     "わざわざ持ってきたので、ぜひ召し上がってください。"]
     $ correct = 4
     $ current_stage = "stage9_6"
-    $ explanation = "「わざわざ～、ぜひ～」はおかしいです。「わざわざ」は{color=#ff0000}頑張りをアピールする{/color}ときに使いますので、「やってあげたのに」みたいな感じに聞こえてしまいます。だからぜひと一緒に使いませんですよ、先生。"
+    $ explanation = "「わざわざ～、ぜひ～」はおかしいです。「わざわざ」は{color=#ff0000}頑張りをアピールする{/color}ときに使うので、「わざわざ」の偉そうな感じと「ぜひ」のおすすめの感じを一緒に使いませんよ、先生。"
     call screen stage_screen(sentences, correct, current_stage)
