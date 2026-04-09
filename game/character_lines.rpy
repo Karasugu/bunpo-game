@@ -115,23 +115,24 @@ label choose_right:
     if stageName == "stage8_5":
         $ stage8_5cleared = True
     if stageName == "stage1_6":
-        $ stage1_5cleared = True
+        $ stage1_6cleared = True
     if stageName == "stage2_6":
-        $ stage2_5cleared = True
+        $ stage2_6cleared = True
     if stageName == "stage3_6":
-        $ stage3_5cleared = True
+        $ stage3_6cleared = True
     if stageName == "stage4_6":
-        $ stage4_5cleared = True
+        $ stage4_6cleared = True
     if stageName == "stage5_6":
-        $ stage5_5cleared = True
+        $ stage5_6cleared = True
     if stageName == "stage6_6":
-        $ stage6_5cleared = True
+        $ stage6_6cleared = True
     if stageName == "stage7_6":
-        $ stage7_5cleared = True
+        $ stage7_6cleared = True
     if stageName == "stage8_6":
-        $ stage8_5cleared = True
+        $ stage8_6cleared = True
     if stageName == "stage9_6":
-        $ stage8_5cleared = True
+        $ stage9_6cleared = True
+        jump END
     $ returnFromStage = True
 
     jump home
