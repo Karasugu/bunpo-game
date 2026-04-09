@@ -183,10 +183,10 @@ screen titleMenuButtons:
     $ currentMenuButtonScreen = "titleMenuButtons"
     $ lastMenuButtonPosition = "stage1"
     if stage1_4cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage2"), Show("titleMenuButtonsLeft1"), Hide("titleMenuButtons")]
     textbutton "ステージ 1":
         text_size 35

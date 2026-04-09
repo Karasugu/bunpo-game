@@ -7,15 +7,15 @@
 screen titleMenuButtonsLeft1:
     $ currentMenuButtonScreen = "titleMenuButtonsLeft1"
     if stage2_4cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage3"), Show("titleMenuButtonsLeft2"), Hide("titleMenuButtonsLeft1")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage1"), Show("titleMenuButtonsRight"), Hide("titleMenuButtonsLeft1")]
     textbutton "ステージ 1" at buttonScrollLeft:
         text_size 35
@@ -176,15 +176,15 @@ screen titleMenuButtonsLeft1:
 screen titleMenuButtonsLeft2:
     $ currentMenuButtonScreen = "titleMenuButtonsLeft2"
     if stage3_4cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage4"), Show("titleMenuButtonsLeft3"), Hide("titleMenuButtonsLeft2")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage2"), Show("titleMenuButtonsRight1"), Hide("titleMenuButtonsLeft2")]
     textbutton "ステージ 1" at buttonScrollLeft:
         text_size 35
@@ -345,15 +345,15 @@ screen titleMenuButtonsLeft2:
 screen titleMenuButtonsLeft3:
     $ currentMenuButtonScreen = "titleMenuButtonsLeft3"
     if stage4_4cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage5"), Show("titleMenuButtonsLeft4"), Hide("titleMenuButtonsLeft3")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage3"), Show("titleMenuButtonsRight2"), Hide("titleMenuButtonsLeft3")]
     textbutton "ステージ 1" at buttonScrollLeft:
         text_size 35
@@ -514,15 +514,15 @@ screen titleMenuButtonsLeft3:
 screen titleMenuButtonsLeft4:
     $ currentMenuButtonScreen = "titleMenuButtonsLeft4"
     if stage5_4cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage6"), Show("titleMenuButtonsLeft5"), Hide("titleMenuButtonsLeft4")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage4"), Show("titleMenuButtonsRight3"), Hide("titleMenuButtonsLeft4")]
     textbutton "ステージ 1" at buttonScrollLeft:
         text_size 35
@@ -683,15 +683,15 @@ screen titleMenuButtonsLeft4:
 screen titleMenuButtonsLeft5:
     $ currentMenuButtonScreen = "titleMenuButtonsLeft5"
     if stage6_4cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage7"), Show("titleMenuButtonsLeft6"), Hide("titleMenuButtonsLeft5")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage5"), Show("titleMenuButtonsRight4"), Hide("titleMenuButtonsLeft5")]
     textbutton "ステージ 1" at buttonScrollLeft:
         text_size 35
@@ -852,15 +852,15 @@ screen titleMenuButtonsLeft5:
 screen titleMenuButtonsLeft6:
     $ currentMenuButtonScreen = "titleMenuButtonsLeft6"
     if stage7_4cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage8"), Show("titleMenuButtonsLeft7"), Hide("titleMenuButtonsLeft6")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage6"), Show("titleMenuButtonsRight5"), Hide("titleMenuButtonsLeft6")]
     textbutton "ステージ 1" at buttonScrollLeft:
         text_size 35
@@ -1021,15 +1021,15 @@ screen titleMenuButtonsLeft6:
 screen titleMenuButtonsLeft7:
     $ currentMenuButtonScreen = "titleMenuButtonsLeft7"
     if stage8_4cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage9"), Show("titleMenuButtonsLeft8"), Hide("titleMenuButtonsLeft7")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage7"), Show("titleMenuButtonsRight6"), Hide("titleMenuButtonsLeft7")]
     textbutton "ステージ 1" at buttonScrollLeft:
         text_size 35
@@ -1190,15 +1190,15 @@ screen titleMenuButtonsLeft7:
 screen titleMenuButtonsLeft8:
     $ currentMenuButtonScreen = "titleMenuButtonsLeft8"
     if stage9_4cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage10"), Show("titleMenuButtonsLeft9"), Hide("titleMenuButtonsLeft8")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage8"), Show("titleMenuButtonsRight7"), Hide("titleMenuButtonsLeft8")]
     textbutton "ステージ 1" at buttonScrollLeft:
         text_size 35
@@ -1359,15 +1359,15 @@ screen titleMenuButtonsLeft8:
 screen titleMenuButtonsLeft9:
     $ currentMenuButtonScreen = "titleMenuButtonsLeft9"
     if stage1_5cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage11"), Show("titleMenuButtonsLeft10"), Hide("titleMenuButtonsLeft9")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage9"), Show("titleMenuButtonsRight8"), Hide("titleMenuButtonsLeft9")]
     textbutton "ステージ 1" at buttonScrollLeft:
         text_size 35
@@ -1528,15 +1528,15 @@ screen titleMenuButtonsLeft9:
 screen titleMenuButtonsLeft10:
     $ currentMenuButtonScreen = "titleMenuButtonsLeft10"
     if stage2_5cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage12"), Show("titleMenuButtonsLeft11"), Hide("titleMenuButtonsLeft10")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage10"), Show("titleMenuButtonsRight9"), Hide("titleMenuButtonsLeft10")]
     textbutton "ステージ 1" at buttonScrollLeft:
         text_size 35
@@ -1697,15 +1697,15 @@ screen titleMenuButtonsLeft10:
 screen titleMenuButtonsLeft11:
     $ currentMenuButtonScreen = "titleMenuButtonsLeft11"
     if stage3_5cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage13"), Show("titleMenuButtonsLeft12"), Hide("titleMenuButtonsLeft11")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage11"), Show("titleMenuButtonsRight10"), Hide("titleMenuButtonsLeft11")]
     textbutton "ステージ 1" at buttonScrollLeft:
         text_size 35
@@ -1866,15 +1866,15 @@ screen titleMenuButtonsLeft11:
 screen titleMenuButtonsLeft12:
     $ currentMenuButtonScreen = "titleMenuButtonsLeft12"
     if stage4_5cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage14"), Show("titleMenuButtonsLeft13"), Hide("titleMenuButtonsLeft12")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage12"), Show("titleMenuButtonsRight11"), Hide("titleMenuButtonsLeft12")]
     textbutton "ステージ 1" at buttonScrollLeft:
         text_size 35
@@ -2035,15 +2035,15 @@ screen titleMenuButtonsLeft12:
 screen titleMenuButtonsLeft13:
     $ currentMenuButtonScreen = "titleMenuButtonsLeft13"
     if stage5_5cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage15"), Show("titleMenuButtonsLeft14"), Hide("titleMenuButtonsLeft13")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage13"), Show("titleMenuButtonsRight12"), Hide("titleMenuButtonsLeft13")]
     textbutton "ステージ 1" at buttonScrollLeft:
         text_size 35
@@ -2204,15 +2204,15 @@ screen titleMenuButtonsLeft13:
 screen titleMenuButtonsLeft14:
     $ currentMenuButtonScreen = "titleMenuButtonsLeft14"
     if stage6_5cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage16"), Show("titleMenuButtonsLeft15"), Hide("titleMenuButtonsLeft14")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage14"), Show("titleMenuButtonsRight13"), Hide("titleMenuButtonsLeft14")]
     textbutton "ステージ 1" at buttonScrollLeft:
         text_size 35
@@ -2373,15 +2373,15 @@ screen titleMenuButtonsLeft14:
 screen titleMenuButtonsLeft15:
     $ currentMenuButtonScreen = "titleMenuButtonsLeft15"
     if stage7_5cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage17"), Show("titleMenuButtonsLeft16"), Hide("titleMenuButtonsLeft15")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage15"), Show("titleMenuButtonsRight14"), Hide("titleMenuButtonsLeft15")]
     textbutton "ステージ 1" at buttonScrollLeft:
         text_size 35
@@ -2542,15 +2542,15 @@ screen titleMenuButtonsLeft15:
 screen titleMenuButtonsLeft16:
     $ currentMenuButtonScreen = "titleMenuButtonsLeft16"
     if stage8_5cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage18"), Show("titleMenuButtonsLeft17"), Hide("titleMenuButtonsLeft16")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage16"), Show("titleMenuButtonsRight15"), Hide("titleMenuButtonsLeft16")]
     textbutton "ステージ 1" at buttonScrollLeft:
         text_size 35
@@ -2711,15 +2711,15 @@ screen titleMenuButtonsLeft16:
 screen titleMenuButtonsLeft17:
     $ currentMenuButtonScreen = "titleMenuButtonsLeft17"
     if stage1_6cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage19"), Show("titleMenuButtonsLeft18"), Hide("titleMenuButtonsLeft17")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage17"), Show("titleMenuButtonsRight16"), Hide("titleMenuButtonsLeft17")]
     textbutton "ステージ 1" at buttonScrollLeft:
         text_size 35
@@ -2880,15 +2880,15 @@ screen titleMenuButtonsLeft17:
 screen titleMenuButtonsLeft18:
     $ currentMenuButtonScreen = "titleMenuButtonsLeft18"
     if stage2_6cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage20"), Show("titleMenuButtonsLeft19"), Hide("titleMenuButtonsLeft18")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage18"), Show("titleMenuButtonsRight17"), Hide("titleMenuButtonsLeft18")]
     textbutton "ステージ 1" at buttonScrollLeft:
         text_size 35
@@ -3049,15 +3049,15 @@ screen titleMenuButtonsLeft18:
 screen titleMenuButtonsLeft19:
     $ currentMenuButtonScreen = "titleMenuButtonsLeft19"
     if stage3_6cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage21"), Show("titleMenuButtonsLeft20"), Hide("titleMenuButtonsLeft19")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage19"), Show("titleMenuButtonsRight18"), Hide("titleMenuButtonsLeft19")]
     textbutton "ステージ 1" at buttonScrollLeft:
         text_size 35
@@ -3218,15 +3218,15 @@ screen titleMenuButtonsLeft19:
 screen titleMenuButtonsLeft20:
     $ currentMenuButtonScreen = "titleMenuButtonsLeft20"
     if stage4_6cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage22"), Show("titleMenuButtonsLeft21"), Hide("titleMenuButtonsLeft20")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage20"), Show("titleMenuButtonsRight19"), Hide("titleMenuButtonsLeft20")]
     textbutton "ステージ 1" at buttonScrollLeft:
         text_size 35
@@ -3387,15 +3387,15 @@ screen titleMenuButtonsLeft20:
 screen titleMenuButtonsLeft21:
     $ currentMenuButtonScreen = "titleMenuButtonsLeft21"
     if stage5_6cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage23"), Show("titleMenuButtonsLeft22"), Hide("titleMenuButtonsLeft21")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage21"), Show("titleMenuButtonsRight20"), Hide("titleMenuButtonsLeft21")]
     textbutton "ステージ 1" at buttonScrollLeft:
         text_size 35
@@ -3556,15 +3556,15 @@ screen titleMenuButtonsLeft21:
 screen titleMenuButtonsLeft22:
     $ currentMenuButtonScreen = "titleMenuButtonsLeft22"
     if stage6_6cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage24"), Show("titleMenuButtonsLeft23"), Hide("titleMenuButtonsLeft22")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage22"), Show("titleMenuButtonsRight21"), Hide("titleMenuButtonsLeft22")]
     textbutton "ステージ 1" at buttonScrollLeft:
         text_size 35
@@ -3725,15 +3725,15 @@ screen titleMenuButtonsLeft22:
 screen titleMenuButtonsLeft23:
     $ currentMenuButtonScreen = "titleMenuButtonsLeft23"
     if stage7_6cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage25"), Show("titleMenuButtonsLeft24"), Hide("titleMenuButtonsLeft23")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage23"), Show("titleMenuButtonsRight22"), Hide("titleMenuButtonsLeft23")]
     textbutton "ステージ 1" at buttonScrollLeft:
         text_size 35
@@ -3894,15 +3894,15 @@ screen titleMenuButtonsLeft23:
 screen titleMenuButtonsLeft24:
     $ currentMenuButtonScreen = "titleMenuButtonsLeft24"
     if stage8_6cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage26"), Show("titleMenuButtonsLeft25"), Hide("titleMenuButtonsLeft24")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage24"), Show("titleMenuButtonsRight23"), Hide("titleMenuButtonsLeft24")]
     textbutton "ステージ 1" at buttonScrollLeft:
         text_size 35
@@ -4062,10 +4062,10 @@ screen titleMenuButtonsLeft24:
 
 screen titleMenuButtonsLeft25:
     $ currentMenuButtonScreen = "titleMenuButtonsLeft25"
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage25"), Show("titleMenuButtonsRight24"), Hide("titleMenuButtonsLeft25")]
     textbutton "ステージ 1" at buttonScrollLeft:
         text_size 35
@@ -4230,15 +4230,15 @@ screen titleMenuButtonsLeft25:
 screen titleMenuButtons1:
     $ currentMenuButtonScreen = "titleMenuButtons1"
     if stage2_4cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage3"), Show("titleMenuButtonsLeft2"), Hide("titleMenuButtons1")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage1"), Show("titleMenuButtonsRight"), Hide("titleMenuButtons1")]
     textbutton "ステージ 1":
         text_size 35
@@ -4399,15 +4399,15 @@ screen titleMenuButtons1:
 screen titleMenuButtons2:
     $ currentMenuButtonScreen = "titleMenuButtons2"
     if stage3_4cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage4"), Show("titleMenuButtonsLeft3"), Hide("titleMenuButtons2")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage2"), Show("titleMenuButtonsRight1"), Hide("titleMenuButtons2")]
     textbutton "ステージ 1":
         text_size 35
@@ -4568,15 +4568,15 @@ screen titleMenuButtons2:
 screen titleMenuButtons3:
     $ currentMenuButtonScreen = "titleMenuButtons3"
     if stage4_4cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage5"), Show("titleMenuButtonsLeft4"), Hide("titleMenuButtons3")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage3"), Show("titleMenuButtonsRight2"), Hide("titleMenuButtons3")]
     textbutton "ステージ 1":
         text_size 35
@@ -4737,15 +4737,15 @@ screen titleMenuButtons3:
 screen titleMenuButtons4:
     $ currentMenuButtonScreen = "titleMenuButtons4"
     if stage5_4cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage6"), Show("titleMenuButtonsLeft5"), Hide("titleMenuButtons4")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage4"), Show("titleMenuButtonsRight3"), Hide("titleMenuButtons4")]
     textbutton "ステージ 1":
         text_size 35
@@ -4906,15 +4906,15 @@ screen titleMenuButtons4:
 screen titleMenuButtons5:
     $ currentMenuButtonScreen = "titleMenuButtons5"
     if stage6_4cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage7"), Show("titleMenuButtonsLeft6"), Hide("titleMenuButtons5")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage5"), Show("titleMenuButtonsRight4"), Hide("titleMenuButtons5")]
     textbutton "ステージ 1":
         text_size 35
@@ -5075,15 +5075,15 @@ screen titleMenuButtons5:
 screen titleMenuButtons6:
     $ currentMenuButtonScreen = "titleMenuButtons6"
     if stage7_4cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage8"), Show("titleMenuButtonsLeft7"), Hide("titleMenuButtons6")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage6"), Show("titleMenuButtonsRight5"), Hide("titleMenuButtons6")]
     textbutton "ステージ 1":
         text_size 35
@@ -5244,15 +5244,15 @@ screen titleMenuButtons6:
 screen titleMenuButtons7:
     $ currentMenuButtonScreen = "titleMenuButtons7"
     if stage8_4cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage9"), Show("titleMenuButtonsLeft8"), Hide("titleMenuButtons7")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage7"), Show("titleMenuButtonsRight6"), Hide("titleMenuButtons7")]
     textbutton "ステージ 1":
         text_size 35
@@ -5413,15 +5413,15 @@ screen titleMenuButtons7:
 screen titleMenuButtons8:
     $ currentMenuButtonScreen = "titleMenuButtons8"
     if stage9_4cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage10"), Show("titleMenuButtonsLeft9"), Hide("titleMenuButtons8")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage8"), Show("titleMenuButtonsRight7"), Hide("titleMenuButtons8")]
     textbutton "ステージ 1":
         text_size 35
@@ -5582,15 +5582,15 @@ screen titleMenuButtons8:
 screen titleMenuButtons9:
     $ currentMenuButtonScreen = "titleMenuButtons9"
     if stage1_5cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage11"), Show("titleMenuButtonsLeft10"), Hide("titleMenuButtons9")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage9"), Show("titleMenuButtonsRight8"), Hide("titleMenuButtons9")]
     textbutton "ステージ 1":
         text_size 35
@@ -5751,15 +5751,15 @@ screen titleMenuButtons9:
 screen titleMenuButtons10:
     $ currentMenuButtonScreen = "titleMenuButtons10"
     if stage2_5cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage12"), Show("titleMenuButtonsLeft11"), Hide("titleMenuButtons10")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage10"), Show("titleMenuButtonsRight9"), Hide("titleMenuButtons10")]
     textbutton "ステージ 1":
         text_size 35
@@ -5920,15 +5920,15 @@ screen titleMenuButtons10:
 screen titleMenuButtons11:
     $ currentMenuButtonScreen = "titleMenuButtons11"
     if stage3_5cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage13"), Show("titleMenuButtonsLeft12"), Hide("titleMenuButtons11")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage11"), Show("titleMenuButtonsRight10"), Hide("titleMenuButtons11")]
     textbutton "ステージ 1":
         text_size 35
@@ -6089,15 +6089,15 @@ screen titleMenuButtons11:
 screen titleMenuButtons12:
     $ currentMenuButtonScreen = "titleMenuButtons12"
     if stage4_5cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage14"), Show("titleMenuButtonsLeft13"), Hide("titleMenuButtons12")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage12"), Show("titleMenuButtonsRight11"), Hide("titleMenuButtons12")]
     textbutton "ステージ 1":
         text_size 35
@@ -6258,15 +6258,15 @@ screen titleMenuButtons12:
 screen titleMenuButtons13:
     $ currentMenuButtonScreen = "titleMenuButtons13"
     if stage5_5cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage15"), Show("titleMenuButtonsLeft14"), Hide("titleMenuButtons13")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage13"), Show("titleMenuButtonsRight12"), Hide("titleMenuButtons13")]
     textbutton "ステージ 1":
         text_size 35
@@ -6427,15 +6427,15 @@ screen titleMenuButtons13:
 screen titleMenuButtons14:
     $ currentMenuButtonScreen = "titleMenuButtons14"
     if stage6_5cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage16"), Show("titleMenuButtonsLeft15"), Hide("titleMenuButtons14")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage14"), Show("titleMenuButtonsRight13"), Hide("titleMenuButtons14")]
     textbutton "ステージ 1":
         text_size 35
@@ -6596,15 +6596,15 @@ screen titleMenuButtons14:
 screen titleMenuButtons15:
     $ currentMenuButtonScreen = "titleMenuButtons15"
     if stage7_5cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage17"), Show("titleMenuButtonsLeft16"), Hide("titleMenuButtons15")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage15"), Show("titleMenuButtonsRight14"), Hide("titleMenuButtons15")]
     textbutton "ステージ 1":
         text_size 35
@@ -6765,15 +6765,15 @@ screen titleMenuButtons15:
 screen titleMenuButtons16:
     $ currentMenuButtonScreen = "titleMenuButtons16"
     if stage1_6cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage18"), Show("titleMenuButtonsLeft17"), Hide("titleMenuButtons16")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage16"), Show("titleMenuButtonsRight15"), Hide("titleMenuButtons16")]
     textbutton "ステージ 1":
         text_size 35
@@ -6934,15 +6934,15 @@ screen titleMenuButtons16:
 screen titleMenuButtons17:
     $ currentMenuButtonScreen = "titleMenuButtons17"
     if stage2_6cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage19"), Show("titleMenuButtonsLeft18"), Hide("titleMenuButtons17")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage17"), Show("titleMenuButtonsRight16"), Hide("titleMenuButtons17")]
     textbutton "ステージ 1":
         text_size 35
@@ -7103,15 +7103,15 @@ screen titleMenuButtons17:
 screen titleMenuButtons18:
     $ currentMenuButtonScreen = "titleMenuButtons18"
     if stage3_6cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage20"), Show("titleMenuButtonsLeft19"), Hide("titleMenuButtons18")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage18"), Show("titleMenuButtonsRight17"), Hide("titleMenuButtons18")]
     textbutton "ステージ 1":
         text_size 35
@@ -7272,15 +7272,15 @@ screen titleMenuButtons18:
 screen titleMenuButtons19:
     $ currentMenuButtonScreen = "titleMenuButtons19"
     if stage4_6cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage21"), Show("titleMenuButtonsLeft20"), Hide("titleMenuButtons19")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage19"), Show("titleMenuButtonsRight18"), Hide("titleMenuButtons19")]
     textbutton "ステージ 1":
         text_size 35
@@ -7441,15 +7441,15 @@ screen titleMenuButtons19:
 screen titleMenuButtons20:
     $ currentMenuButtonScreen = "titleMenuButtons20"
     if stage5_6cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage22"), Show("titleMenuButtonsLeft21"), Hide("titleMenuButtons20")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage20"), Show("titleMenuButtonsRight19"), Hide("titleMenuButtons20")]
     textbutton "ステージ 1":
         text_size 35
@@ -7610,15 +7610,15 @@ screen titleMenuButtons20:
 screen titleMenuButtons21:
     $ currentMenuButtonScreen = "titleMenuButtons21"
     if stage6_6cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage23"), Show("titleMenuButtonsLeft22"), Hide("titleMenuButtons21")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage21"), Show("titleMenuButtonsRight20"), Hide("titleMenuButtons21")]
     textbutton "ステージ 1":
         text_size 35
@@ -7779,15 +7779,15 @@ screen titleMenuButtons21:
 screen titleMenuButtons22:
     $ currentMenuButtonScreen = "titleMenuButtons22"
     if stage7_6cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage24"), Show("titleMenuButtonsLeft23"), Hide("titleMenuButtons22")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage22"), Show("titleMenuButtonsRight21"), Hide("titleMenuButtons22")]
     textbutton "ステージ 1":
         text_size 35
@@ -7948,15 +7948,15 @@ screen titleMenuButtons22:
 screen titleMenuButtons23:
     $ currentMenuButtonScreen = "titleMenuButtons23"
     if stage8_6cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage25"), Show("titleMenuButtonsLeft24"), Hide("titleMenuButtons23")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage23"), Show("titleMenuButtonsRight22"), Hide("titleMenuButtons23")]
     textbutton "ステージ 1":
         text_size 35
@@ -8117,15 +8117,15 @@ screen titleMenuButtons23:
 screen titleMenuButtons24:
     $ currentMenuButtonScreen = "titleMenuButtons24"
     if stage1_6cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage26"), Show("titleMenuButtonsLeft25"), Hide("titleMenuButtons24")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage24"), Show("titleMenuButtonsRight23"), Hide("titleMenuButtons24")]
     textbutton "ステージ 1":
         text_size 35
@@ -8291,10 +8291,10 @@ screen titleMenuButtons25:
 
 
 
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage25"), Show("titleMenuButtonsRight24"), Hide("titleMenuButtons25")]
     textbutton "ステージ 1":
         text_size 35
@@ -8456,10 +8456,10 @@ screen titleMenuButtons25:
 screen titleMenuButtonsRight:
     $ currentMenuButtonScreen = "titleMenuButtonsRight"
     if stage1_4cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage2"), Show("titleMenuButtonsLeft1"), Hide("titleMenuButtonsRight")]
 
 
@@ -8625,15 +8625,15 @@ screen titleMenuButtonsRight:
 screen titleMenuButtonsRight1:
     $ currentMenuButtonScreen = "titleMenuButtonsRight1"
     if stage2_4cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage3"), Show("titleMenuButtonsLeft2"), Hide("titleMenuButtonsRight1")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage1"), Show("titleMenuButtonsRight"), Hide("titleMenuButtonsRight1")]
     textbutton "ステージ 1" at buttonScrollRight:
         text_size 35
@@ -8794,15 +8794,15 @@ screen titleMenuButtonsRight1:
 screen titleMenuButtonsRight2:
     $ currentMenuButtonScreen = "titleMenuButtonsRight2"
     if stage3_4cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage4"), Show("titleMenuButtonsLeft3"), Hide("titleMenuButtonsRight2")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage2"), Show("titleMenuButtonsRight1"), Hide("titleMenuButtonsRight2")]
     textbutton "ステージ 1" at buttonScrollRight:
         text_size 35
@@ -8963,15 +8963,15 @@ screen titleMenuButtonsRight2:
 screen titleMenuButtonsRight3:
     $ currentMenuButtonScreen = "titleMenuButtonsRight3"
     if stage4_4cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage5"), Show("titleMenuButtonsLeft4"), Hide("titleMenuButtonsRight3")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage3"), Show("titleMenuButtonsRight2"), Hide("titleMenuButtonsRight3")]
     textbutton "ステージ 1" at buttonScrollRight:
         text_size 35
@@ -9132,15 +9132,15 @@ screen titleMenuButtonsRight3:
 screen titleMenuButtonsRight4:
     $ currentMenuButtonScreen = "titleMenuButtonsRight4"
     if stage5_4cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage6"), Show("titleMenuButtonsLeft5"), Hide("titleMenuButtonsRight4")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage4"), Show("titleMenuButtonsRight3"), Hide("titleMenuButtonsRight4")]
     textbutton "ステージ 1" at buttonScrollRight:
         text_size 35
@@ -9301,15 +9301,15 @@ screen titleMenuButtonsRight4:
 screen titleMenuButtonsRight5:
     $ currentMenuButtonScreen = "titleMenuButtonsRight5"
     if stage6_4cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage7"), Show("titleMenuButtonsLeft8"), Hide("titleMenuButtonsRight5")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage5"), Show("titleMenuButtonsRight4"), Hide("titleMenuButtonsRight5")]
     textbutton "ステージ 1" at buttonScrollRight:
         text_size 35
@@ -9470,15 +9470,15 @@ screen titleMenuButtonsRight5:
 screen titleMenuButtonsRight6:
     $ currentMenuButtonScreen = "titleMenuButtonsRight6"
     if stage7_4cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage8"), Show("titleMenuButtonsLeft7"), Hide("titleMenuButtonsRight6")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage6"), Show("titleMenuButtonsRight5"), Hide("titleMenuButtonsRight6")]
     textbutton "ステージ 1" at buttonScrollRight:
         text_size 35
@@ -9639,15 +9639,15 @@ screen titleMenuButtonsRight6:
 screen titleMenuButtonsRight7:
     $ currentMenuButtonScreen = "titleMenuButtonsRight7"
     if stage8_4cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage9"), Show("titleMenuButtonsLeft8"), Hide("titleMenuButtonsRight7")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage7"), Show("titleMenuButtonsRight6"), Hide("titleMenuButtonsRight7")]
     textbutton "ステージ 1" at buttonScrollRight:
         text_size 35
@@ -9808,15 +9808,15 @@ screen titleMenuButtonsRight7:
 screen titleMenuButtonsRight8:
     $ currentMenuButtonScreen = "titleMenuButtonsRight8"
     if stage9_4cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage10"), Show("titleMenuButtonsLeft9"), Hide("titleMenuButtonsRight8")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage8"), Show("titleMenuButtonsRight7"), Hide("titleMenuButtonsRight8")]
     textbutton "ステージ 1" at buttonScrollRight:
         text_size 35
@@ -9977,15 +9977,15 @@ screen titleMenuButtonsRight8:
 screen titleMenuButtonsRight9:
     $ currentMenuButtonScreen = "titleMenuButtonsRight9"
     if stage1_5cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage11"), Show("titleMenuButtonsLeft10"), Hide("titleMenuButtonsRight9")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage9"), Show("titleMenuButtonsRight8"), Hide("titleMenuButtonsRight9")]
     textbutton "ステージ 1" at buttonScrollRight:
         text_size 35
@@ -10146,15 +10146,15 @@ screen titleMenuButtonsRight9:
 screen titleMenuButtonsRight10:
     $ currentMenuButtonScreen = "titleMenuButtonsRight10"
     if stage2_5cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage12"), Show("titleMenuButtonsLeft11"), Hide("titleMenuButtonsRight10")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage10"), Show("titleMenuButtonsRight9"), Hide("titleMenuButtonsRight10")]
     textbutton "ステージ 1" at buttonScrollRight:
         text_size 35
@@ -10315,15 +10315,15 @@ screen titleMenuButtonsRight10:
 screen titleMenuButtonsRight11:
     $ currentMenuButtonScreen = "titleMenuButtonsRight11"
     if stage3_5cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage13"), Show("titleMenuButtonsLeft12"), Hide("titleMenuButtonsRight11")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage11"), Show("titleMenuButtonsRight10"), Hide("titleMenuButtonsRight11")]
     textbutton "ステージ 1" at buttonScrollRight:
         text_size 35
@@ -10484,15 +10484,15 @@ screen titleMenuButtonsRight11:
 screen titleMenuButtonsRight12:
     $ currentMenuButtonScreen = "titleMenuButtonsRight12"
     if stage4_5cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage14"), Show("titleMenuButtonsLeft13"), Hide("titleMenuButtonsRight12")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage12"), Show("titleMenuButtonsRight11"), Hide("titleMenuButtonsRight12")]
     textbutton "ステージ 1" at buttonScrollRight:
         text_size 35
@@ -10653,15 +10653,15 @@ screen titleMenuButtonsRight12:
 screen titleMenuButtonsRight13:
     $ currentMenuButtonScreen = "titleMenuButtonsRight13"
     if stage5_5cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage15"), Show("titleMenuButtonsLeft14"), Hide("titleMenuButtonsRight13")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage13"), Show("titleMenuButtonsRight12"), Hide("titleMenuButtonsRight13")]
     textbutton "ステージ 1" at buttonScrollRight:
         text_size 35
@@ -10822,15 +10822,15 @@ screen titleMenuButtonsRight13:
 screen titleMenuButtonsRight14:
     $ currentMenuButtonScreen = "titleMenuButtonsRight14"
     if stage6_5cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage16"), Show("titleMenuButtonsLeft15"), Hide("titleMenuButtonsRight14")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage14"), Show("titleMenuButtonsRight13"), Hide("titleMenuButtonsRight14")]
     textbutton "ステージ 1" at buttonScrollRight:
         text_size 35
@@ -10991,15 +10991,15 @@ screen titleMenuButtonsRight14:
 screen titleMenuButtonsRight15:
     $ currentMenuButtonScreen = "titleMenuButtonsRight15"
     if stage1_6cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage17"), Show("titleMenuButtonsLeft16"), Hide("titleMenuButtonsRight15")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage15"), Show("titleMenuButtonsRight14"), Hide("titleMenuButtonsRight15")]
     textbutton "ステージ 1" at buttonScrollRight:
         text_size 35
@@ -11160,15 +11160,15 @@ screen titleMenuButtonsRight15:
 screen titleMenuButtonsRight16:
     $ currentMenuButtonScreen = "titleMenuButtonsRight16"
     if stage2_6cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage18"), Show("titleMenuButtonsLeft17"), Hide("titleMenuButtonsRight16")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage16"), Show("titleMenuButtonsRight15"), Hide("titleMenuButtonsRight16")]
     textbutton "ステージ 1" at buttonScrollRight:
         text_size 35
@@ -11329,15 +11329,15 @@ screen titleMenuButtonsRight16:
 screen titleMenuButtonsRight17:
     $ currentMenuButtonScreen = "titleMenuButtonsRight17"
     if stage3_6cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage19"), Show("titleMenuButtonsLeft18"), Hide("titleMenuButtonsRight17")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage17"), Show("titleMenuButtonsRight16"), Hide("titleMenuButtonsRight17")]
     textbutton "ステージ 1" at buttonScrollRight:
         text_size 35
@@ -11498,15 +11498,15 @@ screen titleMenuButtonsRight17:
 screen titleMenuButtonsRight18:
     $ currentMenuButtonScreen = "titleMenuButtonsRight18"
     if stage4_6cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage20"), Show("titleMenuButtonsLeft19"), Hide("titleMenuButtonsRight18")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage18"), Show("titleMenuButtonsRight17"), Hide("titleMenuButtonsRight18")]
     textbutton "ステージ 1" at buttonScrollRight:
         text_size 35
@@ -11667,15 +11667,15 @@ screen titleMenuButtonsRight18:
 screen titleMenuButtonsRight19:
     $ currentMenuButtonScreen = "titleMenuButtonsRight19"
     if stage5_6cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage21"), Show("titleMenuButtonsLeft20"), Hide("titleMenuButtonsRight19")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage19"), Show("titleMenuButtonsRight18"), Hide("titleMenuButtonsRight19")]
     textbutton "ステージ 1" at buttonScrollRight:
         text_size 35
@@ -11836,15 +11836,15 @@ screen titleMenuButtonsRight19:
 screen titleMenuButtonsRight20:
     $ currentMenuButtonScreen = "titleMenuButtonsRight20"
     if stage6_6cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage22"), Show("titleMenuButtonsLeft21"), Hide("titleMenuButtonsRight20")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage20"), Show("titleMenuButtonsRight19"), Hide("titleMenuButtonsRight20")]
     textbutton "ステージ 1" at buttonScrollRight:
         text_size 35
@@ -12005,15 +12005,15 @@ screen titleMenuButtonsRight20:
 screen titleMenuButtonsRight21:
     $ currentMenuButtonScreen = "titleMenuButtonsRight21"
     if stage7_6cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage23"), Show("titleMenuButtonsLeft22"), Hide("titleMenuButtonsRight21")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage21"), Show("titleMenuButtonsRight20"), Hide("titleMenuButtonsRight21")]
     textbutton "ステージ 1" at buttonScrollRight:
         text_size 35
@@ -12174,15 +12174,15 @@ screen titleMenuButtonsRight21:
 screen titleMenuButtonsRight22:
     $ currentMenuButtonScreen = "titleMenuButtonsRight22"
     if stage8_6cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage24"), Show("titleMenuButtonsLeft23"), Hide("titleMenuButtonsRight22")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage22"), Show("titleMenuButtonsRight21"), Hide("titleMenuButtonsRight22")]
     textbutton "ステージ 1" at buttonScrollRight:
         text_size 35
@@ -12343,15 +12343,15 @@ screen titleMenuButtonsRight22:
 screen titleMenuButtonsRight23:
     $ currentMenuButtonScreen = "titleMenuButtonsRight23"
     if stage1_6cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage25"), Show("titleMenuButtonsLeft24"), Hide("titleMenuButtonsRight23")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage23"), Show("titleMenuButtonsRight22"), Hide("titleMenuButtonsRight23")]
     textbutton "ステージ 1" at buttonScrollRight:
         text_size 35
@@ -12512,15 +12512,15 @@ screen titleMenuButtonsRight23:
 screen titleMenuButtonsRight24:
     $ currentMenuButtonScreen = "titleMenuButtonsRight24"
     if stage1_6cleared == True:
-        textbutton "Left":
-            text_size 35
-            xalign 0.25
-            yalign 0.9
+        textbutton "→":
+            text_size 45
+            xalign 0.65
+            yalign 0.65
             action [SetVariable("lastMenuButtonPosition", "stage26"), Show("titleMenuButtonsLeft25"), Hide("titleMenuButtonsRight24")]
-    textbutton "Right":
-        text_size 35
-        xalign 0.75
-        yalign 0.9
+    textbutton "←":
+        text_size 45
+        xalign 0.35
+        yalign 0.65
         action [SetVariable("lastMenuButtonPosition", "stage24"), Show("titleMenuButtonsRight23"), Hide("titleMenuButtonsRight24")]
     textbutton "ステージ 1" at buttonScrollRight:
         text_size 35
