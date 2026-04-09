@@ -188,215 +188,161 @@ screen titleMenuButtons:
             text_size 45
             xalign 0.65
             yalign 0.65
-            text_color "#f5f3f3"
-            text_bold True
             action [SetVariable("lastMenuButtonPosition", "stage2"), Show("titleMenuButtonsLeft1"), Hide("titleMenuButtons")]
     textbutton "ステージ 1":
-        text_size 60
+        text_size 35
         xalign 0.5
         yalign 0.5
-        text_color "#f5f3f3"
-        text_bold True
         action [SetVariable("stageName", "start1"), Hide(currentMenuButtonScreen), Jump("initStage")]
     if stage1_4cleared == True:
         textbutton "ステージ 2":
-            text_size 60
+            text_size 35
             xalign 0.65
             yalign 0.5
-            text_color "#f5f3f3"
-            text_bold True
             action [SetVariable("stageName", "stage2_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
     if stage2_4cleared == True:
         textbutton "ステージ 3":
-            text_size 60
+            text_size 35
             xalign 0.80
             yalign 0.5
-            text_color "#f5f3f3"
-            text_bold True
             action [SetVariable("stageName", "stage3_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
     if stage3_4cleared == True:
         textbutton "ステージ 4":
-            text_size 60
+            text_size 35
             xalign 0.95
             yalign 0.5
-            text_color "#f5f3f3"
-            text_bold True
             action [SetVariable("stageName", "stage4_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
     if stage4_4cleared == True:
         textbutton "ステージ 5":
-            text_size 60
+            text_size 35
             xalign 1.1
             yalign 0.5
-            text_color "#f5f3f3"
-            text_bold True
             action [SetVariable("stageName", "stage5_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
     if stage5_4cleared == True:
         textbutton "ステージ 6":
-            text_size 60
+            text_size 35
             xalign 1.25
             yalign 0.5
-            text_color "#f5f3f3"
-            text_bold True
             action [SetVariable("stageName", "stage6_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
     if stage6_4cleared == True:
         textbutton "ステージ 7":
-            text_size 60
+            text_size 35
             xalign 1.40
             yalign 0.5
-            text_color "#f5f3f3"
-            text_bold True
             action [SetVariable("stageName", "stage7_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
     if stage7_4cleared == True:
         textbutton "ステージ 8":
-            text_size 60
+            text_size 35
             xalign 1.55
             yalign 0.5
-            text_color "#f5f3f3"
-            text_bold True
             action [SetVariable("stageName", "stage8_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
     if stage8_4cleared == True:
         textbutton "ステージ 9":
-            text_size 60
+            text_size 35
             xalign 1.70
             yalign 0.5
-            text_color "#f5f3f3"
-            text_bold True
             action [SetVariable("stageName", "stage9_4"), Hide(currentMenuButtonScreen), Jump("initStage")]
     if stage9_4cleared == True:
         textbutton "ステージ 10":
-            text_size 60
+            text_size 35
             xalign 1.85
             yalign 0.5
-            text_color "#f5f3f3"
-            text_bold True
             action [SetVariable("stageName", "stage1_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
     if stage1_5cleared == True:
         textbutton "ステージ 11":
-            text_size 60
+            text_size 35
             xalign 2.0
             yalign 0.5
-            text_color "#f5f3f3"
-            text_bold True
             action [SetVariable("stageName", "stage2_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
     if stage2_5cleared == True:
         textbutton "ステージ 12":
-            text_size 60
+            text_size 35
             xalign 2.15
             yalign 0.5
-            text_color "#f5f3f3"
-            text_bold True
             action [SetVariable("stageName", "stage3_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
     if stage3_5cleared == True:
         textbutton "ステージ 13":
-            text_size 60
+            text_size 35
             xalign 2.30
             yalign 0.5
-            text_color "#f5f3f3"
-            text_bold True
             action [SetVariable("stageName", "stage4_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
     if stage4_5cleared == True:
         textbutton "ステージ 14":
-            text_size 60
+            text_size 35
             xalign 2.45
             yalign 0.5
-            text_color "#f5f3f3"
-            text_bold True
             action [SetVariable("stageName", "stage5_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
     if stage5_5cleared == True:
         textbutton "ステージ 15":
-            text_size 60
+            text_size 35
             xalign 2.60
             yalign 0.5
-            text_color "#f5f3f3"
-            text_bold True
             action [SetVariable("stageName", "stage6_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
     if stage6_5cleared == True:
         textbutton "ステージ 16":
-            text_size 60
+            text_size 35
             xalign 2.75
             yalign 0.5
-            text_color "#f5f3f3"
-            text_bold True
             action [SetVariable("stageName", "stage7_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
     if stage7_5cleared == True:
         textbutton "ステージ 17":
-            text_size 60
+            text_size 35
             xalign 2.90
             yalign 0.5
-            text_color "#f5f3f3"
-            text_bold True
             action [SetVariable("stageName", "stage8_5"), Hide(currentMenuButtonScreen), Jump("initStage")]
     if stage8_5cleared == True:
         textbutton "ステージ 18":
-            text_size 60
+            text_size 35
             xalign 3.05
             yalign 0.5
-            text_color "#f5f3f3"
-            text_bold True
             action [SetVariable("stageName", "stage1_6"), Hide(currentMenuButtonScreen), Jump("initStage")]
     if stage1_6cleared == True:
         textbutton "ステージ 19":
-            text_size 60
+            text_size 35
             xalign 3.20
             yalign 0.5
-            text_color "#f5f3f3"
-            text_bold True
             action [SetVariable("stageName", "stage2_6"), Hide(currentMenuButtonScreen), Jump("initStage")]
     if stage2_6cleared == True:
         textbutton "ステージ 20":
-            text_size 60
+            text_size 35
             xalign 3.35
             yalign 0.5
-            text_color "#f5f3f3"
-            text_bold True
             action [SetVariable("stageName", "stage3_6"), Hide(currentMenuButtonScreen), Jump("initStage")]
     if stage3_6cleared == True:
         textbutton "ステージ 21":
-            text_size 60
+            text_size 35
             xalign 3.50
             yalign 0.5
-            text_color "#f5f3f3"
-            text_bold True
             action [SetVariable("stageName", "stage4_6"), Hide(currentMenuButtonScreen), Jump("initStage")]
     if stage4_6cleared == True:
         textbutton "ステージ 22":
-            text_size 60
+            text_size 35
             xalign 3.65
             yalign 0.5
-            text_color "#f5f3f3"
-            text_bold True
             action [SetVariable("stageName", "stage5_6"), Hide(currentMenuButtonScreen), Jump("initStage")]
     if stage5_6cleared == True:
         textbutton "ステージ 23":
-            text_size 60
+            text_size 35
             xalign 3.80
             yalign 0.5
-            text_color "#f5f3f3"
-            text_bold True
             action [SetVariable("stageName", "stage6_6"), Hide(currentMenuButtonScreen), Jump("initStage")]
     if stage6_6cleared == True:
         textbutton "ステージ 24":
-            text_size 60
+            text_size 35
             xalign 3.95
             yalign 0.5
-            text_color "#f5f3f3"
-            text_bold True
             action [SetVariable("stageName", "stage7_6"), Hide(currentMenuButtonScreen), Jump("initStage")]
     if stage7_6cleared == True:
         textbutton "ステージ 25":
-            text_size 60
+            text_size 35
             xalign 4.10
             yalign 0.5
-            text_color "#f5f3f3"
-            text_bold True
             action [SetVariable("stageName", "stage8_6"), Hide(currentMenuButtonScreen), Jump("initStage")]
     if stage8_6cleared == True:
         textbutton "ステージ 26":
-            text_size 60
+            text_size 35
             xalign 4.25
             yalign 0.5
-            text_color "#f5f3f3"
-            text_bold True
             action [SetVariable("stageName", "stage9_6"), Hide(currentMenuButtonScreen), Jump("initStage")]
 
 
@@ -464,7 +410,7 @@ screen stage_screen(sentences, correct, current_stage):
     textbutton "Choose":
         xalign 0.95
         yalign 0.05
-        text_size 60
+        text_size 35
         action [SetVariable("current_stage", current_stage), Hide("stage_screen"), Jump("choose_dia")]
 
     hbox:
@@ -472,11 +418,11 @@ screen stage_screen(sentences, correct, current_stage):
         xalign 0.5
         yalign 0.95
         textbutton "Previous":
-            text_size 60
+            text_size 35
             action SetVariable("sentence_index",
                                 (sentence_index - 1) % len(sentences))
         textbutton "Next":
-            text_size 60
+            text_size 35
             action If(
                 sentence_index == 4,
                 [Hide("stage_screen"), Jump("next_wrap_dia")],
