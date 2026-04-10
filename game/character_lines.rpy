@@ -132,7 +132,7 @@ label choose_right:
         $ stage8_6cleared = True
     if stageName == "stage9_6":
         $ stage9_6cleared = True
-        jump END
+        jump gameEndScene
     $ returnFromStage = True
 
     jump home
@@ -166,7 +166,7 @@ label start1:
 
     call stage1_4
 
-label END:
+label gameEndScene:
     show xx default at character_xx
     show mc default at character_mc
     mc "おめでとうございます！"
@@ -192,3 +192,4 @@ label END:
     mc "まあ... 普通そうでもないと、xx企業のCEOの一人息子をこうも恥をかかせるわけがないよね..."
     hide xx 
     hide mc
+    jump home
