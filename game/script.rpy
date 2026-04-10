@@ -407,22 +407,22 @@ screen stage_screen(sentences, correct, current_stage):
             yalign 0.05
 
 
-    textbutton "Choose":
+    textbutton "決める":
         xalign 0.95
         yalign 0.05
-        text_size 35
+        text_size 40
         action [SetVariable("current_stage", current_stage), Hide("stage_screen"), Jump("choose_dia")]
 
     hbox:
-        spacing 20
+        spacing 250
         xalign 0.5
-        yalign 0.95
-        textbutton "Previous":
-            text_size 35
+        yalign 0.93
+        textbutton "前":
+            text_size 40
             action SetVariable("sentence_index",
                                 (sentence_index - 1) % len(sentences))
-        textbutton "Next":
-            text_size 35
+        textbutton "次":
+            text_size 40
             action If(
                 sentence_index == 4,
                 [Hide("stage_screen"), Jump("next_wrap_dia")],
